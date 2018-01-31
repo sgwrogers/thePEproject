@@ -1,0 +1,452 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+.blueheader {
+  height: 3rem;
+}
+
+
+/* Header and Navigation */
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  margin: 1rem;
+}
+
+.logo img {
+  height: 6rem;
+
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+nav span {
+  height: 2.5rem;
+  width: 8rem;
+  padding-top: 1.5rem;
+  padding-left: 0.5rem;
+}
+
+nav span:hover {
+  background: url("../images/Arrow2.png") no-repeat left center;
+  background-size: contain;
+}
+
+.arrow {
+  display: none;
+  height: 1rem;
+  margin-right: 0.25rem;
+  vertical-align: bottom;
+}
+
+nav a {
+  color: #58595B;
+  padding: 1.5rem;
+  text-decoration: none;
+}
+
+nav a:hover {
+  display: inline;
+  color: #008CE3;
+  font-weight: bold;
+}
+
+nav select {
+  display: none;
+}
+
+nav select:hover {
+    color: #008CE3;
+    background: url("../images/Arrow2.png") no-repeat left center;
+    background-size: contain;
+    }
+
+
+@media only screen and (max-width: 878px){
+  nav span {
+    display: none;
+  }
+
+  nav select {
+  display: inline-block;
+  background-color: none;
+  color: #58595B;
+  font-family: 'futura', sans-serif;
+  font-size: 1rem;
+  border: none;
+  padding: 1rem 0.75rem 1rem 2rem;
+  text-align: center;
+}
+
+  select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px; /*dropdown arrow still removed if this is code and one below is erased - maybe for different browser */
+  text-overflow: '';
+}
+
+}
+
+/* Main Banner */
+
+.banner {
+  background: url("../images/Homepage-PEP-bigger.png") no-repeat center bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  height: 26rem;
+}
+
+@media only screen and (max-width: 1248px) {
+  .banner {
+  height: 22rem;
+  }
+  }
+
+@media only screen and (max-width: 1024px) {
+  .banner {
+  background: url("../images/Smallerheader.png") no-repeat center center;
+  background-size: cover;
+  }
+
+@media only screen and (max-width: 843px) {
+    .banner {
+      height: 18rem;
+    }
+  }
+
+@media only screen and (max-width: 685px) {
+    .banner {
+      height: 15rem;
+    }
+  }
+
+@media only screen and (max-width: 560px) {
+  .banner {
+    background: url("../images/MobileBannerBig.png") no-repeat center center;
+    background-size: cover;
+    height: 18rem;
+  }
+}
+
+@media only screen and (max-width: 528px) {
+  .banner {
+    height: 15rem;
+  }
+}
+
+
+}
+
+/* About us */
+.container {
+  background-color: #BED63A;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-left {
+  width: 35%;
+  margin: 2rem 0;
+  padding-right: 5rem;
+  text-align: right;
+}
+
+.about-middle {
+  width: 25%;
+  margin: 0;
+  align-self: flex-start;
+  height: 18rem;
+}
+
+.about-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 16rem;
+  margin: 1rem 0;
+}
+
+.about-text {
+  margin-top: 1.5rem;
+}
+
+.about-text p span {
+  font-weight: bold;
+  line-height: 1.2;
+}
+
+.about-text a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #008CE3;
+  margin-top: 1rem;
+}
+
+#arrow-small {
+  height: 1rem;
+  vertical-align: bottom;
+  margin-top: 1rem;
+}
+
+.about-right {
+  width: 40%;
+  margin: 2rem 0;
+  padding-left: 2rem;
+}
+
+.about-left {
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 1224px) {
+  .about-left {
+    width: 30%;
+  }
+  .about-middle {
+    width: 35%;
+  }
+  .about-right {
+    width: 35%;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (max-width: 936px) {
+  .container {
+    height: 14rem;
+  }
+  .about-left {
+    display: none;
+  }
+  .about-middle {
+    width: 80%;
+    height: auto;
+  }
+  .about-right {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 674px) {
+  .container {
+    height: 15rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .container {
+    height: 16.5rem;
+  }
+}
+
+/* pedagogy */
+
+.pedagogy-header {
+  margin: 2rem auto;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 3rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.item {
+  width: 30%;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+
+.item-image {
+  margin: 1rem auto;
+  text-align: center;
+  height: 7rem;
+}
+
+#lessonplans {
+  background: url("../images/LessonPlansIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#lessonplans:hover {
+  background: url("../images/LessonPlansIconOrange.png") no-repeat center center;
+  background-size: contain;
+}
+
+#assessment {
+  background: url("../images/AssessmentIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#assessment:hover {
+  background: url("../images/AssessmentIconLightGrey.png") no-repeat center center;
+  background-size: contain;
+}
+
+#curriculum {
+  background: url("../images/CurriculumIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#curriculum:hover {
+  background: url("../images/CurriculumIconBlue.png") no-repeat center center;
+  background-size: contain;
+}
+
+#character {
+  background: url("../images/CharacterIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#character:hover {
+  background: url("../images/CharacterIconBlue.png") no-repeat center center;
+  background-size: contain;
+}
+
+#teaching {
+  background: url("../images/TeachingModulesIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#teaching:hover {
+  background: url("../images/TeachingModulesIcon-Green.png") no-repeat center center;
+  background-size: contain;
+}
+
+#questioning {
+  background: url("../images/QuestioningIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#questioning:hover {
+  background: url("../images/QuestioningIcon-beige.png") no-repeat center center;
+  background-size: contain;
+}
+
+.item-image img {
+  height: 7rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 750px) {
+  .item {
+    width: 50%;
+  }
+}
+/* advert */
+
+.resources {
+  background-color: #58595B;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+@media only screen and (max-width: 715px) {
+  .resources .advert img {
+    width: 80%;
+  }
+}
+
+
+/* Footer */
+footer {
+  background-color: #F29100;
+}
+
+.copyright-social {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 5rem;
+}
+
+.copyright {
+  margin-left: 5rem;
+  color: white;
+}
+
+.social {
+  margin-right: 10rem;
+}
+
+i {
+  padding: 0 1rem;
+  opacity: 0.5;
+}
+
+.footer-logo {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#logo-foot img {
+  width: 5rem;
+  color: grey;
+  margin-right: 10rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1149px) {
+  .social {
+    margin-right: 5rem;
+  }
+  #logo-foot img {
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 622px) {
+  .copyright {
+    margin-left: 3rem;
+  }
+  .social {
+    margin-right: 3rem;
+  }
+  #logo-foot img {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 481px) {
+  .copyright {
+    margin-left: 2rem;
+  }
+  .social {
+    margin-right: 2rem;
+  }
+  #logo-foot img {
+    margin-right: 2rem;
+  }
+}
