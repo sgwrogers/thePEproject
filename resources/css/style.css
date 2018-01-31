@@ -372,12 +372,80 @@ nav select:hover {
   padding-top: 1.5rem;
 }
 
+.advert-mobile {
+  display: none;
+}
+
 @media only screen and (max-width: 715px) {
-  .resources .advert img {
-    width: 80%;
+  .advert {
+    display: none;
+}
+
+  .advert-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 1rem;
+  }
+
+  .advert-mobile img {
+    height: 11rem;
+    margin: 1rem 0 2rem 0;
+  }
+
+  .advert-mobile img:last-child {
+    height: 14rem;
+    align-self: flex-start;
   }
 }
 
+@media only screen and (max-width: 648px) {
+  .advert-mobile img {
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  .advert-mobile img {
+    height: 9rem;
+  }
+  .advert-mobile img:last-child {
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 523px) {
+  .advert-mobile img {
+    height: 8rem;
+  }
+  .advert-mobile img:last-child {
+    height: 11rem;
+  }
+}
+
+@media only screen and (max-width: 477px) {
+  .advert-mobile img {
+    height: 7rem;
+  }
+  .advert-mobile img:last-child {
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 422px) {
+  .advert-mobile img {
+    height: 7.5rem;
+  }
+  .advert-mobile img:last-child {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .advert-mobile img {
+    height: 7rem;
+  }
+}
 
 /* Footer */
 footer {
@@ -448,5 +516,20 @@ i {
   }
   #logo-foot img {
     margin-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .copyright {
+    margin-left: 1rem;
+  }
+  .social {
+    margin-right: 1rem;
+  }
+  #logo-foot img {
+    margin-right: 1rem;
+  }
+  i {
+    padding: 0 .5rem;
   }
 }
