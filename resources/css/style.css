@@ -101,6 +101,17 @@ nav select:hover {
 
 }
 
+@media only screen and (max-width: 424px) {
+  nav {
+    display: none;
+  }
+
+  .logo {
+    width: 100%;
+    text-align: center;
+  }
+}
+
 /* Main Banner */
 
 .banner {
@@ -187,6 +198,7 @@ nav select:hover {
 
 .about-text {
   margin-top: 1.5rem;
+  text-wrap: wrap;
 }
 
 .about-text p span {
@@ -255,6 +267,18 @@ nav select:hover {
 @media only screen and (max-width: 530px) {
   .container {
     height: 16.5rem;
+  }
+}
+
+@media only screen and (max-width: 437px) {
+  .container {
+    height: 17.5rem;
+  }
+}
+
+@media only screen and (max-width: 355px) {
+  .container {
+    height: 18.5rem;
   }
 }
 
@@ -364,6 +388,13 @@ nav select:hover {
     width: 50%;
   }
 }
+
+@media only screen and (max-width: 426px) {
+  .gallery {
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+}
 /* advert */
 
 .resources {
@@ -372,11 +403,40 @@ nav select:hover {
   padding-top: 1.5rem;
 }
 
+.advert img {
+  height: 10rem;
+  margin-bottom: 2rem;
+}
+
+.advert img:last-child {
+  height: 12rem;
+}
+
 .advert-mobile {
   display: none;
 }
 
-@media only screen and (max-width: 715px) {
+@media only screen and (max-width: 1023px) {
+.advert img {
+  height: 8rem;
+}
+
+.advert img:last-child {
+  height: 10rem;
+}
+}
+
+@media only screen and (max-width: 847px) {
+.advert img {
+  height: 8rem;
+}
+
+.advert img:last-child {
+  height: 9rem;
+}
+}
+
+@media only screen and (max-width: 744px) {
   .advert {
     display: none;
 }
@@ -532,4 +592,24 @@ i {
   i {
     padding: 0 .5rem;
   }
+}
+
+@media only screen and (max-width: 361px) {
+  .copyright {
+    display: none;
+  }
+  .social {
+    width: 100%;
+    margin: 1rem auto;
+  }
+  .footer-logo {
+    width: 100%;
+  }
+  #logo-foot {
+    margin: 0 auto;
+  }
+  #logo-foot img {
+    margin: 0 auto 1rem auto;
+  }
+
 }
