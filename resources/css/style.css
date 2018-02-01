@@ -122,9 +122,22 @@ nav select:hover {
   height: 26rem;
 }
 
+@media only screen and (max-width: 1445px) {
+  .banner {
+    height: 24rem;
+  }
+}
+
+@media only screen and (max-width: 1305px) {
+  .banner {
+    height: 22rem;
+  }
+}
+
+
 @media only screen and (max-width: 1248px) {
   .banner {
-  height: 22rem;
+  height: 20rem;
   }
   }
 
@@ -198,8 +211,7 @@ nav select:hover {
 
 .about-text {
   margin-top: 1.5rem;
-  text-wrap: wrap;
-}
+} /*Not displaying properly in internet explorer*/
 
 .about-text p span {
   font-weight: bold;
