@@ -1,0 +1,188 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+/* Engagement-Why */
+.engagement-why {
+  background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
+  background-size: cover;
+}
+
+.engagement-why-text {
+  font-size: 1.1rem;
+  padding: 3rem 11rem;
+}
+
+.engagement-why-text p {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.engagement-why-text ol li {
+  font-weight: 600;
+  margin-top: 1.5rem;
+  color: #BED63A;
+}
+
+.engagement-why-text ol {
+  list-style-type: decimal;
+  margin-left: 3rem;
+}
+
+.engagement-why-text ol li:first-child {
+  color: #E76E34;
+}
+
+.engagement-why-text ol li:last-child {
+  color: #57B6DD;
+}
+
+/* Establishing Routines */
+.routines {
+  background-color: #E76E34;
+}
+
+.routines img:first-child {
+  margin-left: 8rem;
+}
+
+.routines-container {
+  color: white;
+  font-size: 1.1rem;
+  padding: 3rem  11rem;
+  line-height: 1.2;
+}
+
+.routines-container ul {
+  margin: 1.5rem 0;
+}
+.routines-container ul li {
+  line-height: 2;
+}
+
+.routines-container ul li span {
+  color: #008CE3;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.routines-container img {
+  float: right;
+  height: 22rem;
+  padding-right: 7rem;
+}
+
+.routines .blueheader {
+  padding: 3rem 0 0 3rem;
+}
+
+/* Instructions */
+
+.instructions {
+  background-color: #BED63A;
+}
+
+.instructions-container {
+  display: flex;
+  padding: 3rem 11rem 0 11rem;
+}
+
+.instructions-left {
+  width: 40%;
+}
+
+.instructions-left img {
+  height: 20rem;
+  margin-bottom: -2px;
+}
+
+.instructions-right {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin-left: 12rem;
+  margin-right: 10rem;
+  width: 50%;
+}
+
+.instructions-right span {
+  color: #008CE3;
+}
+
+/* Planning for Progression */
+
+.progression {
+  background-color: #57B6DD;
+}
+
+.progression-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 11rem 1rem 11rem;
+}
+
+.progression-left {
+  color: white;
+  font-size: 1.1rem;
+  width: 50%;
+  line-height: 1.2;
+}
+
+.progression-left p {
+  margin-top: 1rem;
+}
+
+.progression-right {
+  width: 40%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.progression-right img {
+  height: 17rem;
+}
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+
+}
+
+.conclusion-container {
+  display: flex;
+  padding: 3rem 11rem 2rem 11rem;
+}
+
+.conclusion-left {
+  width: 60%;
+}
+
+.conclusion-left img {
+  height: 17rem;
+}
+
+.conclusion-right {
+  color: white;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  width: 40%;
+}
+
+.conclusion-right p {
+  margin-top: 1rem;
+}
