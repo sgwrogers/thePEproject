@@ -8,6 +8,14 @@ html {
   color: #58595B;
 }
 
+header {
+  background-color: white;
+}
+
+body {
+  background-color: #f7f4f1;
+}
+
 .blueheader {
   height: 3rem;
 }
@@ -143,10 +151,10 @@ nav select:hover {
 
 @media only screen and (max-width: 1024px) {
   .banner {
-  background: url("../images/Smallerheader.png") no-repeat center center;
+  background: url("../images/Smallerheader.png") no-repeat center bottom;
   background-size: cover;
   }
-
+}
 @media only screen and (max-width: 843px) {
     .banner {
       height: 18rem;
@@ -173,7 +181,10 @@ nav select:hover {
   }
 }
 
-
+@media only screen and (max-width: 345px) {
+  .banner {
+    height: 13rem;
+  }
 }
 
 /* About us */
@@ -294,6 +305,19 @@ nav select:hover {
   }
 }
 
+@media only screen and (max-width: 326px) {
+  .container {
+    height: 18rem;
+  }
+  .about-text {
+    margin-top: 1rem;
+  } /*Not displaying properly in internet explorer*/
+
+  .about-text p {
+    font-size: 0.95rem;
+  }
+}
+
 /* pedagogy */
 
 .pedagogy-header {
@@ -407,6 +431,12 @@ nav select:hover {
     margin-right: 2rem;
   }
 }
+@media only screen and (max-width: 366px) {
+  .gallery {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
 /* advert */
 
 .resources {
@@ -427,6 +457,7 @@ nav select:hover {
 .advert-mobile {
   display: none;
 }
+
 
 @media only screen and (max-width: 1023px) {
 .advert img {
@@ -465,7 +496,7 @@ nav select:hover {
     margin: 1rem 0 2rem 0;
   }
 
-  .advert-mobile img:last-child {
+  #girlshoot {
     height: 14rem;
     align-self: flex-start;
   }
@@ -481,7 +512,7 @@ nav select:hover {
   .advert-mobile img {
     height: 9rem;
   }
-  .advert-mobile img:last-child {
+  #girlshoot {
     height: 12rem;
   }
 }
@@ -490,7 +521,7 @@ nav select:hover {
   .advert-mobile img {
     height: 8rem;
   }
-  .advert-mobile img:last-child {
+  #girlshoot {
     height: 11rem;
   }
 }
@@ -499,7 +530,7 @@ nav select:hover {
   .advert-mobile img {
     height: 7rem;
   }
-  .advert-mobile img:last-child {
+  #girlshoot {
     height: 10rem;
   }
 }
@@ -508,7 +539,7 @@ nav select:hover {
   .advert-mobile img {
     height: 7.5rem;
   }
-  .advert-mobile img:last-child {
+  #girlshoot {
     display: none;
   }
 }
@@ -518,7 +549,16 @@ nav select:hover {
     height: 7rem;
   }
 }
-
+@media only screen and (max-width: 360px) {
+  .advert-mobile img {
+    height: 6.5rem;
+  }
+}
+@media only screen and (max-width: 335px) {
+  .advert-mobile img {
+    height: 6.35rem;
+  }
+}
 /* Footer */
 footer {
   background-color: #F29100;
@@ -541,8 +581,22 @@ footer {
 }
 
 i {
+  color: #DC7F00;
   padding: 0 1rem;
-  opacity: 0.5;
+  opacity: 1;
+}
+
+.social a:link {
+  color: none;
+}
+.social a:visited {
+  color: none;
+}
+.social a:hover {
+  color: white;
+}
+i:hover {
+  color: white;
 }
 
 .footer-logo {
@@ -613,6 +667,7 @@ i {
   .social {
     width: 100%;
     margin: 1rem auto;
+    text-align: center;
   }
   .footer-logo {
     width: 100%;
