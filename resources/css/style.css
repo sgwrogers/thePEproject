@@ -205,6 +205,10 @@ nav select:hover {
   text-align: right;
 }
 
+.about-left img {
+  height: 15rem;
+}
+
 .about-middle {
   width: 25%;
   margin: 0;
@@ -222,7 +226,7 @@ nav select:hover {
 
 .about-text {
   margin-top: 1.5rem;
-} /*Not displaying properly in internet explorer*/
+}
 
 .about-text p span {
   font-weight: bold;
@@ -248,6 +252,10 @@ nav select:hover {
   padding-left: 2rem;
 }
 
+.about-right img {
+  height: 15rem;
+}
+
 .about-left {
   justify-content: flex-end;
 }
@@ -265,7 +273,33 @@ nav select:hover {
   }
 }
 
-@media only screen and (max-width: 936px) {
+@media only screen and (max-width: 1180px) {
+  .about-left img,
+  .about-right img {
+    height: 13rem;
+  }
+}
+
+@media only screen and (max-width: 1027px) {
+  .about-left img,
+  .about-right img {
+    height: 11rem;
+  }
+  .about-left {
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 955px) {
+  .about-left {
+    padding-right: 2rem;
+  }
+  .about-right img {
+    height: 10rem;
+  }
+}
+
+@media only screen and (max-width: 804px) {
   .container {
     height: 14rem;
   }
