@@ -98,6 +98,8 @@ p, ol, li {
 }
 .routines-container ul li {
   line-height: 2;
+  list-style-image:url("../images/MSE/Tick.png");
+  
 }
 
 .routines-container ul li span {
