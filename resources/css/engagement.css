@@ -246,7 +246,8 @@ strong {
 
 .conclusion-container {
   display: flex;
-  padding: 3rem 11rem 2rem 9rem;
+  justify-content: space-between;
+  padding: 3rem 9rem 2rem 9rem;
 }
 
 .conclusion-left {
@@ -260,10 +261,36 @@ strong {
 .conclusion-right {
   color: white;
   width: 40%;
+  margin-left: 1rem;
 }
 
 .conclusion-right p {
   margin-top: 1rem;
+}
+
+@media only screen and (max-width: 1435px) {
+  .conclusion-container {
+    padding-right: 9rem;
+    padding-left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 1344px) {
+  .conclusion-container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+
+  .conclusion-left {
+    width: 50%;
+  }
+  .conclusion-left img {
+    height: 14rem;
+  }
+  .conclusion-right {
+    width: 50%;
+  }
+
 }
 
 /* References */
