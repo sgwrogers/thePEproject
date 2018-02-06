@@ -12,8 +12,30 @@ body {
   background-color: white;
 }
 
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
 .blueheader {
   height: 3.5rem;
+}
+
+@media only screen and (max-width: ) {
+  .blueheader {
+
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
 }
 
 /* Engagement-Why */
@@ -23,7 +45,6 @@ body {
 }
 
 .engagement-why-text {
-  font-size: 1.1rem;
   padding: 3rem 11rem;
 }
 
@@ -52,6 +73,12 @@ body {
   color: #57B6DD;
 }
 
+@media only screen and (max-width: 1181px) {
+  .engagement-why-text {
+    padding: 3rem 9rem;
+  }
+}
+
 /* Establishing Routines */
 .routines {
   background-color: #E76E34;
@@ -63,9 +90,7 @@ body {
 
 .routines-container {
   color: white;
-  font-size: 1.1rem;
   padding: 3rem  11rem;
-  line-height: 1.2;
 }
 
 .routines-container ul {
@@ -84,11 +109,23 @@ body {
 .routines-container img {
   float: right;
   height: 22rem;
-  padding-right: 7rem;
+  padding: 1rem 7rem 1rem 1rem;
 }
 
 .routines .blueheader {
   padding: 3rem 0 0 3rem;
+}
+
+@media only screen and (max-width: 1384px) {
+  .routines-container img {
+    padding-right: 0;
+  }
+}
+
+@media only screen and (max-width: 1181px) {
+  .routines-container {
+    padding: 3rem 9rem;
+  }
 }
 
 /* Instructions */
@@ -99,29 +136,44 @@ body {
 
 .instructions-container {
   display: flex;
-  padding: 3rem 11rem 0 11rem;
+  justify-content: space-between;
+  padding: 3rem 11rem 0 5rem;
 }
 
 .instructions-left {
   width: 40%;
+  margin-bottom: -2px;
 }
 
 .instructions-left img {
   height: 20rem;
-  margin-bottom: -2px;
 }
 
 .instructions-right {
   color: white;
-  font-size: 1.1rem;
-  line-height: 1.2;
-  margin-left: 12rem;
-  margin-right: 10rem;
   width: 50%;
+  padding-bottom: 2rem;
+}
+
+.instructions-right p {
+  margin-top: 1rem;
 }
 
 .instructions-right span {
   color: #008CE3;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1181px) {
+  .instructions-container {
+    padding: 3rem 5rem 0 0;
+  }
+  .instructions-left {
+    width: 30%;
+  }
+  .instructions-right {
+    width: 55%;
+  }
 }
 
 /* Planning for Progression */
@@ -133,14 +185,12 @@ body {
 .progression-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 1rem 11rem;
+  padding: 3rem 11rem 2rem 11rem;
 }
 
 .progression-left {
   color: white;
-  font-size: 1.1rem;
   width: 50%;
-  line-height: 1.2;
 }
 
 .progression-left p {
@@ -157,6 +207,37 @@ body {
   height: 17rem;
 }
 
+strong {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+#orange {
+  color: #E76E34;
+  font-weight: bold;
+}
+
+#green {
+  color: #BED63A;
+  font-weight: bold;
+}
+
+#grey {
+  color: #59595B;
+  font-weight: bold;
+}
+
+#purple {
+  color: purple;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1181px) {
+  .progression-container {
+    padding: 3rem 9rem 1rem 9rem;
+  }
+}
+
 /* Conclusion */
 .conclusion {
   background-color: #008CE3;
@@ -165,7 +246,7 @@ body {
 
 .conclusion-container {
   display: flex;
-  padding: 3rem 11rem 2rem 11rem;
+  padding: 3rem 11rem 2rem 9rem;
 }
 
 .conclusion-left {
@@ -173,16 +254,33 @@ body {
 }
 
 .conclusion-left img {
-  height: 17rem;
+  height: 16rem;
 }
 
 .conclusion-right {
   color: white;
-  font-size: 1.1rem;
-  line-height: 1.2;
   width: 40%;
 }
 
 .conclusion-right p {
   margin-top: 1rem;
+}
+
+/* References */
+.references {
+  padding: 3rem 11rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
 }
