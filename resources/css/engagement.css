@@ -21,9 +21,33 @@ p, ol, li {
   height: 3.5rem;
 }
 
-@media only screen and (max-width: ) {
+@media only screen and (max-width: 1051px) {
   .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
 
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
   }
 }
 
@@ -42,10 +66,23 @@ p, ol, li {
 .engagement-why {
   background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
   background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .engagement-why-text {
-  padding: 3rem 11rem;
+  width: 75%;
+  padding: 3rem 2rem 2rem 11rem;
+}
+
+.engagement-why-image {
+  width: 25%;
+  padding-right: 5rem;
+}
+
+.engagement-why-image img {
+  height: 15rem;
 }
 
 .engagement-why-text p {
@@ -73,11 +110,43 @@ p, ol, li {
   color: #57B6DD;
 }
 
-@media only screen and (max-width: 1181px) {
+@media only screen and (max-width: 1456px) {
   .engagement-why-text {
-    padding: 3rem 9rem;
+    padding-left: 9rem;
   }
 }
+
+@media only screen and (max-width: 1235px) {
+  .engagement-why-text {
+    padding-left: 7rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .engagement-why-text {
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .engagement-why-text {
+    padding-left: 3rem;
+  }
+  .engagement-why-image {
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .engagement-why-text {
+    width: 100%;
+    padding-right: 3rem;
+  }
+  .engagement-why-image {
+    display: none;
+  }
+}
+
 
 /* Establishing Routines */
 .routines {
@@ -95,11 +164,11 @@ p, ol, li {
 
 .routines-container ul {
   margin: 1.5rem 0;
+  padding-left: 3rem;
 }
 .routines-container ul li {
-  line-height: 2;
-  list-style-image:url("../images/MSE/Tick.png");
-  
+  line-height: 2.8;
+  list-style-image:url("../images/MSE/Tick20px.png");
 }
 
 .routines-container ul li span {
@@ -111,7 +180,7 @@ p, ol, li {
 .routines-container img {
   float: right;
   height: 22rem;
-  padding: 1rem 7rem 1rem 1rem;
+  padding: 1rem 5rem 1rem 1rem;
 }
 
 .routines .blueheader {
@@ -139,7 +208,7 @@ p, ol, li {
 .instructions-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 0 5rem;
+  padding: 3rem 5rem 0 5rem;
 }
 
 .instructions-left {
@@ -187,7 +256,7 @@ p, ol, li {
 .progression-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 2rem 11rem;
+  padding: 3rem 5rem 2rem 11rem;
 }
 
 .progression-left {
