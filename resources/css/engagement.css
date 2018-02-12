@@ -67,18 +67,18 @@ p, ol, li {
   background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
   background-size: cover;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .engagement-why-text {
   width: 75%;
-  padding: 3rem 2rem 2rem 11rem;
+  padding: 3rem 1.5rem 2rem 7rem;
 }
 
 .engagement-why-image {
   width: 25%;
-  padding-right: 5rem;
+  padding-right: 1.5rem;
 }
 
 .engagement-why-image img {
@@ -110,18 +110,6 @@ p, ol, li {
   color: #57B6DD;
 }
 
-@media only screen and (max-width: 1456px) {
-  .engagement-why-text {
-    padding-left: 9rem;
-  }
-}
-
-@media only screen and (max-width: 1235px) {
-  .engagement-why-text {
-    padding-left: 7rem;
-  }
-}
-
 @media only screen and (max-width: 1150px) {
   .engagement-why-text {
     padding-left: 5rem;
@@ -131,9 +119,6 @@ p, ol, li {
 @media only screen and (max-width: 871px) {
   .engagement-why-text {
     padding-left: 3rem;
-  }
-  .engagement-why-image {
-    padding-right: 3rem;
   }
 }
 
@@ -153,13 +138,14 @@ p, ol, li {
   background-color: #E76E34;
 }
 
-.routines img:first-child {
-  margin-left: 8rem;
+.routines .blueheader {
+  padding-left: 7rem;
+  padding-top: 3rem;
 }
 
 .routines-container {
   color: white;
-  padding: 3rem  11rem;
+  padding: 1.5rem 7rem 3rem 7rem;
 }
 
 .routines-container ul {
@@ -180,24 +166,39 @@ p, ol, li {
 .routines-container img {
   float: right;
   height: 22rem;
-  padding: 1rem 5rem 1rem 1rem;
+  padding: 1rem 1rem 1rem 1rem;
 }
 
-.routines .blueheader {
-  padding: 3rem 0 0 3rem;
-}
-
-@media only screen and (max-width: 1384px) {
-  .routines-container img {
-    padding-right: 0;
-  }
-}
-
-@media only screen and (max-width: 1181px) {
+@media only screen and (max-width: 1150px) {
+  .routines .blueheader,
   .routines-container {
-    padding: 3rem 9rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
+
+@media only screen and (max-width: 1074px) {
+  .routines-container img {
+    height: 20rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .routines-container img {
+    height: 18rem;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .routines .blueheader,
+  .routines-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
 
 /* Instructions */
 
@@ -220,6 +221,10 @@ p, ol, li {
   height: 20rem;
 }
 
+#teacher-mob {
+  display: none;
+}
+
 .instructions-right {
   color: white;
   width: 50%;
@@ -235,15 +240,25 @@ p, ol, li {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 1181px) {
+@media only screen and (max-width: 1251px) {
   .instructions-container {
-    padding: 3rem 5rem 0 0;
+    padding-left: 0;
   }
-  .instructions-left {
-    width: 30%;
+  .instructions-left img {
+    display: none;
+  }
+  #teacher-mob {
+    display: flex;
+    padding-right: 1rem;
   }
   .instructions-right {
-    width: 55%;
+    width: 75%;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .instructions-container {
+    padding-right: 3rem;
   }
 }
 
@@ -256,12 +271,12 @@ p, ol, li {
 .progression-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 5rem 2rem 11rem;
+  padding: 3rem 5rem 2rem 7rem;
 }
 
 .progression-left {
   color: white;
-  width: 50%;
+  width: 60%;
 }
 
 .progression-left p {
@@ -275,7 +290,7 @@ p, ol, li {
 }
 
 .progression-right img {
-  height: 17rem;
+  height: 14rem;
 }
 
 strong {
@@ -303,11 +318,32 @@ strong {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 1181px) {
+@media only screen and (max-width: 1150px) {
   .progression-container {
-    padding: 3rem 9rem 1rem 9rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
   }
 }
+
+@media only screen and (max-width: 1074px) {
+  .progression-right img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .progression-right img {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .progression-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
 
 /* Conclusion */
 .conclusion {
@@ -318,7 +354,7 @@ strong {
 .conclusion-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 9rem 2rem 9rem;
+  padding: 3rem 7rem 2rem 9rem;
 }
 
 .conclusion-left {
@@ -339,30 +375,32 @@ strong {
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 1435px) {
+@media only screen and (max-width: 1150px) {
   .conclusion-container {
-    padding-right: 9rem;
-    padding-left: 7rem;
-  }
-}
-
-@media only screen and (max-width: 1344px) {
-  .conclusion-container {
-    padding-right: 5rem;
     padding-left: 5rem;
+    padding-right: 5rem;
   }
-
-  .conclusion-left {
-    width: 50%;
-  }
-  .conclusion-left img {
-    height: 14rem;
-  }
-  .conclusion-right {
-    width: 50%;
-  }
-
 }
+
+@media only screen and (max-width: 1074px) {
+  .conclusion-left img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .conclusion-left img {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
 
 /* References */
 .references {
@@ -381,4 +419,18 @@ strong {
 
 .references ol li {
   margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
 }
