@@ -1,0 +1,357 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Teaching Models - Why */
+.teaching-models-why {
+  background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.teaching-models-why-text {
+  width: 75%;
+  padding: 3rem 1.5rem 2rem 7rem;
+}
+
+.teaching-models-why-image {
+  width: 25%;
+  padding-right: 1.5rem;
+}
+
+.teaching-models-why-image img {
+  height: 10rem;
+}
+
+.teaching-models-why-text p {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .teaching-models-why-text {
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .teaching-models-why-text {
+    padding-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .teaching-models-why-text {
+    width: 100%;
+    padding-right: 3rem;
+  }
+  .teaching-models-why-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .teaching-models-why-text {
+    padding: 1.5rem;
+  }
+}
+
+
+/* Traditional */
+.traditional .blueheader {
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+
+.traditional-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem 0 7rem;
+}
+
+.traditional-left {
+  background-color: #BED63A;
+  flex-basis: 20%;
+  flex-grow: 1;
+  color: white;
+  padding: 0.75rem;
+}
+.traditional-left p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.traditional-right {
+  flex-basis: 60%;
+  flex-grow: 2;
+  padding-bottom: 2rem;
+}
+
+#traditional-diagram {
+  display: block;
+  height: 45rem;
+  margin: 0 auto;
+
+}
+
+/* TGfU */
+.tgfu .blueheader {
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+
+.tgfu-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 7rem 0 7rem;
+}
+
+.tgfu-left {
+  flex-basis: 50%;
+  flex-grow: 2;
+  padding-bottom: 2rem;
+}
+
+#tgfu-diagram {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.tgfu-right {
+  background-color: #D86C1C;
+  flex-basis: 8%;
+  flex-grow: 1;
+  color: white;
+  padding: 0.75rem;
+}
+.tgfu-right p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+/* Game Sense */
+.gamesense .blueheader {
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+
+.gamesense-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 5rem 0 7rem;
+}
+
+.gamesense-left {
+  background-color: #BED63A;
+  flex-basis: 20%;
+  flex-grow: 1;
+  color: white;
+  padding: 0.75rem;
+}
+.gamesense-left p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.gamesense-right {
+  flex-basis: 60%;
+  flex-grow: 2;
+  padding-bottom: 2rem;
+}
+
+#gamesense-diagram {
+  display: block;
+  height: 35rem;
+  margin: 0 auto;
+
+}
+
+.gamesense-below {
+  background-color: #BED63A;
+  width: 80%;
+  color: white;
+  padding: 0.75rem;
+  margin: 1.5rem auto;
+}
+
+/* Cooperative Learning */
+.cooperative .blueheader {
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+
+.cooperative-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 7rem 0 7rem;
+}
+
+.cooperative-left {
+  flex-basis: 50%;
+  flex-grow: 2;
+  padding-bottom: 2rem;
+}
+
+#cooperative-diagram {
+  display: block;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.cooperative-right {
+  background-color: #D86C1C;
+  flex-basis: 8%;
+  flex-grow: 1;
+  color: white;
+  padding: 0.75rem;
+}
+.cooperative-right p {
+  margin-top: 1rem;
+  line-height: 1.5;
+}
+
+.cooperative-below {
+  background-color: #D86C1C;
+  width: 80%;
+  color: white;
+  padding: 0.75rem;
+  margin: 1.5rem auto;
+}
+
+/* Sport Education */
+.sported .blueheader {
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+
+.sported-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 5rem 0 7rem;
+}
+
+.sported-top {
+  flex-basis: 80%;
+  flex-grow: 1;
+  color: white;
+  padding: 0.75rem;
+}
+
+#sported-diagram {
+  display: block;
+  height: 35rem;
+  margin: 0 auto;
+}
+
+.sported-below {
+  background-color: #BED63A;
+  width: 80%;
+  color: white;
+  padding: 0.75rem;
+  margin: 1.5rem auto;
+}
+
+/* Conclusion */
+.conclusion {
+  padding: 2rem 5rem 2rem 7rem;
+}
+
+
+/* References */
+.references {
+  padding: 3rem 11rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
