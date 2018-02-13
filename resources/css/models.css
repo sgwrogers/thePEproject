@@ -52,20 +52,20 @@ p, ol, li {
   }
 }
 
-.article a:link,
-.article a:visited,
-.article a:active {
+.article p a:link,
+.article p a:visited,
+.article p a:active {
   color: white;
   text-decoration: none;
 }
 
-.article a:hover {
+.article p a:hover {
   text-decoration: underline;
 }
 
 /* Teaching Models - Why */
 .teaching-models-why {
-  background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
+  background: url("../images/MSE/BlueTopBar.png") no-repeat center top;
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -74,12 +74,12 @@ p, ol, li {
 
 .teaching-models-why-text {
   width: 75%;
-  padding: 3rem 1.5rem 2rem 7rem;
+  padding: 3rem 1.5rem 2rem 11rem;
 }
 
 .teaching-models-why-image {
   width: 25%;
-  padding-right: 1.5rem;
+  padding-right: 6.5rem;
 }
 
 .teaching-models-why-image img {
@@ -90,6 +90,95 @@ p, ol, li {
   color: #008CE3;
   font-weight: 600;
   margin-top: 1.5rem;
+}
+
+.teaching-models-why-text ol li {
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.teaching-models-why-text ol {
+  list-style-type: decimal;
+  margin-left: 3rem;
+}
+
+.teaching-models-why-text ol li:first-child {
+  color: #DC2C34;
+}
+ol li:first-child a:link,
+ol li:first-child a:visited,
+ol li:first-child a:active {
+ color: #DC2C34;
+ text-decoration: none;
+}
+
+ol li:first-child a:hover {
+ color: #DC2C34;
+ text-decoration: underline;
+}
+
+.teaching-models-why-text ol li:nth-child(2) {
+  color: #2F469D;
+}
+ol li:nth-child(2) a:link,
+ol li:nth-child(2) a:visited,
+ol li:nth-child(2) a:active {
+ color: #2F469D;
+ text-decoration: none;
+}
+
+ol li:nth-child(2) a:hover {
+ color: #2F469D;
+ text-decoration: underline;
+}
+
+.teaching-models-why-text ol li:nth-child(3) {
+  color: #E76E34;
+}
+
+ol li:nth-child(3) a:link,
+ol li:nth-child(3) a:visited,
+ol li:nth-child(3) a:active {
+ color: #E76E34;
+ text-decoration: none;
+}
+
+ol li:nth-child(3) a:hover {
+ color: #E76E34;
+ text-decoration: underline;
+}
+
+.teaching-models-why-text ol li:nth-child(4) {
+  color: #7BC370;
+}
+
+ol li:nth-child(4) a:link,
+ol li:nth-child(4) a:visited,
+ol li:nth-child(4) a:active {
+ color: #7BC370;
+ text-decoration: none;
+}
+
+ol li:nth-child(4) a:hover {
+ color: #7BC370;
+ text-decoration: underline;
+}
+
+.teaching-models-why-text ol li:last-child {
+  color: #57B6DD;
+}
+
+ol li:last-child a:link,
+ol li:last-child a:visited,
+ol li:last-child a:visited,
+ol li:last-child a:active {
+ color: #57B6DD;
+ text-decoration: none;
+}
+
+ol li:last-child a:hover {
+ color: #57B6DD;
+ text-decoration: underline;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -123,25 +212,24 @@ p, ol, li {
 
 /* Traditional */
 .traditional .blueheader {
-  padding-left: 7rem;
+  padding-left: 11rem;
   padding-top: 3rem;
 }
 
 .traditional-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 5rem 0 7rem;
+  padding: 3rem 11rem 0 11rem;
 }
 
 .traditional-left {
-  background-color: #BED63A;
-  flex-basis: 20%;
-  flex-grow: 1;
+  background-color: #DC2C34;
+  width: 24%;
   color: white;
-  padding: 0.75rem;
+  padding: 1.25rem;
+  height: 33rem;
 }
 .traditional-left p {
-  margin-top: 1rem;
   line-height: 1.5;
 }
 
@@ -153,173 +241,181 @@ p, ol, li {
 
 #traditional-diagram {
   display: block;
-  height: 45rem;
+  height: 35rem;
   margin: 0 auto;
 
 }
 
 /* TGfU */
+.tgfu {
+  background-color: #f7f4f1;
+}
+
 .tgfu .blueheader {
-  padding-left: 7rem;
+  padding-left: 11rem;
   padding-top: 3rem;
 }
 
 .tgfu-container {
   display: flex;
   justify-content: center;
-  padding: 3rem 7rem 0 7rem;
+  padding: 3rem 11rem 0 11rem;
 }
 
 .tgfu-left {
-  flex-basis: 50%;
-  flex-grow: 2;
+  width: 70%;
   padding-bottom: 2rem;
 }
 
 #tgfu-diagram {
   display: block;
-  width: 65%;
+  height: 37rem;
   margin: 0 auto;
 }
 
 .tgfu-right {
-  background-color: #D86C1C;
-  flex-basis: 8%;
-  flex-grow: 1;
+  background-color: #2F469D;
+  width: 30%;
   color: white;
-  padding: 0.75rem;
+  padding: 1.25rem;
+  height: 35rem;
 }
 .tgfu-right p {
-  margin-top: 1rem;
   line-height: 1.5;
 }
 
 /* Game Sense */
 .gamesense .blueheader {
-  padding-left: 7rem;
+  padding-left: 11rem;
   padding-top: 3rem;
 }
 
 .gamesense-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 5rem 0 7rem;
+  padding: 3rem 11rem 0 11rem;
 }
 
 .gamesense-left {
-  background-color: #BED63A;
-  flex-basis: 20%;
-  flex-grow: 1;
+  background-color: #D86C1C;
+  width: 20%;
   color: white;
-  padding: 0.75rem;
+  padding: 1.25rem;
+  height: 33rem;
 }
 .gamesense-left p {
-  margin-top: 1rem;
   line-height: 1.5;
 }
 
 .gamesense-right {
-  flex-basis: 60%;
-  flex-grow: 2;
+  width: 60%;
   padding-bottom: 2rem;
 }
 
 #gamesense-diagram {
   display: block;
   height: 35rem;
-  margin: 0 auto;
 
 }
 
 .gamesense-below {
-  background-color: #BED63A;
-  width: 80%;
+  background-color: #D86C1C;
   color: white;
-  padding: 0.75rem;
-  margin: 1.5rem auto;
+  padding: 1.25rem;
+  margin: 1.5rem 11rem;
 }
 
 /* Cooperative Learning */
+.cooperative {
+  background-color: #f7f4f1;
+  padding-bottom: 1rem;
+}
 .cooperative .blueheader {
-  padding-left: 7rem;
+  padding-left: 11rem;
   padding-top: 3rem;
 }
 
 .cooperative-container {
   display: flex;
-  justify-content: center;
-  padding: 3rem 7rem 0 7rem;
+  justify-content: space-between;
+  padding: 3rem 11rem 0 11rem;
 }
 
 .cooperative-left {
-  flex-basis: 50%;
-  flex-grow: 2;
+  width: 60%;
   padding-bottom: 2rem;
 }
 
 #cooperative-diagram {
   display: block;
-  width: 65%;
+  height: 36rem;
   margin: 0 auto;
 }
 
 .cooperative-right {
-  background-color: #D86C1C;
-  flex-basis: 8%;
-  flex-grow: 1;
+  background-color: #7BC370;
+  width: 24%;
+  height: 34rem;
   color: white;
-  padding: 0.75rem;
+  padding: 1.25rem;
 }
 .cooperative-right p {
-  margin-top: 1rem;
   line-height: 1.5;
 }
 
 .cooperative-below {
-  background-color: #D86C1C;
-  width: 80%;
+  background-color: #7BC370;
   color: white;
-  padding: 0.75rem;
-  margin: 1.5rem auto;
+  padding: 1.25rem;
+  margin: 1.5rem 11rem;
 }
 
 /* Sport Education */
 .sported .blueheader {
-  padding-left: 7rem;
+  padding-left: 11rem;
   padding-top: 3rem;
 }
 
 .sported-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 3rem 5rem 0 7rem;
+  justify-content: space-between;
+  padding: 3rem 11rem 0 11rem;
 }
 
 .sported-top {
-  flex-basis: 80%;
-  flex-grow: 1;
+  width: 60%;
   color: white;
   padding: 0.75rem;
+  order: 2;
 }
 
 #sported-diagram {
   display: block;
-  height: 35rem;
-  margin: 0 auto;
+  height: 37rem;
 }
 
 .sported-below {
-  background-color: #BED63A;
-  width: 80%;
+  background-color: #57B6DD;
+  width: 27%;
   color: white;
-  padding: 0.75rem;
-  margin: 1.5rem auto;
+  padding: 1.25rem;
+  order: 1;
+  height: 35rem;
 }
 
 /* Conclusion */
 .conclusion {
-  padding: 2rem 5rem 2rem 7rem;
+  background-color: #008CE3;
+  color: white;
+  margin-top: 2rem;
+}
+
+.conclusion-container {
+  padding: 1.5rem 6.5rem 3rem 11rem;
+}
+
+.conclusion p {
+  margin-right: 6.5rem;
 }
 
 
