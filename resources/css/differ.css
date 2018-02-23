@@ -63,58 +63,61 @@ p, ol, li {
 }
 
 /* Differentiation-Why */
-.differentiation-why {
+.differentiation {
   background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
   background-size: cover;
+}
+.differentiation .blueheader {
+  margin: 2rem 0 1rem 7rem;
+}
+
+.differentiation-why {
   display: flex;
-  justify-content: space-around;
-  align-items: center;
 }
 
-.differentiation-why-text {
-  width: 75%;
-  padding: 3rem 1.5rem 2rem 7rem;
+.differentiation .blueheader {
+  margin: 2rem 0 1rem 7rem;
 }
 
-.differentiation-why-image {
-  width: 25%;
-  padding-right: 1.5rem;
+.differentiation-why p {
+  padding: 1rem 1.5rem 2rem 7rem;
 }
 
-.differentiation-why-image img {
-  height: 13rem;
+.differentiation-why #pupil-steps {
+  height: 10rem;
+  margin-right: 7rem;
+  float: right;
 }
 
-.differentiation-why-text p span {
+.differentiation-why p span {
   color: #008CE3;
   font-weight: 600;
   margin-top: 1.5rem;
 }
 
 @media only screen and (max-width: 1150px) {
-  .differentiation-why-text {
+  .differentiation-why p {
     padding-left: 5rem;
   }
 }
 
 @media only screen and (max-width: 871px) {
-  .differentiation-why-text {
+  .differentiation-why p {
     padding-left: 3rem;
   }
 }
 
 @media only screen and (max-width: 766px) {
-  .differentiation-why-text {
-    width: 100%;
+  .differentiation-why p {
     padding-right: 3rem;
   }
-  .differentiation-why-image {
+  .differentiation-why #pupil-steps {
     display: none;
   }
 }
 
 @media only screen and (max-width: 547px) {
-  .differentiation-why-text {
+  .differentiation-why p {
     padding: 1.5rem;
   }
 }
@@ -124,9 +127,13 @@ p, ol, li {
   padding: 1.5rem 7rem 3rem 7rem;
 }
 
+.sttep-container p {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
 .sttep-container img {
   width: 100%;
-  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -168,13 +175,22 @@ p, ol, li {
   width: 100%;
 }
 
+.diff-types p {
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
 .diff-types-container {
   padding: 1.5rem 7rem 3rem 7rem;
 }
 
+.diff-types-image {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .diff-types-container img {
   width: 70%;
-  margin: 0 auto;
 }
 
 @media only screen and (max-width: 1150px) {
