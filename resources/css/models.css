@@ -79,11 +79,12 @@ p, ol, li {
 
 .teaching-models-why-image {
   width: 25%;
-  padding-right: 6.5rem;
+  padding-right: 11rem;
 }
 
 .teaching-models-why-image img {
-  height: 10rem;
+  height: 14rem;
+  margin-top: 4rem;
 }
 
 .teaching-models-why-text p {
@@ -94,7 +95,7 @@ p, ol, li {
 
 .teaching-models-why-text ol li {
   font-weight: 600;
-  margin-top: 1.5rem;
+  margin-top: 1rem;
 }
 
 .teaching-models-why-text ol {
@@ -421,7 +422,7 @@ ol li:last-child a:hover {
 
 /* References */
 .references {
-  padding: 3rem 11rem;
+  padding: 3rem 14rem;
 }
 
 .references h3 {

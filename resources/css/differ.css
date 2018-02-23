@@ -54,12 +54,18 @@ p, ol, li {
 .article a:link,
 .article a:visited,
 .article a:active {
-  color: white;
+  color: #58595B;
   text-decoration: none;
 }
 
 .article a:hover {
   text-decoration: underline;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
 }
 
 /* Differentiation-Why */
@@ -68,31 +74,21 @@ p, ol, li {
   background-size: cover;
 }
 .differentiation .blueheader {
-  margin: 2rem 0 1rem 7rem;
+  margin: 2rem 0 1rem 11rem;
 }
 
 .differentiation-why {
   display: flex;
 }
 
-.differentiation .blueheader {
-  margin: 2rem 0 1rem 7rem;
-}
-
 .differentiation-why p {
-  padding: 1rem 1.5rem 2rem 7rem;
+  padding: 1rem 1.5rem 2rem 11rem;
 }
 
 .differentiation-why #pupil-steps {
   height: 10rem;
-  margin-right: 7rem;
+  margin-right: 11rem;
   float: right;
-}
-
-.differentiation-why p span {
-  color: #008CE3;
-  font-weight: 600;
-  margin-top: 1.5rem;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -123,17 +119,18 @@ p, ol, li {
 }
 
 /* Sttep Principle */
-.sttep-container {
-  padding: 1.5rem 7rem 3rem 7rem;
+.sttep p {
+  padding: 1.5rem 11rem 3rem 11rem;
 }
 
-.sttep-container p {
-  margin-top: 1rem;
-  margin-bottom: 3rem;
+.sttep-container {
+  display: flex;
+  justify-content: center;
 }
 
 .sttep-container img {
-  width: 100%;
+  height: 40rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -181,7 +178,7 @@ p, ol, li {
 }
 
 .diff-types-container {
-  padding: 1.5rem 7rem 3rem 7rem;
+  padding: 1.5rem 11rem 3rem 11rem;
 }
 
 .diff-types-image {
@@ -189,8 +186,8 @@ p, ol, li {
   justify-content: center;
   align-items: center;
 }
-.diff-types-container img {
-  width: 70%;
+.diff-types-image img {
+  height: 60rem;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -230,13 +227,19 @@ p, ol, li {
 .sttep2 {
   background-color: #BED63A;
 }
+
+.sttep2 p {
+  padding: 1.5rem 11rem 3rem 11rem;
+}
+
 .sttep2-container {
-  padding: 1.5rem 7rem 3rem 7rem;
+  display: flex;
+  justify-content: center;
 }
 
 .sttep2-container img {
-  width: 80%;
-  margin: 0 auto;
+  height: 40rem;
+  margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -279,16 +282,18 @@ p, ol, li {
 }
 
 .conclusion .blueheader {
-  padding-left: 7rem;
+  padding-left: 11rem;
   padding-top: 3rem;
 }
 
 .conclusion-container {
-  padding: 1.5rem 6.5rem 3rem 11rem;
+  padding: 2rem 11rem 3rem 11rem;
 }
 
-.conclusion p {
-  margin-right: 6.5rem;
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:active {
+  color: white;
 }
 
 @media only screen and (max-width: 1150px) {
@@ -320,7 +325,7 @@ p, ol, li {
 
 /* References */
 .references {
-  padding: 3rem 11rem;
+  padding: 3rem 14rem;
 }
 
 .references h3 {

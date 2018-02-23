@@ -199,10 +199,9 @@ nav select:hover {
 }
 
 .about-left {
-  width: 35%;
+  width: 25%;
   margin: 2rem 0;
-  padding-right: 5rem;
-  text-align: right;
+  padding-left: 11rem;
 }
 
 .about-left img {
@@ -210,7 +209,7 @@ nav select:hover {
 }
 
 .about-middle {
-  width: 25%;
+  width: 35%;
   margin: 0;
   align-self: flex-start;
   height: 18rem;
@@ -253,7 +252,7 @@ nav select:hover {
 }
 
 .about-right img {
-  height: 15rem;
+  height: 12rem;
 }
 
 .about-left {

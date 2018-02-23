@@ -73,7 +73,7 @@ p, ol, li {
 
 .engagement-why-text {
   width: 75%;
-  padding: 3rem 1.5rem 2rem 7rem;
+  padding: 3rem 1.5rem 2rem 11rem;
 }
 
 .engagement-why-image {
@@ -145,13 +145,13 @@ p, ol, li {
 }
 
 .routines .blueheader {
-  padding-left: 7rem;
+  padding-left: 11rem;
   padding-top: 3rem;
 }
 
 .routines-container {
   color: white;
-  padding: 1.5rem 7rem 3rem 7rem;
+  padding: 1.5rem 11rem 3rem 11rem;
 }
 
 .routines-container ul {
@@ -230,7 +230,7 @@ p, ol, li {
 .instructions-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 5rem 0 5rem;
+  padding: 3rem 11rem 0 11rem;
 }
 
 .instructions-left {
@@ -327,7 +327,7 @@ p, ol, li {
 .progression-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 5rem 2rem 7rem;
+  padding: 3rem 11rem 2rem 11rem;
 }
 
 .progression-left {
@@ -426,7 +426,7 @@ strong {
 .conclusion-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 7rem 2rem 9rem;
+  padding: 3rem 11rem 2rem 11rem;
   align-items: flex-start;
 }
 
@@ -598,7 +598,7 @@ strong {
 
 /* References */
 .references {
-  padding: 3rem 11rem;
+  padding: 3rem 14rem;
 }
 
 .references h3 {
