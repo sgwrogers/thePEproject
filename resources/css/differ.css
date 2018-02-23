@@ -1,0 +1,336 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Differentiation-Why */
+.differentiation-why {
+  background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
+  background-size: cover;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.differentiation-why-text {
+  width: 75%;
+  padding: 3rem 1.5rem 2rem 7rem;
+}
+
+.differentiation-why-image {
+  width: 25%;
+  padding-right: 1.5rem;
+}
+
+.differentiation-why-image img {
+  height: 13rem;
+}
+
+.differentiation-why-text p span {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .differentiation-why-text {
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .differentiation-why-text {
+    padding-left: 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .differentiation-why-text {
+    width: 100%;
+    padding-right: 3rem;
+  }
+  .differentiation-why-image {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .differentiation-why-text {
+    padding: 1.5rem;
+  }
+}
+
+/* Sttep Principle */
+.sttep-container {
+  padding: 1.5rem 7rem 3rem 7rem;
+}
+
+.sttep-container img {
+  width: 100%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1150px) {
+  .sttep-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .sttep-container img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .sttep-container img {
+    height: 18rem;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .sttep-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .sttep-container {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+/* Types of Differentiation */
+.diff-types {
+  background-color: #F7F4F1;
+  width: 100%;
+}
+
+.diff-types-container {
+  padding: 1.5rem 7rem 3rem 7rem;
+}
+
+.diff-types-container img {
+  width: 70%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1150px) {
+  .diff-types-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .diff-types-container img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .diff-types-container img {
+    height: 18rem;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .diff-types-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .diff-types-container {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+/* Sttep 2 Principle */
+.sttep2 {
+  background-color: #BED63A;
+}
+.sttep2-container {
+  padding: 1.5rem 7rem 3rem 7rem;
+}
+
+.sttep2-container img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1150px) {
+  .sttep2-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .sttep2-container img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .sttep2-container img {
+    height: 18rem;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .sttep2-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .sttep2-container {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+  color: white;
+}
+
+.conclusion .blueheader {
+  padding-left: 7rem;
+  padding-top: 3rem;
+}
+
+.conclusion-container {
+  padding: 1.5rem 6.5rem 3rem 11rem;
+}
+
+.conclusion p {
+  margin-right: 6.5rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .conclusion .blueheader {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  .conclusion-container {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+
+
+/* References */
+.references {
+  padding: 3rem 11rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
