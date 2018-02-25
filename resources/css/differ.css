@@ -87,7 +87,7 @@ p, ol, li {
 
 #pupil-steps {
   height: 10rem;
-  margin-right: 11rem;
+  margin-right: 15rem;
   float: right;
 }
 
@@ -125,11 +125,10 @@ p, ol, li {
   .differentiation-why p {
     padding-left: 1.5rem;
   }
+  .differentiation-why p {
+    padding-bottom: 0;
+  }
 }
-}
-
-@media only screen and (max-width: 590px) {
-
 }
 
 /* Sttep Principle */
@@ -147,7 +146,7 @@ p, ol, li {
 
 .sttep-container img {
   height: 37rem;
-  margin: 2rem 11rem;
+  margin: 1rem 11rem;
 }
 
 @media only screen and (max-width: 1418px) {
@@ -210,7 +209,7 @@ p, ol, li {
 
 @media only screen and (max-width: 547px) {
   .sttep-container {
-    padding: 0rem 1.5rem 1.5rem 1.5rem;
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
   }
   .sttep-container img {
     height: 15rem;
@@ -220,18 +219,16 @@ p, ol, li {
 
 @media only screen and (max-width: 468px) {
   .sttep-container img {
-    height: 13.5rem;
+    height: 12.5rem;
     margin-bottom: 0;
   }
 }
 
-@media only screen and (max-width: 363px) {
+@media only screen and (max-width: 370px) {
   .sttep-container img {
     height: 10rem;
   }
 }
-
-
 
 /* Types of Differentiation */
 .diff-types {
