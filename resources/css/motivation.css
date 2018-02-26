@@ -1,0 +1,504 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+.orange {
+  color: #DE572F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange-lc {
+  color: #DE572F;
+  font-weight: bold;
+}
+
+.gray {
+  color: #58595B;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gray-lc {
+  color: #58595B;
+  font-weight: bold;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.lite-blue {
+  color: #57B6DD;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lite-blue-lc {
+  color: #57B6DD;
+  font-weight: bold;
+}
+
+.green {
+  color: #D6DA2D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #D86C1C;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-lc {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Motivation-Why */
+.motivation {
+  background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
+  background-size: cover;
+}
+.motivation .blueheader {
+  margin: 2rem 0 1rem 11rem;
+}
+
+.motivation-why {
+  display: flex;
+}
+
+.motivation-why p {
+  padding: 1rem 1.5rem 2rem 11rem;
+}
+
+#ilovePE {
+  height: 14rem;
+  margin: 0 15rem 1rem 1rem;
+  float: right;
+}
+
+.motivation-why-list {
+  padding: 1rem 11rem 2rem 11rem;
+}
+
+.motivation-why-list ul {
+  list-style: disc;
+  color: #F29100;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.motivation-why-list li {
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .motivation .blueheader {
+    margin-left: 5rem;
+  }
+  .motivation-why p {
+    padding-left: 5rem;
+  }
+  #ilovePE {
+    margin-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .motivation .blueheader {
+    margin-left: 3rem;
+  }
+  .motivation-why p {
+    padding-left: 3rem;
+  }
+  #ilovePE {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .motivation-why {
+    width: 100%;
+  }
+  .motivation .blueheader {
+    margin-left: 1.5rem;
+  }
+  .motivation-why p {
+    padding-left: 1.5rem;
+  }
+  .motivation-why p {
+    padding-bottom: 0;
+  }
+}
+}
+
+/* Motivation Types */
+.motivation-types {
+  background-color: #F7F4F1;
+}
+
+.motivation-types-p1 {
+  display: flex;
+  padding: 1.5rem 11rem 1rem 11rem;
+}
+
+.motivation-types-p1 img {
+  height: 15rem;
+  margin-right: 2rem;
+}
+
+.motivation-types-p2 {
+  padding: 1.5rem 11rem 1rem 11rem;
+}
+
+
+@media only screen and (max-width: 1418px) {
+  .sttep-container img {
+    height: 34rem;
+  }
+}
+
+@media only screen and (max-width: 1330px) {
+  .sttep-container img {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .sttep p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1038px) {
+  .sttep-container img {
+    height: 26rem;
+  }
+}
+
+@media only screen and (max-width: 912px) {
+  .sttep-container img {
+    height: 22rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .sttep p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .sttep p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 698px) {
+  .sttep-container img {
+    height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .sttep-container img {
+    height: 17rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .sttep-container {
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+  .sttep-container img {
+    height: 15rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 468px) {
+  .sttep-container img {
+    height: 12.5rem;
+    margin-bottom: 0;
+  }
+}
+
+@media only screen and (max-width: 370px) {
+  .sttep-container img {
+    height: 10rem;
+  }
+}
+
+/* Motivation Table */
+.motivation-table {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.motivation-table img {
+  height: 48rem;
+  margin: 2rem 11rem;
+}
+
+.motivation-table p {
+  align-self: flex-start;
+  margin-left: 11rem;
+  margin-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1353px) {
+
+}
+
+@media only screen and (max-width: 1219px) {
+
+}
+
+@media only screen and (max-width: 871px) {
+
+}
+
+@media only screen and (max-width: 749px) {
+
+}
+
+
+@media only screen and (max-width: 547px) {
+
+}
+
+/* Motivation Intro to Target */
+.motivation-how {
+  background-color: #BED63A;
+}
+
+.motivation-how p {
+  padding: 1.5rem 11rem 1.5rem 11rem;
+}
+
+
+@media only screen and (max-width: 1150px) {
+  .motivation-how p  {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .motivation-how p  {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .motivation-how p  {
+    padding: 1rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+/* Motivation Table */
+.motivation-psych {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.motivation-psych img {
+  height: 48rem;
+  margin: 1rem 11rem 2rem 11rem;
+}
+
+.motivation-psych p {
+  align-self: flex-start;
+  margin-left: 11rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+
+/* Motivation Target */
+.motivation-target {
+  background-color: #57B6DD;
+  color: white;
+}
+
+.motivation-target p {
+    padding: 2rem 11rem 2rem 11rem;
+  }
+}
+
+/* Target Table */
+.target-table {
+  width: 100%;
+}
+.target-table-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.target-table img {
+  height: 50rem;
+  margin: 1rem 11rem 2rem 11rem;
+}
+
+.target-table p {
+  padding: 2rem 11rem 1rem 11rem;
+}
+
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+  color: white;
+}
+
+.conclusion .blueheader {
+  padding-left: 11rem;
+  padding-top: 2rem;
+}
+
+.conclusion-container {
+  padding: 2rem 11rem 3rem 11rem;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:active {
+  color: white;
+}
+
+@media only screen and (max-width: 1150px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .conclusion .blueheader {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  .conclusion-container {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
+
+
+/* References */
+.references {
+  padding: 3rem 14rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
