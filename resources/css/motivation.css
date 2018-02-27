@@ -165,9 +165,15 @@ p, ol, li {
   .motivation .blueheader {
     margin-left: 5rem;
   }
-  .motivation-why p {
+  .motivation-why p,
+  .motivation-why-list {
     padding-left: 5rem;
   }
+
+  .motivation-why-list {
+    padding-right: 5rem;
+  }
+
   #ilovePE {
     margin-right: 5rem;
   }
@@ -177,11 +183,23 @@ p, ol, li {
   .motivation .blueheader {
     margin-left: 3rem;
   }
-  .motivation-why p {
+  .motivation-why p,
+  .motivation-why-list {
     padding-left: 3rem;
   }
   #ilovePE {
-    display: none;
+    height: 10rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 746px) {
+  .motivation-why {
+    display: block;
+  }
+  #ilovePE {
+    height: 8rem;
   }
 }
 
@@ -192,13 +210,20 @@ p, ol, li {
   .motivation .blueheader {
     margin-left: 1.5rem;
   }
-  .motivation-why p {
+  .motivation-why p,
+  .motivation-why-list {
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
   .motivation-why p {
     padding-bottom: 0;
   }
 }
+
+@media only screen and (max-width: 524px) {
+  #ilovePE {
+    height: 5rem;
+  }
 }
 
 /* Motivation Types */
@@ -208,7 +233,7 @@ p, ol, li {
 
 .motivation-types-p1 {
   display: flex;
-  padding: 1.5rem 11rem 1rem 11rem;
+  padding: 2rem 11rem 1rem 11rem;
 }
 
 .motivation-types-p1 img {
@@ -217,89 +242,53 @@ p, ol, li {
 }
 
 .motivation-types-p2 {
-  padding: 1.5rem 11rem 1rem 11rem;
-}
-
-
-@media only screen and (max-width: 1418px) {
-  .sttep-container img {
-    height: 34rem;
-  }
-}
-
-@media only screen and (max-width: 1330px) {
-  .sttep-container img {
-    height: 30rem;
-  }
+  padding: 1.5rem 11rem 2rem 11rem;
 }
 
 @media only screen and (max-width: 1150px) {
-  .sttep p {
+  .motivation-types-p1,
+  .motivation-types-p2
+ {
     padding-left: 5rem;
     padding-right: 5rem;
   }
 }
 
-@media only screen and (max-width: 1038px) {
-  .sttep-container img {
-    height: 26rem;
-  }
-}
-
-@media only screen and (max-width: 912px) {
-  .sttep-container img {
-    height: 22rem;
-    margin-top: 1rem;
-  }
-}
-
 @media only screen and (max-width: 871px) {
-  .sttep p {
+  .motivation-types-p1,
+  .motivation-types-p2
+ {
     padding-left: 3rem;
     padding-right: 3rem;
   }
 }
 
 @media only screen and (max-width: 766px) {
-  .sttep p {
+  .motivation-types-p1,
+  .motivation-types-p2 {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
 }
 
-@media only screen and (max-width: 698px) {
-  .sttep-container img {
-    height: 20rem;
+@media only screen and (max-width: 690px) {
+  .motivation-types-p1 img {
+    display: none;
   }
 }
 
-@media only screen and (max-width: 590px) {
-  .sttep-container img {
-    height: 17rem;
+@media only screen and (max-width: 380px) {
+  .motivation-types-p1 {
+    display: block;
+    width: 100%;
   }
+  .motivation-types-p1 img {
+    display: block;
+    margin: 0 auto;
+  }
+  .motivation-types-p1 p {
+    margin-top: 1rem;
 }
-
-@media only screen and (max-width: 547px) {
-  .sttep-container {
-    padding: 1rem 1.5rem 1.5rem 1.5rem;
-  }
-  .sttep-container img {
-    height: 15rem;
-    margin-bottom: 0;
-  }
-}
-
-@media only screen and (max-width: 468px) {
-  .sttep-container img {
-    height: 12.5rem;
-    margin-bottom: 0;
-  }
-}
-
-@media only screen and (max-width: 370px) {
-  .sttep-container img {
-    height: 10rem;
-  }
 }
 
 /* Motivation Table */
@@ -320,26 +309,77 @@ p, ol, li {
   margin-bottom: 2rem;
 }
 
-@media only screen and (max-width: 1353px) {
-
+@media only screen and (max-width: 1455px) {
+  .motivation-table img {
+    height: 45rem;
+  }
+}
+@media only screen and (max-width: 1352px) {
+  .motivation-table img {
+    height: 42rem;
+  }
 }
 
-@media only screen and (max-width: 1219px) {
-
+@media only screen and (max-width: 1243px) {
+  .motivation-table img {
+    height: 39rem;
+  }
 }
 
+@media only screen and (max-width: 1150px) {
+  .motivation-table img {
+    height: 36rem;
+  }
+  .motivation-table p {
+    margin-left: 5rem;
+}
+}
+@media only screen and (max-width: 1060px) {
+  .motivation-table img {
+    height: 33rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .motivation-table img {
+    height: 30rem;
+  }
+}
 @media only screen and (max-width: 871px) {
-
+  .motivation-table p {
+    margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .motivation-table img {
+    height: 27rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .motivation-table p {
+    margin-left: 1.5rem;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .motivation-table img {
+    height: 24rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .motivation-table img {
+    height: 21rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .motivation-table img {
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .motivation-table img {
+    height: 15rem;
+  }
 }
 
-@media only screen and (max-width: 749px) {
-
-}
-
-
-@media only screen and (max-width: 547px) {
-
-}
 
 /* Motivation Intro to Target */
 .motivation-how {
@@ -390,6 +430,77 @@ p, ol, li {
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 1455px) {
+  .motivation-psych img {
+    height: 45rem;
+  }
+}
+@media only screen and (max-width: 1352px) {
+  .motivation-psych img {
+    height: 42rem;
+  }
+}
+
+@media only screen and (max-width: 1243px) {
+  .motivation-psych img {
+    height: 39rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .motivation-psych img {
+    height: 36rem;
+  }
+  .motivation-psych p {
+    margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .motivation-psych img {
+    height: 33rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .motivation-psych img {
+    height: 30rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .motivation-psych p {
+    margin-left: 5rem;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .motivation-psych img {
+    height: 27rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .motivation-psych p {
+    margin-left: 1.5rem;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .motivation-psych img {
+    height: 24rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .motivation-psych img {
+    height: 21rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .motivation-psych img {
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .motivation-psych img {
+    height: 15rem;
+  }
+}
+
 
 /* Motivation Target */
 .motivation-target {
@@ -399,6 +510,26 @@ p, ol, li {
 
 .motivation-target p {
     padding: 2rem 11rem 2rem 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .motivation-target p {
+    padding: 1rem 5rem 0.5rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .motivation-target p {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .motivation-target p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -419,6 +550,77 @@ p, ol, li {
 
 .target-table p {
   padding: 2rem 11rem 1rem 11rem;
+}
+
+@media only screen and (max-width: 1455px) {
+  .target-table img {
+    height: 45rem;
+  }
+}
+@media only screen and (max-width: 1352px) {
+  .target-table img {
+    height: 42rem;
+  }
+}
+
+@media only screen and (max-width: 1243px) {
+  .target-table img {
+    height: 39rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .target-table img {
+    height: 36rem;
+  }
+  .target-table p {
+    padding: 2rem 5rem 1rem 5rem;
+  }
+}
+@media only screen and (max-width: 1060px) {
+  .target-table img {
+    height: 33rem;
+  }
+}
+@media only screen and (max-width: 970px) {
+  .target-table img {
+    height: 30rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .target-table p {
+    padding: 2rem 3rem 1rem 3rem;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .target-table img {
+    height: 27rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .target-table p {
+    padding: 2rem 1.5rem 1rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 770px) {
+  .target-table img {
+    height: 24rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  .target-table img {
+    height: 21rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .target-table img {
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .target-table img {
+    height: 15rem;
+  }
 }
 
 
