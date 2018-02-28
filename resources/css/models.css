@@ -65,8 +65,7 @@ p, ol, li {
 
 /* Teaching Models - Why */
 .teaching-models-why {
-  background: url("../images/MSE/BlueTopBar.png") no-repeat center top;
-  background-size: cover;
+  background: linear-gradient(#99D1F4, #fff);
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -214,6 +213,7 @@ ol li:last-child a:hover {
 /* Traditional */
 .traditional .blueheader {
   padding-left: 11rem;
+  padding-right: 11rem;
   padding-top: 3rem;
 }
 
@@ -225,7 +225,7 @@ ol li:last-child a:hover {
 
 .traditional-left {
   background-color: #DC2C34;
-  width: 24%;
+  width: 18rem;
   color: white;
   padding: 1.25rem;
   height: 33rem;
@@ -247,6 +247,26 @@ ol li:last-child a:hover {
 
 }
 
+@media only screen and (max-width: 1150px) {
+.traditional .blueheader,
+.traditional-container {
+    padding-left: 5rem;
+}
+}
+@media only screen and (max-width: 871px) {
+.traditional .blueheader,
+.traditional-container {
+    padding-left: 3rem;
+}
+}
+@media only screen and (max-width: 766px) {
+.traditional .blueheader,
+.traditional-container {
+    padding-left: 1.5rem;
+  }
+}
+
+
 /* TGfU */
 .tgfu {
   background-color: #f7f4f1;
@@ -254,6 +274,7 @@ ol li:last-child a:hover {
 
 .tgfu .blueheader {
   padding-left: 11rem;
+  padding-right: 11rem;
   padding-top: 3rem;
 }
 
@@ -276,7 +297,7 @@ ol li:last-child a:hover {
 
 .tgfu-right {
   background-color: #2F469D;
-  width: 30%;
+  width: 22rem;
   color: white;
   padding: 1.25rem;
   height: 35rem;
@@ -284,6 +305,29 @@ ol li:last-child a:hover {
 .tgfu-right p {
   line-height: 1.5;
 }
+
+@media only screen and (max-width: 1150px) {
+.tgfu .blueheader,
+.tgfu-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+}
+@media only screen and (max-width: 871px) {
+.tgfu .blueheader,
+.tgfu-container  {
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+}
+@media only screen and (max-width: 766px) {
+.tgfu .blueheader,
+.tgfu-container  {
+    padding-left: 1.5rem;
+    padding-right: 5rem;
+  }
+}
+
 
 /* Game Sense */
 .gamesense .blueheader {
@@ -299,7 +343,7 @@ ol li:last-child a:hover {
 
 .gamesense-left {
   background-color: #D86C1C;
-  width: 20%;
+  width: 16rem;
   color: white;
   padding: 1.25rem;
   height: 33rem;
@@ -355,7 +399,7 @@ ol li:last-child a:hover {
 
 .cooperative-right {
   background-color: #7BC370;
-  width: 24%;
+  width: 19rem;
   height: 34rem;
   color: white;
   padding: 1.25rem;
@@ -397,7 +441,7 @@ ol li:last-child a:hover {
 
 .sported-below {
   background-color: #57B6DD;
-  width: 27%;
+  width: 20rem;
   color: white;
   padding: 1.25rem;
   order: 1;

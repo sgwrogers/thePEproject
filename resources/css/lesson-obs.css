@@ -121,191 +121,239 @@ p, ol, li {
   text-decoration: underline;
 }
 
-/* Motivation-Why */
-.motivation {
+/* LO's Why */
+.lessons-obs {
   background: linear-gradient(#99D1F4, #fff);
 }
-.motivation .blueheader {
+.lessons-obs .blueheader {
   margin: 2rem 0 1rem 11rem;
 }
 
-.motivation-why {
+.lessons-obs-why {
   display: flex;
 }
 
-.motivation-why p {
-  padding: 1rem 1.5rem 2rem 11rem;
+.lessons-obs-why p {
+  padding: 1rem 11rem 1rem 11rem;
+}
+.lessons-obs-why p:first-child {
+  padding-right: 2rem;
 }
 
-#ilovePE {
+#ipad {
   height: 14rem;
-  margin: 0 15rem 1rem 1rem;
+  position: relative;
   float: right;
+  margin-right: 11rem;
+  top: 7rem;
 }
 
-.motivation-why-list {
+.lessons-obs-why-list {
   padding: 1rem 11rem 2rem 11rem;
 }
 
-.motivation-why-list ul {
-  list-style: disc;
-  color: #F29100;
+.lessons-obs-why-list ol {
   margin-top: 1rem;
-  margin-left: 3rem;
 }
 
-.motivation-why-list li {
-  text-transform: uppercase;
-  font-weight: bold;
+.lessons-obs-why-list li {
   margin-bottom: 1rem;
 }
 
+.lessons-obs-why-list li:first-child {
+  padding-right: 12rem;
+}
+
+.lessons-obs-why-list li:nth-child(2) {
+  padding-top: 2rem;
+}
+
 @media only screen and (max-width: 1150px) {
-  .motivation .blueheader {
+  .lessons-obs .blueheader {
     margin-left: 5rem;
   }
-  .motivation-why p,
-  .motivation-why-list {
+
+  #ipad {
+    margin-right: 5rem;
+  }
+  .lessons-obs-why p,
+  .lessons-obs-why-list {
     padding-left: 5rem;
   }
 
-  .motivation-why-list {
+  .lessons-obs-why-list {
     padding-right: 5rem;
   }
 
-  #ilovePE {
-    margin-right: 5rem;
-  }
 }
 
 @media only screen and (max-width: 871px) {
-  .motivation .blueheader {
+  .lessons-obs .blueheader {
     margin-left: 3rem;
   }
-  .motivation-why p,
-  .motivation-why-list {
+  .lessons-obs-why p,
+  .lessons-obs-why-list {
     padding-left: 3rem;
+    padding-bottom: 0;
+    padding-top: 0;
   }
-  #ilovePE {
+
+  #ipad {
     height: 10rem;
     margin-right: 3rem;
     margin-top: 1rem;
+    top: 4.5rem;
+  }
+  .lessons-obs-why-list li:nth-child(2) {
+    padding-top: 0;
+  }
+  .lessons-obs-why-list li:first-child {
+    padding-right: 7rem;
   }
 }
 
 @media only screen and (max-width: 746px) {
-  .motivation-why {
-    display: block;
-  }
-  #ilovePE {
+  #ipad {
     height: 8rem;
   }
 }
 
-@media only screen and (max-width: 766px) {
-  .motivation-why {
-    width: 100%;
+@media only screen and (max-width: 671px) {
+  .lessons-obs-why-list li:first-child {
+    padding-right: 0;
   }
-  .motivation .blueheader {
-    margin-left: 1.5rem;
-  }
-  .motivation-why p,
-  .motivation-why-list {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-  .motivation-why p {
-    padding-bottom: 0;
-  }
+
 }
 
 @media only screen and (max-width: 524px) {
-  #ilovePE {
-    height: 5rem;
-  }
+
 }
 
-/* Motivation Types */
-.motivation-types {
-  background-color: #F7F4F1;
-}
-
-.motivation-types-p1 {
+/* Blooms Brain */
+.blooms-brain {
+  background-color: #E76E34;
   display: flex;
-  padding: 2rem 11rem 1rem 11rem;
+  justify-content: center;
 }
 
-.motivation-types-p1 img {
-  height: 15rem;
+.blooms-brain-img {
+  display: flex;
+}
+
+.blooms-brain-img img {
+  height: 30rem;
   margin-right: 2rem;
 }
 
-.motivation-types-p2 {
-  padding: 1.5rem 11rem 2rem 11rem;
-}
 
 @media only screen and (max-width: 1150px) {
-  .motivation-types-p1,
-  .motivation-types-p2
- {
+  .blooms-brain-img {
     padding-left: 5rem;
     padding-right: 5rem;
+  }
+  .blooms-brain-img img {
+    height: 25rem;
+    margin-right: 2rem;
   }
 }
 
 @media only screen and (max-width: 871px) {
-  .motivation-types-p1,
-  .motivation-types-p2
- {
+  .blooms-brain-img {
     padding-left: 3rem;
     padding-right: 3rem;
+  }
+  .blooms-brain-img img {
+    height: 21rem;
+    margin-right: 2rem;
   }
 }
 
 @media only screen and (max-width: 766px) {
-  .motivation-types-p1,
-  .motivation-types-p2 {
+  .blooms-brain-img {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
-}
-
-@media only screen and (max-width: 690px) {
-  .motivation-types-p1 img {
-    display: none;
+  .blooms-brain-img img {
+    height: 16rem;
+    margin-right: 2rem;
   }
 }
 
 @media only screen and (max-width: 380px) {
-  .motivation-types-p1 {
-    display: block;
-    width: 100%;
+  .blooms-brain-img img {
+    height: 12rem;
+    margin-right: 2rem;
   }
-  .motivation-types-p1 img {
-    display: block;
-    margin: 0 auto;
-  }
-  .motivation-types-p1 p {
-    margin-top: 1rem;
-}
 }
 
-/* Motivation Table */
-.motivation-table {
+/* LOs Qualities */
+.los-qualities p {
+  padding: 2rem 11rem 2rem 11rem;
+}
+
+.los-qualities-4-box {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  margin: 0 11rem;
 }
 
-.motivation-table img {
-  height: 48rem;
-  margin: 2rem 11rem;
+.block {
+  width: 13rem;
+  height: 30rem;
+  margin: 1rem 1rem 2rem 1rem;
 }
 
-.motivation-table p {
-  align-self: flex-start;
-  margin-left: 11rem;
-  margin-bottom: 2rem;
+.block .row {
+  width: 100%;
+  background-color: white;
+}
+
+.block img {
+  margin-left: 1.65rem;
+  margin-bottom: -4px;
+}
+.block h4 {
+  padding: 1rem 1rem 1rem 1rem;
+  text-align: center;
+}
+.block p {
+  padding: 0.5rem 1rem 1.5rem 1rem;
+}
+
+.block:first-child {
+  background-color: #008CE3;
+  color: white;
+}
+
+.block:nth-child(2){
+  background-color: #57B6DD;
+  color: white;
+}
+
+.block:nth-child(3){
+  background-color: #DE572F;
+  color: white;
+}
+
+.white-bold-M {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.white-bold-L {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.block:last-child {
+  background-color: #BED63A;
+  color: #4E4D4D;
+}
+
+.gray-bold-L {
+  font-size: 1.3rem;
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 1455px) {
@@ -380,42 +428,85 @@ p, ol, li {
 }
 
 
-/* Motivation Intro to Target */
-.motivation-how {
-  background-color: #BED63A;
-}
-
-.motivation-how p {
+/* LOs Examples */
+.los-examples {
   padding: 1.5rem 11rem 1.5rem 11rem;
 }
 
+.los-examples p {
+  line-height: 1.5;
+}
+
+.los-examples-eg {
+  padding-left: 3rem;
+}
+
+.blue-bold-L {
+  color: #008CE3;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.lite-blue-L {
+  color: #57B6DD;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.orange-L {
+  color: #DE572F;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.green-L {
+  color: #D6DA2D;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.yellow-L {
+  color: #BED63A;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
 
 @media only screen and (max-width: 1150px) {
-  .motivation-how p  {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
+
 }
 
 @media only screen and (max-width: 871px) {
-  .motivation-how p  {
-    padding-left: 3rem;
-    padding-right: 2rem;
-  }
+
 }
 
 @media only screen and (max-width: 547px) {
-  .motivation-how p  {
-    padding: 1rem 1.5rem 1.5rem 1.5rem;
-  }
+
 }
 
-/* Motivation Table */
-.motivation-psych {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+/* LOs Examples 2 */
+.los-examples2 {
+  background-color: #008CE3;
+  padding: 1rem 11rem 2rem 11rem;
 }
+
+.los-examples2 ul li {
+  color: white;
+  line-height: 1.5;
+}
+
+.navy-bold {
+  color: #00336B;
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+}
+
+#TeacherAndStick {
+  float: right;
+  margin-top: -30rem;
+  height: 30rem;
+  margin-right: 5rem;
+}
+
 
 .motivation-psych img {
   height: 48rem;

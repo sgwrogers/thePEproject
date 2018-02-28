@@ -70,8 +70,7 @@ p, ol, li {
 
 /* Differentiation-Why */
 .differentiation {
-  background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
-  background-size: cover;
+    background: linear-gradient(#99D1F4, #fff);
 }
 .differentiation .blueheader {
   margin: 2rem 0 1rem 11rem;

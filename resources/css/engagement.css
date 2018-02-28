@@ -64,8 +64,7 @@ p, ol, li {
 
 /* Engagement-Why */
 .engagement-why {
-  background: url("../images/MSE/BlueTopBar.png") no-repeat center bottom;
-  background-size: cover;
+  background: linear-gradient(#99D1F4, #fff);
   display: flex;
   justify-content: space-around;
   align-items: center;
