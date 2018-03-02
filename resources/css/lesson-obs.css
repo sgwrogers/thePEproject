@@ -206,27 +206,39 @@ p, ol, li {
   }
   .lessons-obs-why-list li:nth-child(2) {
     padding-top: 0;
+    padding-bottom: 2rem;
   }
   .lessons-obs-why-list li:first-child {
     padding-right: 7rem;
   }
 }
 
-@media only screen and (max-width: 746px) {
-  #ipad {
-    height: 8rem;
-  }
-}
 
-@media only screen and (max-width: 671px) {
+@media only screen and (max-width: 700px) {
+  #ipad {
+    display: none;
+  }
   .lessons-obs-why-list li:first-child {
     padding-right: 0;
   }
+  .lessons-obs-why p {
 
+  }
+  .lessons-obs-why p:first-child {
+    padding-right: 2rem;
+  }
+  .lessons-obs-why-list {
+    padding-right: 2rem;
+}
 }
 
-@media only screen and (max-width: 524px) {
-
+@media only screen and (max-width: 420px) {
+  .lessons-obs-why p:first-child {
+    padding-right: 1rem;
+  }
+  .lessons-obs-why-list {
+    padding-right: 1rem;
+}
 }
 
 /* Blooms Brain */
@@ -242,47 +254,92 @@ p, ol, li {
 
 .blooms-brain-img img {
   height: 30rem;
-  margin-right: 2rem;
 }
 
 
-@media only screen and (max-width: 1150px) {
-  .blooms-brain-img {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
+@media only screen and (max-width: 1360px) {
   .blooms-brain-img img {
     height: 25rem;
-    margin-right: 2rem;
   }
+}
+
+@media only screen and (max-width: 1208px) {
+  .blooms-brain-img img {
+    height: 23rem;
+  }
+}
+
+@media only screen and (max-width: 1031px) {
+  .blooms-brain-img img {
+    height: 21rem;
+    border: 1px solid black;
+}
+}
+@media only screen and (max-width: 947px) {
+  .blooms-brain-img img {
+    height: 20rem;
+}
+}
+
+@media only screen and (max-width: 901px) {
+  .blooms-brain-img img {
+    height: 19rem;
+}
 }
 
 @media only screen and (max-width: 871px) {
-  .blooms-brain-img {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
   .blooms-brain-img img {
-    height: 21rem;
-    margin-right: 2rem;
-  }
+    height: 17rem;
+}
 }
 
 @media only screen and (max-width: 766px) {
-  .blooms-brain-img {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
   .blooms-brain-img img {
     height: 16rem;
-    margin-right: 2rem;
   }
 }
 
-@media only screen and (max-width: 380px) {
+@media only screen and (max-width: 736px) {
+  .blooms-brain-img img {
+    height: 15rem;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .blooms-brain-img img {
+    height: 14rem;
+}
+}
+
+@media only screen and (max-width: 644px) {
+  .blooms-brain-img img {
+    height: 13rem;
+}
+}
+
+@media only screen and (max-width: 600px) {
   .blooms-brain-img img {
     height: 12rem;
-    margin-right: 2rem;
+}
+}
+
+@media only screen and (max-width: 556px) {
+  .blooms-brain-img img {
+    height: 11rem;
+}
+}
+
+/* Need to change bloom's brain img to mobile version --
+@media only screen and (max-width: 518px) {
+  .blooms-brain-img img {
+    height: 10rem;
+}
+}
+*/
+
+@media only screen and (max-width: 518px) {
+  .blooms-brain-img {
+    display: none;
   }
 }
 
@@ -295,11 +352,12 @@ p, ol, li {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 0 11rem;
+  flex-wrap: wrap;
 }
 
 .block {
   width: 13rem;
+  min-width: 13rem;
   height: 30rem;
   margin: 1rem 1rem 2rem 1rem;
 }
@@ -338,7 +396,7 @@ p, ol, li {
 
 .white-bold-M {
   font-size: 1.3rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 .white-bold-L {
@@ -357,75 +415,69 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 1455px) {
-  .motivation-table img {
-    height: 45rem;
-  }
+
 }
 @media only screen and (max-width: 1352px) {
-  .motivation-table img {
-    height: 42rem;
-  }
+
 }
 
 @media only screen and (max-width: 1243px) {
-  .motivation-table img {
-    height: 39rem;
-  }
+
 }
 
 @media only screen and (max-width: 1150px) {
-  .motivation-table img {
-    height: 36rem;
+  .los-qualities p {
+    padding: 2rem 5rem;
   }
-  .motivation-table p {
-    margin-left: 5rem;
-}
+  .block p {
+    padding: 0.5rem 1rem 1.5rem 1rem;
+  }
 }
 @media only screen and (max-width: 1060px) {
-  .motivation-table img {
-    height: 33rem;
-  }
-}
-@media only screen and (max-width: 970px) {
-  .motivation-table img {
+  .block {
+    width: 13rem;
+    min-width: 13rem;
     height: 30rem;
+    margin: 1rem 5rem 2rem 5rem;
+  }
+  .block:first-child,
+  .block:nth-child(2) {
+    height: 26rem;
+  }
+  .block:nth-child(3),
+  .block:last-child {
+    height: 20rem;
   }
 }
+
 @media only screen and (max-width: 871px) {
-  .motivation-table p {
-    margin-left: 5rem;
+  .los-qualities p {
+    padding: 1rem 3rem;
+  }
+  .block p {
+    padding: 0.5rem 1rem 1.5rem 1rem;
   }
 }
-@media only screen and (max-width: 860px) {
-  .motivation-table img {
-    height: 27rem;
-  }
+@media only screen and (max-width: 772px) {
+  .block {
+    margin: 1rem 2rem 2rem 2rem;
+}
 }
 @media only screen and (max-width: 766px) {
-  .motivation-table p {
-    margin-left: 1.5rem;
+  .los-qualities p {
+    padding: 1rem 1.5rem;
+  }
+  .block p {
+    padding: 0.5rem 1rem 1.5rem 1rem;
+}
+}
+
+@media only screen and (max-width: 573px) {
+  .block:first-child {
+    height: 22rem;
   }
 }
-@media only screen and (max-width: 770px) {
-  .motivation-table img {
-    height: 24rem;
-  }
-}
-@media only screen and (max-width: 680px) {
-  .motivation-table img {
-    height: 21rem;
-  }
-}
-@media only screen and (max-width: 580px) {
-  .motivation-table img {
-    height: 18rem;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .motivation-table img {
-    height: 15rem;
-  }
-}
+
 
 
 /* LOs Examples */
@@ -471,15 +523,21 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 1150px) {
-
+  .los-examples {
+    padding: 1.5rem 5rem 1.5rem 5rem;
+  }
 }
 
 @media only screen and (max-width: 871px) {
-
+  .los-examples {
+    padding: 1.5rem 3rem 1.5rem 3rem;
+  }
 }
 
 @media only screen and (max-width: 547px) {
-
+  .los-examples {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
 }
 
 /* LOs Examples 2 */
@@ -508,258 +566,102 @@ p, ol, li {
 }
 
 
-.motivation-psych img {
-  height: 48rem;
-  margin: 1rem 11rem 2rem 11rem;
-}
-
-.motivation-psych p {
-  align-self: flex-start;
-  margin-left: 11rem;
-  margin-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-@media only screen and (max-width: 1455px) {
-  .motivation-psych img {
-    height: 45rem;
-  }
-}
-@media only screen and (max-width: 1352px) {
-  .motivation-psych img {
-    height: 42rem;
+@media only screen and (max-width: 1464px) {
+  #TeacherAndStick {
+    margin-right: 2rem;
   }
 }
 
-@media only screen and (max-width: 1243px) {
-  .motivation-psych img {
-    height: 39rem;
+@media only screen and (max-width: 1412px) {
+  #TeacherAndStick {
+    margin-top: -31rem;
+  }
+}
+
+@media only screen and (max-width: 1292px) {
+  #TeacherAndStick {
+    height: 25rem;
+    margin-right: -2rem;
   }
 }
 
 @media only screen and (max-width: 1150px) {
-  .motivation-psych img {
-    height: 36rem;
+  .los-examples2 {
+    padding: 1.5rem 5rem 1.5rem 5rem;
   }
-  .motivation-psych p {
-    margin-left: 5rem;
+  #TeacherAndStick {
+    height: 25rem;
+    margin-right: 2rem;
   }
 }
-@media only screen and (max-width: 1060px) {
-  .motivation-psych img {
-    height: 33rem;
+
+@media only screen and (max-width: 1028px) {
+  #TeacherAndStick {
+    height: 20rem;
+    margin-top: -25rem;
+    margin-right: 1rem;
   }
 }
 @media only screen and (max-width: 970px) {
-  .motivation-psych img {
-    height: 30rem;
-  }
-}
-@media only screen and (max-width: 871px) {
-  .motivation-psych p {
-    margin-left: 5rem;
-  }
-}
-@media only screen and (max-width: 860px) {
-  .motivation-psych img {
-    height: 27rem;
-  }
-}
-@media only screen and (max-width: 766px) {
-  .motivation-psych p {
-    margin-left: 1.5rem;
-  }
-}
-@media only screen and (max-width: 770px) {
-  .motivation-psych img {
-    height: 24rem;
-  }
-}
-@media only screen and (max-width: 680px) {
-  .motivation-psych img {
-    height: 21rem;
-  }
-}
-@media only screen and (max-width: 580px) {
-  .motivation-psych img {
+  #TeacherAndStick {
     height: 18rem;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .motivation-psych img {
-    height: 15rem;
+    margin-top: -30rem;
   }
 }
 
-
-/* Motivation Target */
-.motivation-target {
-  background-color: #57B6DD;
-  color: white;
-}
-
-.motivation-target p {
-    padding: 2rem 11rem 2rem 11rem;
+@media only screen and (max-width: 954px) {
+  #TeacherAndStick {
+    height: 16rem;
+    margin-top: -32rem;
   }
 }
 
-@media only screen and (max-width: 1150px) {
-  .motivation-target p {
-    padding: 1rem 5rem 0.5rem 5rem;
-  }
-}
-
-@media only screen and (max-width: 871px) {
-  .motivation-target p {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-}
-
-@media only screen and (max-width: 766px) {
-  .motivation-target p {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-}
-
-/* Target Table */
-.target-table {
-  width: 100%;
-}
-.target-table-center {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.target-table img {
-  height: 50rem;
-  margin: 1rem 11rem 2rem 11rem;
-}
-
-.target-table p {
-  padding: 2rem 11rem 1rem 11rem;
-}
-
-@media only screen and (max-width: 1455px) {
-  .target-table img {
-    height: 45rem;
-  }
-}
-@media only screen and (max-width: 1352px) {
-  .target-table img {
-    height: 42rem;
-  }
-}
-
-@media only screen and (max-width: 1243px) {
-  .target-table img {
-    height: 39rem;
-  }
-}
-
-@media only screen and (max-width: 1150px) {
-  .target-table img {
-    height: 36rem;
-  }
-  .target-table p {
-    padding: 2rem 5rem 1rem 5rem;
-  }
-}
-@media only screen and (max-width: 1060px) {
-  .target-table img {
-    height: 33rem;
-  }
-}
-@media only screen and (max-width: 970px) {
-  .target-table img {
-    height: 30rem;
+@media only screen and (max-width: 921px) {
+  #TeacherAndStick {
+    margin-right: 0;
   }
 }
 @media only screen and (max-width: 871px) {
-  .target-table p {
-    padding: 2rem 3rem 1rem 3rem;
-  }
-}
-@media only screen and (max-width: 860px) {
-  .target-table img {
-    height: 27rem;
-  }
-}
-@media only screen and (max-width: 871px) {
-  .target-table p {
-    padding: 2rem 1.5rem 1rem 1.5rem;
-  }
-}
-@media only screen and (max-width: 770px) {
-  .target-table img {
-    height: 24rem;
-  }
-}
-@media only screen and (max-width: 680px) {
-  .target-table img {
-    height: 21rem;
-  }
-}
-@media only screen and (max-width: 580px) {
-  .target-table img {
-    height: 18rem;
-  }
-}
-@media only screen and (max-width: 480px) {
-  .target-table img {
-    height: 15rem;
+  .los-examples2 {
+    padding: 1.5rem 3rem 1.5rem 3rem;
   }
 }
 
-
-/* Conclusion */
-.conclusion {
-  background-color: #008CE3;
-  color: white;
-}
-
-.conclusion .blueheader {
-  padding-left: 11rem;
-  padding-top: 2rem;
-}
-
-.conclusion-container {
-  padding: 2rem 11rem 3rem 11rem;
-}
-
-.conclusion a:link,
-.conclusion a:visited,
-.conclusion a:active {
-  color: white;
-}
-
-@media only screen and (max-width: 1150px) {
-  .conclusion .blueheader,
-  .conclusion-container {
-    padding-left: 5rem;
-    padding-right: 5rem;
+@media only screen and (max-width: 839px) {
+  #TeacherAndStick {
+    height: 14rem;
+    margin-right: 1rem;
   }
 }
 
-@media only screen and (max-width: 871px) {
-  .conclusion .blueheader,
-  .conclusion-container {
-    padding-left: 3rem;
-    padding-right: 2rem;
+@media only screen and (max-width: 808px) {
+  .blue-bold-L,
+  .lite-blue-L,
+  .orange-L,
+  .green-L,
+  .yellow-L {
+    font-size: 1.4rem;
   }
 }
+@media only screen and (max-width: 732px) {
+  .los-examples-eg {
+    padding-left: 1rem;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  #TeacherAndStick {
+    display: none;
+  }
+}
+}
+
 
 @media only screen and (max-width: 547px) {
-  .conclusion .blueheader {
-    padding: 1.5rem 1.5rem 1rem 1.5rem;
-  }
-  .conclusion-container {
-    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  .los-examples2 {
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
   }
 }
-
 
 
 /* References */
