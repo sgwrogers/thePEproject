@@ -1,0 +1,779 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+.orange {
+  color: #DE572F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange-lc {
+  color: #DE572F;
+  font-weight: bold;
+}
+
+.gray {
+  color: #58595B;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gray-lc {
+  color: #58595B;
+  font-weight: bold;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.lite-blue {
+  color: #57B6DD;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lite-blue-lc {
+  color: #57B6DD;
+  font-weight: bold;
+}
+
+.green {
+  color: #D6DA2D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #D86C1C;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-lc {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Assessment Why */
+.assessment-why {
+  background: linear-gradient(#99D1F4, #fff);
+}
+.assessment-why .blueheader {
+  margin: 2rem 0 1rem 15rem;
+}
+
+.assessment-why-txt {
+  display: flex;
+}
+
+.assessment-why-txt p {
+  padding: 1rem 2rem 3rem 15rem;
+}
+
+#assessment-icon {
+  height: 14rem;
+  position: relative;
+  float: right;
+  margin-right: 15rem;
+  top: 4rem;
+  padding-bottom: 4rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .assessment-why .blueheader {
+    margin: 2rem 0 1rem 11rem;
+  }
+  .assessment-why-txt p {
+    padding: 1rem 2rem 3rem 11rem;
+  }
+  #assessment-icon {
+    margin-right: 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .assessment-why .blueheader {
+    margin-left: 5rem;
+  }
+
+  #assessment-icon {
+    margin-right: 5rem;
+  }
+  .assessment-why-txt p {
+    padding-left: 5rem;
+  }
+
+}
+
+@media only screen and (max-width: 871px) {
+  .assessment-why .blueheader {
+    margin-left: 3rem;
+  }
+  .assessment-why-txt p {
+    padding-left: 3rem;
+    padding-bottom: 0;
+    padding-top: 0;
+  }
+
+  #assessment-icon {
+    height: 10rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    top: 4.5rem;
+  }
+}
+
+
+@media only screen and (max-width: 700px) {
+  #assessment-icon {
+    display: none;
+  }
+}
+
+/* Assessment Types */
+.assessment-types {
+  background-color: #E76E34;
+}
+
+.assessment-types p {
+  padding: 2rem 15rem 2rem 15rem;
+  color: white;
+}
+
+.assessment-types-img {
+  display: flex;
+  justify-content: center;
+}
+
+.assessment-types-img img {
+  height: 25rem;
+  padding-bottom: 4rem;
+}
+
+
+@media only screen and (max-width: 1320px) {
+  .assessment-types p {
+    padding: 2rem 11rem 2rem 11rem;
+  }
+}
+
+@media only screen and (max-width: 1208px) {
+  .assessment-types-img img {
+    height: 23rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .assessment-types p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1031px) {
+  .assessment-types-img img {
+    height: 21rem;
+}
+}
+@media only screen and (max-width: 947px) {
+  .assessment-types-img img {
+    height: 20rem;
+}
+}
+
+@media only screen and (max-width: 901px) {
+  .assessment-types-img img {
+    height: 19rem;
+}
+}
+
+@media only screen and (max-width: 871px) {
+  .assessment-types-img img {
+    height: 17rem;
+}
+}
+
+@media only screen and (max-width: 766px) {
+  .assessment-types-img img {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 736px) {
+  .assessment-types-img img {
+    height: 15rem;
+}
+}
+
+@media only screen and (max-width: 700px) {
+  .assessment-types-img img {
+    height: 14rem;
+}
+}
+
+@media only screen and (max-width: 644px) {
+  .assessment-types-img img {
+    height: 13rem;
+}
+}
+
+@media only screen and (max-width: 600px) {
+  .assessment-types-img img {
+    height: 12rem;
+}
+}
+
+@media only screen and (max-width: 556px) {
+  .assessment-types-img img {
+    height: 15rem;
+}
+}
+
+/* Need to change bloom's brain img to mobile version --
+@media only screen and (max-width: 518px) {
+  .blooms-brain-img img {
+    height: 10rem;
+}
+}
+*/
+
+@media only screen and (max-width: 518px) {
+  .assessment-types-img {
+    display: none;
+  }
+}
+
+/* Formative Assessment */
+.formative {
+  background-color: #BED63A;
+}
+
+.formative-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 15rem 2rem 15rem;
+}
+
+.formative-left {
+  color: white;
+  width: 60%;
+}
+
+.formative-left p {
+  margin-top: 1rem;
+}
+
+.formative-right {
+  width: 40%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.formative-right img {
+  height: 16rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .formative-container {
+    padding: 3rem 11rem 2rem 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .formative-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .formative-right img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .formative-right img {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .formative-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .formative-container {
+    padding: 1.5rem;
+  }
+  .formative-left {
+    width: 100%;
+  }
+  .formative-right {
+    display: none;
+  }
+}
+
+/* Summative */
+
+.summative {
+  background-color: #57B6DD;
+}
+
+.summative-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 15rem 0 15rem;
+}
+
+.summative-left {
+  width: 35%;
+}
+
+.summative-left img {
+  height: 16rem;
+}
+
+.summative-right {
+  color: white;
+  width: 55%;
+  padding-bottom: 3rem;
+}
+
+.summative-right p {
+  margin-top: 1rem;
+}
+
+.summative-right span {
+  color: #008CE3;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1320px) {
+  .summative-container {
+    padding-right: 11rem;
+    padding-left: 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .summative-container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1064px) {
+  .summative-left {
+    width: 45%;
+  }
+  .summative-right {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .summative-left {
+    width: 50%;
+  }
+  .summative-right {
+    align-self: center;
+    width: 50%;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .summative-container {
+    padding: 1.5rem;
+  }
+  .summative-left {
+    display: none;
+  }
+  .summative-right {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+/* Normative Assessment */
+.norm {
+  background-color: #F7F4F1;
+}
+
+.norm-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 15rem 2rem 15rem;
+}
+
+.norm-left {
+  width: 60%;
+}
+
+.norm-left p {
+  margin-top: 1rem;
+}
+
+.norm-right {
+  width: 40%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.norm-right img {
+  height: 25rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .norm-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+  .norm-right img {
+    height: 27rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .norm-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .norm-right img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .norm-right img {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .norm-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+  .norm-right img {
+    height: 22rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .norm-container {
+    padding: 1.5rem;
+  }
+  .norm-left {
+    width: 100%;
+  }
+  .norm-right {
+    display: none;
+  }
+}
+
+/* Criterion */
+
+.criterion {
+  background-color: #E76E34;
+}
+
+.criterion-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 15rem 0 15rem;
+}
+
+.criterion-left {
+  width: 40%;
+  margin-bottom: -2px;
+}
+
+.criterion-left img {
+  height: 26rem;
+  padding-bottom: 2rem;
+}
+
+.criterion-right {
+  color: white;
+  width: 60%;
+  padding-bottom: 2rem;
+}
+
+.criterion-right p {
+  margin-top: 1rem;
+}
+
+.criterion-right span {
+  color: #008CE3;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1320px) {
+  .criterion-container {
+    padding: 3rem 11rem 0 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .criterion-container {
+    padding: 3rem 5rem 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 1064px) {
+  .criterion-left {
+    width: 45%;
+  }
+  .criterion-right {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .criterion-left {
+    width: 40%;
+  }
+  .criterion-right {
+    width: 60%;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .criterion-container {
+    padding: 1.5rem;
+  }
+  .criterion-left {
+    display: none;
+  }
+  .criterion-right {
+    width: 100%;
+    padding-right: 0;
+  }
+}
+
+/* Ipsative Assessment */
+.ipsative {
+  background-color: #59595B;
+}
+
+.ipsative-container {
+  display: flex;
+  justify-content: center;
+  padding: 3rem 15rem 2rem 15rem;
+}
+
+.ipsative-left {
+  width: 60%;
+}
+
+.ipsative-left p {
+  color: white;
+  margin-top: 1rem;
+}
+
+.ipsative-right {
+  width: 40%;
+  margin-bottom: 1rem;
+  margin-left: 3rem;
+  text-align: center;
+}
+
+.ipsative-right img {
+  height: 16rem;
+}
+
+@media only screen and (max-width: 1320px) {
+.ipsative-container {
+  padding: 3rem 11rem 2rem 11rem;
+}
+}
+
+@media only screen and (max-width: 1150px) {
+  .ipsative-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .ipsative-right img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .ipsative-right img {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .ipsative-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .ipsative-container {
+    padding: 1.5rem;
+  }
+  .ipsative-left {
+    width: 100%;
+  }
+  .ipsative-right {
+    display: none;
+  }
+}
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+  color: white;
+}
+
+.conclusion .blueheader {
+  padding-bottom: 2rem;
+}
+
+.conclusion-container {
+  padding: 2rem 15rem 3rem 15rem;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:active {
+  color: white;
+}
+
+@media only screen and (max-width: 1320px){
+.conclusion-container {
+  padding: 2rem 11rem 3rem 11rem;
+}
+}
+@media only screen and (max-width: 1150px) {
+  .conclusion-container {
+    padding: 2rem 5rem 3rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion-container {
+    padding: 2rem 3rem 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .conclusion-container {
+    padding: 2rem 1.5rem 3rem 1.5rem;
+  }
+}
+
+
+/* References */
+.references {
+  padding: 3rem 16rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
