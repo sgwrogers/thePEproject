@@ -178,7 +178,7 @@ p, ol, li {
   }
   .assessment-why-txt p {
     padding-left: 3rem;
-    padding-bottom: 0;
+    padding-bottom: 2rem;
     padding-top: 0;
   }
 
@@ -190,11 +190,23 @@ p, ol, li {
   }
 }
 
-
-@media only screen and (max-width: 700px) {
-  #assessment-icon {
-    display: none;
+@media only screen and (max-width: 766px) {
+  .assessment-why .blueheader {
+    margin: 2rem 0 1rem 1.5rem;
   }
+  .assessment-why-txt p {
+    padding: 1rem 2rem 3rem 1.5rem;
+  }
+  #assessment-icon {
+    margin-right: 1.5rem;
+  }
+}
+}
+
+@media only screen and (max-width: 684px) {
+  #assessment-icon {
+    top: 0;
+}
 }
 
 /* Assessment Types */
@@ -258,6 +270,10 @@ p, ol, li {
   .assessment-types-img img {
     height: 17rem;
 }
+  .assessment-types p {
+  padding: 2rem 3rem 2rem 3rem;
+}
+}
 }
 
 @media only screen and (max-width: 766px) {
@@ -287,6 +303,12 @@ p, ol, li {
 @media only screen and (max-width: 600px) {
   .assessment-types-img img {
     height: 12rem;
+}
+}
+
+@media only screen and (max-width: 766px) {
+.assessment-types p {
+  padding: 2rem 1.5rem 2rem 1.5rem;
 }
 }
 
@@ -376,12 +398,17 @@ p, ol, li {
     padding: 1.5rem;
   }
   .formative-left {
-    width: 100%;
+    width: 70%;
   }
   .formative-right {
-    display: none;
+    width: 30%;
+  }
+  .formative-right img {
+    height: 14rem;
   }
 }
+
+/* mobile version needs to start at 662px */
 
 /* Summative */
 
@@ -396,7 +423,8 @@ p, ol, li {
 }
 
 .summative-left {
-  width: 35%;
+  width: 45%;
+  text-align: center;
 }
 
 .summative-left img {
@@ -432,22 +460,13 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 1064px) {
-  .summative-left {
-    width: 45%;
-  }
-  .summative-right {
-    width: 55%;
-  }
-}
-
 @media only screen and (max-width: 950px) {
   .summative-left {
-    width: 50%;
+    width: 40%;
   }
   .summative-right {
     align-self: center;
-    width: 50%;
+    width: 60%;
     padding-right: 3rem;
   }
 }
@@ -457,13 +476,25 @@ p, ol, li {
     padding: 1.5rem;
   }
   .summative-left {
-    display: none;
+    text-align: left;
+    margin-right: 1rem;
   }
   .summative-right {
     width: 100%;
     padding-right: 0;
   }
 }
+
+@media only screen and (max-width: 716px) {
+  .summative-left {
+    align-self: center;
+  }
+  .summative-left img {
+    height: 14rem;
+  }
+}
+
+/* mobile version needs to start at 662px */
 
 /* Normative Assessment */
 .norm {
@@ -538,12 +569,28 @@ p, ol, li {
     padding: 1.5rem;
   }
   .norm-left {
-    width: 100%;
+    width: 65%;
   }
   .norm-right {
-    display: none;
+    align-self: flex-end;
+    width: 35%;
+    margin-left: 1rem;
+  }
+  .norm-right img {
+    height: 19rem;
   }
 }
+
+@media only screen and (max-width: 736px) {
+  .norm-right img {
+    height: 17rem;
+  }
+}
+
+/* Mobile version design needs to begin here
+@media only screen and (max-width: 708px) {
+
+} */
 
 /* Criterion */
 
@@ -559,7 +606,7 @@ p, ol, li {
 
 .criterion-left {
   width: 40%;
-  margin-bottom: -2px;
+  margin-right: 2rem;
 }
 
 .criterion-left img {
@@ -594,37 +641,39 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 1064px) {
-  .criterion-left {
-    width: 45%;
-  }
-  .criterion-right {
-    width: 55%;
-  }
-}
 
 @media only screen and (max-width: 950px) {
-  .criterion-left {
-    width: 40%;
-  }
   .criterion-right {
-    width: 60%;
     padding-right: 3rem;
   }
 }
 
-@media only screen and (max-width: 856px) {
+@media only screen and (max-width: 883px) {
   .criterion-container {
-    padding: 1.5rem;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
   }
   .criterion-left {
-    display: none;
+    width: 30%
   }
   .criterion-right {
-    width: 100%;
+    width: 70%;
     padding-right: 0;
   }
 }
+
+@media only screen and (max-width: 768px) {
+  .criterion-left {
+    align-self: center;
+  }
+  .criterion-left img {
+    height: 24rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* 712px mobile design needs to begin */
+
 
 /* Ipsative Assessment */
 .ipsative {
@@ -694,12 +743,15 @@ p, ol, li {
     padding: 1.5rem;
   }
   .ipsative-left {
-    width: 100%;
+    width: 70%;
   }
   .ipsative-right {
-    display: none;
+    width: 30%;
+    margin-left: 1rem;
   }
 }
+
+/* 708px mobile design to begin */
 
 /* Conclusion */
 .conclusion {
