@@ -60,9 +60,8 @@ p, ol, li {
   font-weight: bold;
 }
 
-.green {
+.green-lc {
   color: #D6DA2D;
-  text-transform: uppercase;
   font-weight: bold;
 }
 
@@ -369,8 +368,13 @@ p, ol, li {
 /* mobile version needs to start at 662px */
 
 /* Blooms table */
-.blooms {
+.blooms-table {
   background-color: #F7F4F1;
+}
+.blooms-table p {
+  padding: 2rem 15rem 0 15rem;
+}
+.blooms {
   display: flex;
   justify-content: center;
 }
@@ -380,17 +384,34 @@ p, ol, li {
   padding: 2rem 0;
 }
 
+@media only screen and (max-width: 1320px) {
+  .blooms-table p {
+    padding: 2rem 11rem 0 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .blooms-table p {
+    padding: 2rem 5rem 0 5rem;
+  }
+}
+
 @media only screen and (max-width: 871px) {
+  .blooms-table p {
+      padding: 2rem 3rem 0 3rem;
+    }
   .blooms img {
     height: 35rem;
     padding: 2rem 0;
   }
 }
 
-@media only screen and (max-width: 764px) {
+@media only screen and (max-width: 766px) {
   .blooms img {
     height: 30rem;
   }
+  .blooms-table p {
+      padding: 2rem 1.5rem 0 1.5rem;
+    }
 }
 
 @media only screen and (max-width: 648px) {
@@ -547,6 +568,10 @@ p, ol, li {
   background-color: white;
 }
 
+.strategies p {
+  padding: 2rem 15rem 0 15rem;
+}
+
 .strategies-container {
   display: flex;
   justify-content: center;
@@ -569,6 +594,22 @@ p, ol, li {
   margin: 2rem 1rem;
 }
 
+
+@media only screen and (max-width: 1320px) {
+  .strategies p {
+    padding: 2rem 11rem 0 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .strategies p {
+    padding: 2rem 5rem 0 5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .strategies p {
+    padding: 2rem 3rem 0 3rem;
+  }
+}
 @media only screen and (max-width: 847px) {
   .strategies-left {
     padding-right: 0;
@@ -591,7 +632,11 @@ p, ol, li {
     width: auto;
   }
 }
-
+@media only screen and (max-width: 766px) {
+  .strategies p {
+    padding: 2rem 1.5rem 0 1.5rem;
+  }
+}
 @media only screen and (max-width: 486px) {
   .strategies-left img,
   .mistakes-right img {
