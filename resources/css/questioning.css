@@ -1,0 +1,756 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+.orange {
+  color: #DE572F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange-lc {
+  color: #DE572F;
+  font-weight: bold;
+}
+
+.gray {
+  color: #58595B;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gray-lc {
+  color: #58595B;
+  font-weight: bold;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.lite-blue {
+  color: #57B6DD;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lite-blue-lc {
+  color: #57B6DD;
+  font-weight: bold;
+}
+
+.green {
+  color: #D6DA2D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #D86C1C;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-lc {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Question Why */
+.question-why {
+  background: linear-gradient(#99D1F4, #fff);
+  display: flex;
+}
+.question-why .blueheader {
+  margin: 2rem 0 1rem 0;
+}
+.question-why-left {
+  width: 38rem;
+  padding: 1rem 0 0 15rem;
+}
+
+.question-why-right {
+  align-self: center;
+  width: 20rem;
+}
+
+#question-icon {
+  height: 16rem;
+}
+
+#question-icon-mob {
+  display: none;
+}
+
+.question-why-list ul {
+  list-style: disc;
+  color: #008CE3;
+  margin-top: 1rem;
+  margin-left: 3rem;
+}
+
+.question-why-list li {
+  margin-bottom: 1rem;
+}
+
+.question-why-list li span {
+  color: #58595B;
+  font-weight: normal;
+}
+
+@media only screen and (max-width: 1320px) {
+  .question-why-left {
+    padding: 1rem 0 0 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .question-why-left {
+    padding: 1rem 0 0 5rem;
+  }
+}
+@media only screen and (max-width: 1096px) {
+  #question-icon {
+    display: none;
+  }
+  #question-icon-mob {
+    display: block;
+    height: 16rem;
+    margin-left: 1rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .question-why-left {
+    padding: 1rem 0 0 3rem;
+  }
+  .question-why-left {
+    width: 34rem;
+  }
+  #question-icon-mob {
+    height: 14rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .question-why-left {
+    padding: 1rem 0 0rem 1.5rem;
+  }
+  #question-icon-mob {
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 670px) {
+  .question-why-right {
+    display: none;
+  }
+  .question-why-left {
+    width: auto;
+  }
+}
+
+
+/* Question txt 1 */
+.question-txt {
+  background-color: #E76E34;
+}
+
+.question-txt p {
+  padding: 2rem 15rem 2rem 15rem;
+  color: white;
+}
+
+@media only screen and (max-width: 1320px) {
+  .question-txt p {
+    padding: 2rem 11rem 2rem 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .question-txt p {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .assessment-types p {
+  padding: 2rem 3rem 2rem 3rem;
+}
+}
+
+@media only screen and (max-width: 766px) {
+.question-txt p {
+  padding: 2rem 1.5rem 2rem 1.5rem;
+}
+}
+
+/* Need to change bloom's brain img to mobile version --
+@media only screen and (max-width: 518px) {
+  .blooms-brain-img img {
+    height: 10rem;
+}
+}
+*/
+
+
+/* Convergent and Divergent examples */
+.examples {
+  background-color: white;
+}
+
+.examples h4 {
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 2rem 15rem 3rem 15rem;
+}
+
+.examples-container {
+  display: flex;
+  justify-content: center;
+}
+
+.examples-container img {
+  height: 35rem;
+  padding-bottom: 2rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .examples h4 {
+    padding: 3rem 11rem 2rem 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .examples h4 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+
+@media only screen and (max-width: 871px) {
+  .examples h4 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .examples h4 {
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 802px) {
+  .examples-container img {
+    height: 30rem;
+  }
+}
+@media only screen and (max-width: 696px) {
+  .examples-container img {
+    height: 25rem;
+  }
+}
+@media only screen and (max-width: 592px) {
+  .examples-container img {
+    height: 20rem;
+  }
+  .examples h4 {
+    font-size: 1.3rem;
+}
+}
+/* mobile version needs to start at 474px */
+
+/* question txt 2 */
+
+.question-txt2 {
+  background-color: #BED63A;
+}
+
+.question-txt2 p {
+  padding: 2rem 15rem 2rem 15rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .question-txt2 p  {
+    padding-right: 11rem;
+    padding-left: 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .question-txt2 p  {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .question-txt2 p {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+}
+
+@media only screen and (max-width: 766px) {
+  .question-txt2 p {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+}
+}
+
+/* mobile version needs to start at 662px */
+
+/* Blooms table */
+.blooms {
+  background-color: #F7F4F1;
+  display: flex;
+  justify-content: center;
+}
+
+.blooms img {
+  height: 40rem;
+  padding: 2rem 0;
+}
+
+@media only screen and (max-width: 871px) {
+  .blooms img {
+    height: 35rem;
+    padding: 2rem 0;
+  }
+}
+
+@media only screen and (max-width: 764px) {
+  .blooms img {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 648px) {
+  .blooms img {
+    height: 25rem;
+  }
+}
+
+/* Mobile version design needs to begin here
+@media only screen and (max-width: 708px) {
+
+} */
+
+/* Combination */
+.combination {
+  background-color: #57B6DD;
+}
+
+.combination-container {
+  padding: 3rem 15rem 0 15rem;
+}
+
+.combination-container p {
+  color: white;
+}
+
+.combination-img {
+  display: flex;
+  justify-content: center;
+}
+.combination-img img {
+  height: 20rem;
+  padding: 1rem 0 2rem 0;
+}
+#ipad-combination {
+  display: none;
+}
+
+#mobile-bubble1,
+#mobile-bubble2,
+#mobile-bubble3 {
+  display: none;
+}
+
+@media only screen and (max-width: 1320px) {
+  .combination-container {
+    padding: 3rem 11rem 0 11rem;
+  }
+}
+
+@media only screen and (max-width: 1239px) {
+  .combination-img img {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .combination-container {
+    padding: 3rem 5rem 0 5rem;
+  }
+}
+
+@media only screen and (max-width: 968px) {
+  .combination-img img {
+    height: 14rem;
+  }
+}
+
+
+@media only screen and (max-width: 950px) {
+  .combination-container {
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 883px) {
+  .combination-container {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 788px) {
+  .combination-img img {
+    display: none;
+  }
+  #ipad-combination {
+    display: block;
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 680px) {
+  #ipad-combination {
+    height: 8rem;
+  }
+}
+@media only screen and (max-width: 560px) {
+  #ipad-combination {
+    display: none;
+  }
+  .combination-img {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  #mobile-bubble1,
+  #mobile-bubble2,
+  #mobile-bubble3 {
+    display: block;
+    height: 10rem;
+  }
+}
+
+/* 712px mobile design needs to begin */
+
+
+/* Question Txt 3 */
+.question-txt3 {
+  background-color: #BED63A;
+  padding: 2rem 15rem 2rem 15rem;
+}
+
+@media only screen and (max-width: 1320px) {
+.question-txt3 {
+  padding: 3rem 11rem 2rem 11rem;
+}
+}
+
+@media only screen and (max-width: 1150px) {
+  .question-txt3 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .question-txt3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .question-txt3 {
+    padding: 1.5rem;
+  }
+}
+
+/* 708px mobile design to begin */
+
+
+/* Strategies */
+.strategies {
+  background-color: white;
+}
+
+.strategies-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.strategies-left {
+  width: 25rem;
+  padding-right: 1rem;
+}
+
+.mistakes-right {
+  width: 25rem;
+  padding-left: 1rem;
+}
+
+.strategies-left img,
+.mistakes-right img {
+  height: 45rem;
+  margin: 2rem 1rem;
+}
+
+@media only screen and (max-width: 847px) {
+  .strategies-left {
+    padding-right: 0;
+  }
+
+  .mistakes-right {
+    padding-left: 0;
+  }
+  .strategies-left img {
+    margin: 2rem 0 1rem 0;
+  }
+  .mistakes-right img {
+    margin: 1rem 0 2rem 0;
+  }
+  .strategies-left {
+    width: auto;
+  }
+
+  .mistakes-right {
+    width: auto;
+  }
+}
+
+@media only screen and (max-width: 486px) {
+  .strategies-left img,
+  .mistakes-right img {
+    height: 40rem;
+  }
+}
+@media only screen and (max-width: 431px) {
+  .strategies-left img,
+  .mistakes-right img {
+    height: 35rem;
+  }
+}
+/* question txt 4 */
+
+.question-txt4 {
+  background-color: #BED63A;
+}
+
+.question-txt4 p {
+  padding: 2rem 15rem 2rem 15rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .question-txt4 p  {
+    padding-right: 11rem;
+    padding-left: 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .question-txt4 p  {
+    padding-right: 5rem;
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .question-txt4 p {
+    padding-right: 3rem;
+    padding-left: 3rem;
+}
+}
+
+@media only screen and (max-width: 766px) {
+  .question-txt4 p {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+}
+
+/* Question Table */
+.question-table {
+  background-color: #57B6DD;
+  display: flex;
+  justify-content: center;
+}
+
+.question-table img {
+  height: 40rem;
+  padding: 2rem 0;
+}
+
+@media only screen and (max-width: 1229px) {
+  .question-table img {
+    height: 35rem;
+  }
+}
+
+@media only screen and (max-width: 976px) {
+  .question-table img {
+    height: 30rem;
+  }
+}
+
+@media only screen and (max-width: 786px) {
+  .question-table img {
+    height: 25rem;
+  }
+}
+@media only screen and (max-width: 664px) {
+  .question-table img {
+    height: 20rem;
+  }
+}
+/* mobile version at 584px */
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+  color: white;
+}
+
+.conclusion .blueheader {
+  padding-bottom: 2rem;
+}
+
+.conclusion-container {
+  padding: 2rem 15rem 3rem 15rem;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:active {
+  color: white;
+}
+
+@media only screen and (max-width: 1320px){
+.conclusion-container {
+  padding: 2rem 11rem 3rem 11rem;
+}
+}
+@media only screen and (max-width: 1150px) {
+  .conclusion-container {
+    padding: 2rem 5rem 3rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion-container {
+    padding: 2rem 3rem 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .conclusion-container {
+    padding: 2rem 1.5rem 3rem 1.5rem;
+  }
+}
+
+
+/* References */
+.references {
+  padding: 3rem 16rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
