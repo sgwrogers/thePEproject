@@ -126,7 +126,7 @@ p, ol, li {
   background: linear-gradient(#99D1F4, #fff);
 }
 .motivation .blueheader {
-  margin: 2rem 0 1rem 11rem;
+  margin: 2rem 0 1rem 15rem;
 }
 
 .motivation-why {
@@ -134,17 +134,17 @@ p, ol, li {
 }
 
 .motivation-why p {
-  padding: 1rem 1.5rem 2rem 11rem;
+  padding: 1rem 1.5rem 2rem 15rem;
 }
 
 #ilovePE {
-  height: 14rem;
+  height: 12rem;
   margin: 0 15rem 1rem 1rem;
   float: right;
 }
 
 .motivation-why-list {
-  padding: 1rem 11rem 2rem 11rem;
+  padding: 1rem 15rem 2rem 15rem;
 }
 
 .motivation-why-list ul {
@@ -159,7 +159,23 @@ p, ol, li {
   font-weight: bold;
   margin-bottom: 1rem;
 }
+@media only screen and (max-width: 1320px) {
+  .motivation .blueheader {
+    margin-left: 11rem;
+  }
+  .motivation-why p,
+  .motivation-why-list {
+    padding-left: 11rem;
+  }
 
+  .motivation-why-list {
+    padding-right: 11rem;
+  }
+
+  #ilovePE {
+    margin-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .motivation .blueheader {
     margin-left: 5rem;
@@ -187,7 +203,7 @@ p, ol, li {
     padding-left: 3rem;
   }
   #ilovePE {
-    height: 10rem;
+    height: 8rem;
     margin-right: 3rem;
     margin-top: 1rem;
   }
@@ -198,7 +214,7 @@ p, ol, li {
     display: block;
   }
   #ilovePE {
-    height: 8rem;
+    height: 7rem;
   }
 }
 
@@ -232,22 +248,27 @@ p, ol, li {
 
 .motivation-types-p1 {
   display: flex;
-  padding: 2rem 11rem 1rem 11rem;
+  padding: 2rem 15rem 1rem 15rem;
 }
 
 .motivation-types-p1 img {
-  height: 15rem;
+  height: 9rem;
   margin-right: 2rem;
 }
 
 .motivation-types-p2 {
-  padding: 1.5rem 11rem 2rem 11rem;
+  padding: 0 15rem 2rem 15rem;
 }
-
+@media only screen and (max-width: 1320px) {
+  .motivation-types-p1,
+  .motivation-types-p2 {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .motivation-types-p1,
-  .motivation-types-p2
- {
+  .motivation-types-p2 {
     padding-left: 5rem;
     padding-right: 5rem;
   }
@@ -298,27 +319,31 @@ p, ol, li {
 }
 
 .motivation-table img {
-  height: 48rem;
-  margin: 2rem 11rem;
+  height: 44rem;
+  margin: 2rem 15rem;
 }
 
 .motivation-table p {
   align-self: flex-start;
-  margin-left: 11rem;
+  margin-left: 15rem;
   margin-bottom: 2rem;
 }
 
 @media only screen and (max-width: 1455px) {
   .motivation-table img {
-    height: 45rem;
+    height: 40rem;
   }
 }
 @media only screen and (max-width: 1352px) {
   .motivation-table img {
-    height: 42rem;
+    height: 38rem;
   }
 }
-
+@media only screen and (max-width: 1320px) {
+  .motivation-table p {
+    margin-left: 11rem;
+}
+}
 @media only screen and (max-width: 1243px) {
   .motivation-table img {
     height: 39rem;
@@ -386,10 +411,15 @@ p, ol, li {
 }
 
 .motivation-how p {
-  padding: 1.5rem 11rem 1.5rem 11rem;
+  padding: 1.5rem 15rem 1.5rem 15rem;
 }
 
-
+@media only screen and (max-width: 1320px) {
+  .motivation-how p  {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .motivation-how p  {
     padding-left: 5rem;
@@ -418,13 +448,13 @@ p, ol, li {
 }
 
 .motivation-psych img {
-  height: 48rem;
-  margin: 1rem 11rem 2rem 11rem;
+  height: 44rem;
+  margin: 1rem 15rem 2rem 15rem;
 }
 
 .motivation-psych p {
   align-self: flex-start;
-  margin-left: 11rem;
+  margin-left: 15rem;
   margin-top: 2rem;
   margin-bottom: 1rem;
 }
@@ -439,7 +469,11 @@ p, ol, li {
     height: 42rem;
   }
 }
-
+@media only screen and (max-width: 1320px) {
+  .motivation-psych p {
+    margin-left: 11rem;
+  }
+}
 @media only screen and (max-width: 1243px) {
   .motivation-psych img {
     height: 39rem;
@@ -508,10 +542,14 @@ p, ol, li {
 }
 
 .motivation-target p {
-    padding: 2rem 11rem 2rem 11rem;
+    padding: 2rem 15rem 2rem 15rem;
   }
 }
-
+@media only screen and (max-width: 1320px) {
+  .motivation-target p {
+    padding: 1rem 11rem 0.5rem 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .motivation-target p {
     padding: 1rem 5rem 0.5rem 5rem;
@@ -543,12 +581,12 @@ p, ol, li {
 }
 
 .target-table img {
-  height: 50rem;
-  margin: 1rem 11rem 2rem 11rem;
+  height: 46rem;
+  margin: 1rem 15rem 2rem 15rem;
 }
 
 .target-table p {
-  padding: 2rem 11rem 1rem 11rem;
+  padding: 2rem 15rem 1rem 15rem;
 }
 
 @media only screen and (max-width: 1455px) {
@@ -561,7 +599,11 @@ p, ol, li {
     height: 42rem;
   }
 }
-
+@media only screen and (max-width: 1320px) {
+  .target-table p {
+    padding: 2rem 11rem 1rem 11rem;
+  }
+}
 @media only screen and (max-width: 1243px) {
   .target-table img {
     height: 39rem;
@@ -622,7 +664,6 @@ p, ol, li {
   }
 }
 
-
 /* Conclusion */
 .conclusion {
   background-color: #008CE3;
@@ -630,12 +671,12 @@ p, ol, li {
 }
 
 .conclusion .blueheader {
-  padding-left: 11rem;
+  padding-left: 15rem;
   padding-top: 2rem;
 }
 
 .conclusion-container {
-  padding: 2rem 11rem 3rem 11rem;
+  padding: 2rem 15rem 3rem 15rem;
 }
 
 .conclusion a:link,
@@ -643,7 +684,13 @@ p, ol, li {
 .conclusion a:active {
   color: white;
 }
-
+@media only screen and (max-width: 1320px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .conclusion .blueheader,
   .conclusion-container {
@@ -673,7 +720,7 @@ p, ol, li {
 
 /* References */
 .references {
-  padding: 3rem 14rem;
+  padding: 3rem 16rem;
 }
 
 .references h3 {
@@ -689,7 +736,12 @@ p, ol, li {
 .references ol li {
   margin-bottom: 1rem;
 }
-
+@media only screen and (max-width: 1320px) {
+  .references {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .references {
     padding-left: 5rem;

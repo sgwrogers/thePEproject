@@ -1,0 +1,30 @@
+@media only screen and (max-width: 1094px) {
+  .sported-container {
+    display: block;
+  }
+  .sported-top {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .sported-bl {
+    width: 100%;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 749px) {
+  #sported-diagram {
+    height: 31rem;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  #sported-diagram {
+    height: 27rem;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  #sported-diagram {
+    height: 1rem;
+  }
+}

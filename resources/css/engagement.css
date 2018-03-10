@@ -72,12 +72,12 @@ p, ol, li {
 
 .engagement-why-text {
   width: 75%;
-  padding: 2rem 1.5rem 2rem 11rem;
+  padding: 2rem 1.5rem 2rem 15rem;
 }
 
 .engagement-why-image {
   width: 25%;
-  padding-right: 1.5rem;
+  padding-right: 15rem;
 }
 
 .engagement-why-image img {
@@ -108,16 +108,30 @@ p, ol, li {
 .engagement-why-text ol li:last-child {
   color: #57B6DD;
 }
+@media only screen and (max-width: 1320px) {
+  .engagement-why-text {
+    padding-left: 11rem;
+  }
+  .engagement-why-image {
+    padding-right: 11rem;
+  }
+}
 
 @media only screen and (max-width: 1150px) {
   .engagement-why-text {
     padding-left: 5rem;
+  }
+  .engagement-why-image {
+    padding-right: 5rem;
   }
 }
 
 @media only screen and (max-width: 871px) {
   .engagement-why-text {
     padding-left: 3rem;
+  }
+  .engagement-why-image {
+    padding-right: 3rem;
   }
 }
 
@@ -144,13 +158,13 @@ p, ol, li {
 }
 
 .routines .blueheader {
-  padding-left: 11rem;
+  padding-left: 15rem;
   padding-top: 3rem;
 }
 
 .routines-container {
   color: white;
-  padding: 1.5rem 11rem 3rem 11rem;
+  padding: 1.5rem 15rem 3rem 15rem;
 }
 
 .routines-container ul {
@@ -173,7 +187,13 @@ p, ol, li {
   height: 22rem;
   padding: 1rem 1rem 1rem 1rem;
 }
-
+@media only screen and (max-width: 1320px) {
+  .routines .blueheader,
+  .routines-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .routines .blueheader,
   .routines-container {
@@ -219,9 +239,7 @@ p, ol, li {
   }
 }
 
-
 /* Instructions */
-
 .instructions {
   background-color: #BED63A;
 }
@@ -229,19 +247,22 @@ p, ol, li {
 .instructions-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 0 11rem;
+  align-items: center;
+  padding: 3rem 15rem 0 10rem;
 }
 
 .instructions-left {
-  width: 40%;
-  margin-bottom: -2px;
+  width: 50%;
+  margin-bottom: -3px;
+  align-self: flex-end;
 }
 
 .instructions-left img {
-  height: 20rem;
+  height: 19rem;
 }
 
-#teacher-mob {
+#teacher-mob,
+#teacher-mob-2 {
   display: none;
 }
 
@@ -249,6 +270,7 @@ p, ol, li {
   color: white;
   width: 50%;
   padding-bottom: 2rem;
+  margin-left: 1rem;
 }
 
 .instructions-right p {
@@ -260,27 +282,39 @@ p, ol, li {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 1251px) {
+@media only screen and (max-width: 1400px) {
   .instructions-container {
-    padding-left: 0;
+    padding: 3rem 15rem 0 15rem;
   }
-
   .instructions-left {
     width: 40%;
   }
   .instructions-left img {
     display: none;
   }
+
   #teacher-mob {
     display:inline;
     padding-right: 1rem;
-    margin-bottom: -2px;
+    margin: 0 auto 0 auto;
   }
+}
+
+@media only screen and (max-width: 1251px) {
   .instructions-right {
     width: 60%;
   }
 }
-
+@media only screen and (max-width: 1320px) {
+  .instructions-container {
+   padding: 3rem 11rem 0 11rem;
+ }
+}
+@media only screen and (max-width: 1150px) {
+  .instructions-container {
+   padding: 3rem 5rem 0 5rem;
+ }
+}
 @media only screen and (max-width: 1064px) {
   .instructions-left {
     width: 45%;
@@ -303,17 +337,49 @@ p, ol, li {
     padding-right: 3rem;
   }
 }
+@media only screen and (max-width: 871px) {
+  .instructions-container {
+   padding: 3rem 3rem 0 3rem;
+ }
+}
 
 @media only screen and (max-width: 856px) {
   .instructions-container {
     padding: 1.5rem;
   }
   .instructions-left {
+    width: 20%;
+    margin-bottom: 0;
+    align-self: center;
+  }
+  #teacher-mob {
     display: none;
   }
+  #teacher-mob-2 {
+    display: block;
+  }
   .instructions-right {
-    width: 100%;
+    width: 80%;
     padding-right: 0;
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .instructions-container {
+   padding: 2rem 1.5rem 0 1.5rem;
+ }
+ #teacher-mob-2 {
+   height: 15rem;
+ }
+ }
+ @media only screen and (max-width: 556px) {
+   .instructions-left {
+     display: none;
+   }
+   .instructions-right {
+     width: 100%;
+     padding-left: 0;
+     margin-left: 0;
   }
 }
 
@@ -326,7 +392,7 @@ p, ol, li {
 .progression-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 2rem 11rem;
+  padding: 3rem 15rem 2rem 15rem;
 }
 
 .progression-left {
@@ -376,7 +442,12 @@ strong {
   color: #57B6DD;
   font-weight: bold;
 }
-
+@media only screen and (max-width: 1320px) {
+  .progression-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .progression-container {
     padding-left: 5rem;
@@ -425,7 +496,7 @@ strong {
 .conclusion-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 2rem 11rem;
+  padding: 3rem 15rem 2rem 15rem;
   align-items: flex-start;
 }
 
@@ -435,7 +506,7 @@ strong {
 }
 
 #clock-desk {
-  height: 16rem;
+  height: 14rem;
 }
 
 #clock-mob {
@@ -458,49 +529,8 @@ strong {
   margin-top: 1rem;
 }
 
-@media only screen and (max-width: 1367px) {
-  .conclusion-container {
-    padding-left: 5rem;
-    }
-  }
 
-@media only screen and (max-width: 1308px) {
-  .conclusion-container {
-    padding-right: 5rem;
-  }
-  .conclusion-left {
-    width: 50%;
-  }
-  #clock-desk {
-    height: 13.5rem;
-  }
-  .conclusion-right {
-    width: 50%;
-  }
-}
-
-@media only screen and (max-width: 1267px) {
-  #clock-desk {
-    height: 12rem;
-  }
-}
-
-@media only screen and (max-width: 1155px) {
-  .conclusion-container {
-    align-items: center;
-  }
-  .conclusion-left {
-    width: 45%;
-  }
-  #clock-desk {
-    height: 10rem;
-  }
-  .conclusion-right {
-    width: 55%;
-  }
-}
-
-@media only screen and (max-width: 1074px) {
+@media only screen and (max-width: 1467px) {
   .conclusion-container {
     align-items: flex-start;
   }
@@ -525,6 +555,18 @@ strong {
   .conclusion-right{
     width: 70%;
     }
+}
+@media only screen and (max-width: 1320px) {
+  .conclusion-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .conclusion-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
 }
 
 @media only screen and (max-width: 871px) {
@@ -597,7 +639,7 @@ strong {
 
 /* References */
 .references {
-  padding: 3rem 14rem;
+  padding: 3rem 16rem;
 }
 
 .references h3 {
@@ -614,6 +656,12 @@ strong {
   margin-bottom: 1rem;
 }
 
+@media only screen and (max-width: 1320px) {
+  .references {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .references {
     padding-left: 5rem;

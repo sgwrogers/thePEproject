@@ -20,9 +20,17 @@ p, ol, li {
 .blueheader {
   height: 3.5rem;
 }
+.blueheader-small {
+  display: none;
+}
 
+@media only screen and (max-width: 1189px) {
+  .blueheader {
+    height: 3.25rem;
+  }
+}
 
-@media only screen and (max-width: 1051px) {
+@media only screen and (max-width: 1094px) {
   .blueheader {
     height: 3rem;
   }
@@ -31,27 +39,57 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 913px) {
+@media only screen and (max-width: 964px) {
   .blueheader {
+    height: 2.65rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .blueheader {
+    display: none;
+  }
+  .blueheader-small {
+    display: block;
+    height: 2.75rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .blueheader-small {
+    padding-left: 1.5rem;
+  }
+}
+@media only screen and (max-width: 623px) {
+  .blueheader-small {
     height: 2.5rem;
   }
 }
-
 @media only screen and (max-width: 547px) {
-  .blueheader {
-    height: 2rem;
-  }
   p, ol, li {
     font-size: 0.85rem;
   }
-}
-
-@media only screen and (max-width: 456px) {
-  .blueheader {
-    height: 1.75rem;
+  .blueheader-small {
+    height: 2.25rem;
   }
 }
 
+@media only screen and (max-width: 476px) {
+  .blueheader-small {
+    height: 2.1rem;
+  }
+}
+@media only screen and (max-width: 439px) {
+  .blueheader-small {
+    height: 2rem;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .blueheader-small {
+    height: 1.8rem;
+  }
+}
 .article p a:link,
 .article p a:visited,
 .article p a:active {
@@ -69,16 +107,16 @@ p, ol, li {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-right: 15rem;
 }
 
 .teaching-models-why-text {
-  width: 75%;
-  padding: 2rem 1.5rem 2rem 11rem;
+  width: 60%;
+  padding: 2rem 1.5rem 2rem 15rem;
 }
 
 .teaching-models-why-image {
   width: 25%;
-  padding-right: 11rem;
 }
 
 .teaching-models-why-image img {
@@ -181,22 +219,51 @@ ol li:last-child a:hover {
  text-decoration: underline;
 }
 
+@media only screen and (max-width: 1320px) {
+  .teaching-models-why {
+    padding-right: 11rem;
+  }
+  .teaching-models-why-text {
+    padding: 2rem 1.5rem 2rem 11rem;
+  }
+
+  .teaching-models-why-image {
+    width: 25%;
+  }
+}
+
 @media only screen and (max-width: 1150px) {
+  .teaching-models-why {
+    padding-right: 5rem;
+  }
   .teaching-models-why-text {
     padding-left: 5rem;
   }
 }
+@media only screen and (max-width: 960px) {
+  .teaching-models-why-image img {
+    height: 11rem;
+  }
+}
 
 @media only screen and (max-width: 871px) {
+  .teaching-models-why .blueheader-small {
+    padding-left: 0;
+  }
+  .teaching-models-why {
+    padding-right: 3rem;
+  }
   .teaching-models-why-text {
     padding-left: 3rem;
   }
 }
 
 @media only screen and (max-width: 766px) {
+  .teaching-models-why {
+    padding-right: 1.5rem;
+  }
   .teaching-models-why-text {
     width: 100%;
-    padding-right: 3rem;
   }
   .teaching-models-why-image {
     display: none;
@@ -212,15 +279,14 @@ ol li:last-child a:hover {
 
 /* Traditional */
 .traditional .blueheader {
-  padding-left: 11rem;
-  padding-right: 11rem;
+  padding-left: 15rem;
   padding-top: 3rem;
 }
 
 .traditional-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 0 11rem;
+  padding: 3rem 15rem 0 15rem;
 }
 
 .traditional-left {
@@ -244,28 +310,80 @@ ol li:last-child a:hover {
   display: block;
   height: 35rem;
   margin: 0 auto;
+}
 
+@media only screen and (max-width: 1320px) {
+.traditional .blueheader {
+  padding-left: 11rem;
+}
+
+.traditional-container {
+  padding: 3rem 11rem 0 11rem;
+}
 }
 
 @media only screen and (max-width: 1150px) {
-.traditional .blueheader,
+.traditional .blueheader {
+  padding-left: 5rem;
+}
 .traditional-container {
     padding-left: 5rem;
+    padding-right: 5rem;
 }
+}
+@media only screen and (max-width: 1094px) {
+  .traditional-container {
+    display: block;
+  }
+  .traditional-left {
+    width: auto;
+    height: auto;
+    margin-bottom: 2rem;
+  }
+  .traditional-right {
+    width: 100%;
+  }
 }
 @media only screen and (max-width: 871px) {
-.traditional .blueheader,
+.traditional .blueheader {
+    padding-left: 3rem;
+}
 .traditional-container {
     padding-left: 3rem;
+    padding-right: 3rem;
 }
 }
 @media only screen and (max-width: 766px) {
-.traditional .blueheader,
+.traditional .blueheader {
+    padding-left: 1.5rem;
+}
 .traditional-container {
     padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+@media only screen and (max-width: 749px) {
+  #traditional-diagram {
+    height: 31rem;
   }
 }
 
+@media only screen and (max-width: 601px) {
+  #traditional-diagram {
+    height: 27rem;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  #traditional-diagram {
+    height: 23rem;
+  }
+}
+@media only screen and (max-width: 412px) {
+  #traditional-diagram {
+    height: 19rem;
+  }
+}
 
 /* TGfU */
 .tgfu {
@@ -273,25 +391,24 @@ ol li:last-child a:hover {
 }
 
 .tgfu .blueheader {
-  padding-left: 11rem;
-  padding-right: 11rem;
+  padding-left: 15rem;
   padding-top: 3rem;
 }
 
 .tgfu-container {
   display: flex;
   justify-content: center;
-  padding: 3rem 11rem 0 11rem;
+  padding: 3rem 15rem 2rem 15rem;
 }
 
 .tgfu-left {
-  width: 70%;
+  width: 60%;
   padding-bottom: 2rem;
 }
 
 #tgfu-diagram {
   display: block;
-  height: 37rem;
+  height: 36rem;
   margin: 0 auto;
 }
 
@@ -306,39 +423,96 @@ ol li:last-child a:hover {
   line-height: 1.5;
 }
 
+@media only screen and (max-width: 1320px) {
+  .tgfu .blueheader {
+    padding-left: 11rem;
+  }
+
+  .tgfu-container {
+    padding: 3rem 11rem 2rem 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
-.tgfu .blueheader,
-.tgfu-container {
+  .tgfu .blueheader {
+  padding-left: 5rem;
+  }
+  .tgfu-container {
     padding-left: 5rem;
-    padding-right: 5rem;
-}
-}
-@media only screen and (max-width: 871px) {
-.tgfu .blueheader,
-.tgfu-container  {
-    padding-left: 3rem;
-    padding-right: 3rem;
-}
-}
-@media only screen and (max-width: 766px) {
-.tgfu .blueheader,
-.tgfu-container  {
-    padding-left: 1.5rem;
     padding-right: 5rem;
   }
 }
 
+@media only screen and (max-width: 1094px) {
+  .tgfu-container {
+    display: block;
+  }
+  .tgfu-left {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+  .tgfu-right {
+    width: auto;
+    height: auto;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .tgfu .blueheader {
+    padding-left: 3rem;
+  }
+  .tgfu-container  {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .tgfu .blueheader {
+    padding-left: 1.5rem;
+  }
+  .tgfu-container  {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 749px) {
+  #tgfu-diagram {
+    height: 32rem;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  #tgfu-diagram {
+    height: 28rem;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  #tgfu-diagram {
+    height: 24rem;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  #tgfu-diagram {
+    height: 19rem;
+  }
+}
+@media only screen and (max-width: 365px) {
+  #tgfu-diagram {
+    height: 17rem;
+  }
+}
 
 /* Game Sense */
 .gamesense .blueheader {
-  padding-left: 11rem;
+  padding-left: 15rem;
   padding-top: 3rem;
 }
 
 .gamesense-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 0 11rem;
+  padding: 3rem 15rem 0 15rem;
 }
 
 .gamesense-left {
@@ -360,14 +534,107 @@ ol li:last-child a:hover {
 #gamesense-diagram {
   display: block;
   height: 35rem;
-
 }
 
 .gamesense-below {
   background-color: #D86C1C;
   color: white;
   padding: 1.25rem;
-  margin: 1.5rem 11rem;
+  margin: 1.5rem 15rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .gamesense .blueheader {
+    padding-left: 11rem;
+  }
+
+  .gamesense-container {
+    padding: 3rem 11rem 0 11rem;
+  }
+  .gamesense-below {
+    margin: 2rem 11rem;
+}
+}
+@media only screen and (max-width: 1150px) {
+  .gamesense .blueheader {
+    padding-left: 5rem;
+  }
+
+  .gamesense-container {
+    padding: 3rem 5rem 0 5rem;
+  }
+  .gamesense-below {
+    margin: 2rem 5rem;
+  }
+}
+@media only screen and (max-width: 1094px) {
+  .gamesense-container {
+    display: block;
+  }
+  .gamesense-left {
+    width: auto;
+    margin-bottom: 2rem;
+    height: auto;
+  }
+  .gamesense-right {
+    width: 100%;
+    height: auto;
+  }
+  #gamesense-diagram {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .gamesense .blueheader {
+    padding-left: 3rem;
+  }
+
+  .gamesense-container {
+    padding: 3rem 3rem 0 3rem;
+  }
+  .gamesense-below {
+    margin: 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .gamesense .blueheader {
+    padding-left: 1.5rem;
+  }
+
+  .gamesense-container {
+    padding: 3rem 1.5rem 0 1.5rem;
+  }
+  .gamesense-below {
+    margin: 2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 749px) {
+  #gamesense-diagram {
+    height: 31rem;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  #gamesense-diagram {
+    height: 27rem;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  #gamesense-diagram {
+    height: 23rem;
+  }
+}
+@media only screen and (max-width: 428px) {
+  #gamesense-diagram {
+    height: 19rem;
+  }
+}
+@media only screen and (max-width: 365px) {
+  #gamesense-diagram {
+    height: 17rem;
+  }
 }
 
 /* Cooperative Learning */
@@ -376,14 +643,14 @@ ol li:last-child a:hover {
   padding-bottom: 1rem;
 }
 .cooperative .blueheader {
-  padding-left: 11rem;
+  padding-left: 15rem;
   padding-top: 3rem;
 }
 
 .cooperative-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 0 11rem;
+  padding: 3rem 15rem 0 15rem;
 }
 
 .cooperative-left {
@@ -412,19 +679,107 @@ ol li:last-child a:hover {
   background-color: #7BC370;
   color: white;
   padding: 1.25rem;
-  margin: 1.5rem 11rem;
+  margin: 1.5rem 15rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .cooperative .blueheader {
+    padding-left: 11rem;
+  }
+  .cooperative-container {
+    padding: 3rem 11rem 0 11rem;
+  }
+  .cooperative-below {
+    margin: 1.5rem 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .cooperative .blueheader {
+    padding-left: 5rem;
+  }
+  .cooperative-container {
+    padding: 3rem 5rem 0 5rem;
+  }
+  .cooperative-below {
+    margin: 1.5rem 5rem;
+  }
+}
+@media only screen and (max-width: 1094px) {
+  .cooperative-container {
+    display: block;
+  }
+  .cooperative-left {
+    width: auto;
+    margin-bottom: 2rem;
+  }
+  .cooperative-right {
+    width: auto;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .cooperative .blueheader {
+    padding-left: 3rem;
+  }
+  .cooperative-container {
+    padding: 3rem 3rem 0 3rem;
+  }
+  .cooperative-below {
+    margin: 1.5rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .cooperative .blueheader {
+    padding-left: 1.5rem;
+  }
+  .cooperative-container {
+    padding: 3rem 1.5rem 0 1.5rem;
+  }
+  .cooperative-below {
+    margin: 1.5rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 749px) {
+  #cooperative-diagram {
+    height: 31rem;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  #cooperative-diagram {
+    height: 27rem;
+  }
+}
+
+@media only screen and (max-width: 508px) {
+  #cooperative-diagram {
+    height: 23rem;
+  }
+}
+
+@media only screen and (max-width: 419px) {
+  #cooperative-diagram {
+    height: 21rem;
+  }
+}
+@media only screen and (max-width: 365px) {
+  #cooperative-diagram {
+    height: 19rem;
+  }
 }
 
 /* Sport Education */
 .sported .blueheader {
-  padding-left: 11rem;
+  padding-left: 15rem;
   padding-top: 3rem;
 }
 
 .sported-container {
   display: flex;
   justify-content: space-between;
-  padding: 3rem 11rem 0 11rem;
+  padding: 3rem 15rem 0 15rem;
 }
 
 .sported-top {
@@ -441,13 +796,100 @@ ol li:last-child a:hover {
 
 .sported-below {
   background-color: #57B6DD;
-  width: 20rem;
+  width: 17rem;
   color: white;
   padding: 1.25rem;
   order: 1;
   height: 35rem;
 }
 
+@media only screen and (max-width: 1320px) {
+  .sported .blueheader {
+    padding-left: 11rem;
+  }
+  .sported-container {
+    padding: 3rem 11rem 0 11rem;
+  }
+}
+@media only screen and (max-width: 1207px) {
+  #sported-diagram {
+    height: 34rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .sported .blueheader {
+    padding-left: 5rem;
+  }
+  .sported-container {
+    padding: 3rem 5rem 0 5rem;
+  }
+}
+@media only screen and (max-width: 1094px) {
+  .sported-container {
+    display: block;
+  }
+  .sported-top {
+    width: auto;
+    margin-bottom: 2rem;
+  }
+  .sported-below {
+    width: auto;
+    height: auto;
+  }
+  #sported-diagram {
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .sported .blueheader {
+    padding-left: 3rem;
+  }
+  .sported-container {
+    padding: 3rem 3rem 0 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .sported .blueheader {
+    padding-left: 1.5rem;
+  }
+  .sported-container {
+    padding: 3rem 1.5rem 0 1.5rem;
+  }
+ }
+ @media only screen and (max-width: 749px) {
+   #sported-diagram {
+     height: 27rem;
+   }
+ }
+
+ @media only screen and (max-width: 601px) {
+   #sported-diagram {
+     height: 22rem;
+   }
+ }
+
+ @media only screen and (max-width: 508px) {
+   #sported-diagram {
+     height: 19rem;
+   }
+ }
+ @media only screen and (max-width: 435px) {
+   #sported-diagram {
+     height: 17rem;
+   }
+ }
+ @media only screen and (max-width: 400px) {
+   #sported-diagram {
+     height: 15rem;
+   }
+ }
+ @media only screen and (max-width: 400px) {
+   #sported-diagram {
+     height: 14rem;
+   }
+ }
 /* Conclusion */
 .conclusion {
   background-color: #008CE3;
@@ -456,17 +898,66 @@ ol li:last-child a:hover {
 }
 
 .conclusion-container {
-  padding: 1.5rem 6.5rem 3rem 11rem;
+  padding: 1.5rem 15rem 3rem 15rem;
 }
 
-.conclusion p {
-  margin-right: 6.5rem;
+@media only screen and (max-width: 1320px) {
+  .conclusion-container {
+    padding: 1.5rem 11rem 3rem 11rem;
+  }
 }
+@media only screen and (max-width: 1150px) {
+  .conclusion-container {
+    padding: 1.5rem 5rem 3rem 5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .conclusion .blueheader {
+    display: block;
+    height: 2.75rem;
+  }
+  .conclusion-container {
+    padding: 1.5rem 3rem 3rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .conclusion-container {
+    padding: 1.5rem 1.5rem 3rem 1.5rem;
+  }
+ }
+ @media only screen and (max-width: 623px) {
+   .conclusion .blueheader {
+     height: 2.5rem;
+   }
+ }
+ @media only screen and (max-width: 547px) {
+   .conclusion .blueheader {
+     height: 2.25rem;
+   }
+ }
+
+ @media only screen and (max-width: 476px) {
+   .conclusion .blueheader {
+     height: 2.1rem;
+   }
+ }
+ @media only screen and (max-width: 439px) {
+   .conclusion .blueheader {
+     height: 2rem;
+   }
+ }
+ @media only screen and (max-width: 426px) {
+   .conclusion .blueheader {
+     height: 1.8rem;
+   }
+ }
+
 
 
 /* References */
 .references {
-  padding: 3rem 14rem;
+  padding: 3rem 16rem;
 }
 
 .references h3 {

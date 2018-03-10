@@ -126,7 +126,7 @@ p, ol, li {
   background: linear-gradient(#99D1F4, #fff);
 }
 .lessons-obs .blueheader {
-  margin: 2rem 0 1rem 11rem;
+  margin: 2rem 0 1rem 15rem;
 }
 
 .lessons-obs-why {
@@ -134,7 +134,7 @@ p, ol, li {
 }
 
 .lessons-obs-why p {
-  padding: 1rem 11rem 1rem 11rem;
+  padding: 1rem 15rem 1rem 15rem;
 }
 .lessons-obs-why p:first-child {
   padding-right: 2rem;
@@ -144,12 +144,12 @@ p, ol, li {
   height: 14rem;
   position: relative;
   float: right;
-  margin-right: 11rem;
+  margin-right: 15rem;
   top: 7rem;
 }
 
 .lessons-obs-why-list {
-  padding: 1rem 11rem 2rem 11rem;
+  padding: 1rem 15rem 2rem 15rem;
 }
 
 .lessons-obs-why-list ol {
@@ -167,12 +167,25 @@ p, ol, li {
 .lessons-obs-why-list li:nth-child(2) {
   padding-top: 2rem;
 }
-
+@media only screen and (max-width: 1320px) {
+  .lessons-obs .blueheader {
+    margin-left: 11rem;
+  }
+  #ipad {
+    margin-right: 11rem;
+  }
+  .lessons-obs-why p,
+  .lessons-obs-why-list {
+    padding-left: 11rem;
+  }
+  .lessons-obs-why-list {
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .lessons-obs .blueheader {
     margin-left: 5rem;
   }
-
   #ipad {
     margin-right: 5rem;
   }
@@ -180,11 +193,9 @@ p, ol, li {
   .lessons-obs-why-list {
     padding-left: 5rem;
   }
-
   .lessons-obs-why-list {
     padding-right: 5rem;
   }
-
 }
 
 @media only screen and (max-width: 871px) {
@@ -272,7 +283,6 @@ p, ol, li {
 @media only screen and (max-width: 1031px) {
   .blooms-brain-img img {
     height: 21rem;
-    border: 1px solid black;
 }
 }
 @media only screen and (max-width: 947px) {
@@ -345,7 +355,7 @@ p, ol, li {
 
 /* LOs Qualities */
 .los-qualities p {
-  padding: 2rem 11rem 2rem 11rem;
+  padding: 2rem 15rem 2rem 15rem;
 }
 
 .los-qualities-4-box {
@@ -414,20 +424,15 @@ p, ol, li {
   font-weight: bold;
 }
 
-@media only screen and (max-width: 1455px) {
-
-}
-@media only screen and (max-width: 1352px) {
-
-}
-
-@media only screen and (max-width: 1243px) {
-
+@media only screen and (max-width: 1320px) {
+  .los-qualities p {
+    padding: 2rem 1rem;
+  }
 }
 
 @media only screen and (max-width: 1150px) {
   .los-qualities p {
-    padding: 2rem 5rem;
+    padding: 2rem 1rem;
   }
   .block p {
     padding: 0.5rem 1rem 1.5rem 1rem;
@@ -452,7 +457,7 @@ p, ol, li {
 
 @media only screen and (max-width: 871px) {
   .los-qualities p {
-    padding: 1rem 3rem;
+    padding: 1rem 1rem;
   }
   .block p {
     padding: 0.5rem 1rem 1.5rem 1rem;
@@ -478,11 +483,9 @@ p, ol, li {
   }
 }
 
-
-
 /* LOs Examples */
 .los-examples {
-  padding: 1.5rem 11rem 1.5rem 11rem;
+  padding: 1.5rem 15rem 1.5rem 15rem;
 }
 
 .los-examples p {
@@ -521,7 +524,11 @@ p, ol, li {
   font-size: 1.8rem;
   font-weight: bold;
 }
-
+@media only screen and (max-width: 1320px) {
+  .los-examples {
+    padding: 1.5rem 11rem 1.5rem 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .los-examples {
     padding: 1.5rem 5rem 1.5rem 5rem;
@@ -543,7 +550,7 @@ p, ol, li {
 /* LOs Examples 2 */
 .los-examples2 {
   background-color: #008CE3;
-  padding: 1rem 11rem 2rem 11rem;
+  padding: 1rem 15rem 2rem 15rem;
 }
 
 .los-examples2 ul li {
@@ -562,7 +569,7 @@ p, ol, li {
   float: right;
   margin-top: -30rem;
   height: 30rem;
-  margin-right: 5rem;
+  margin-right: -3rem;
 }
 
 
@@ -577,14 +584,17 @@ p, ol, li {
     margin-top: -31rem;
   }
 }
-
+@media only screen and (max-width: 1320px) {
+  .los-examples2 {
+    padding: 1.5rem 11rem 1.5rem 11rem;
+  }
+}
 @media only screen and (max-width: 1292px) {
   #TeacherAndStick {
     height: 25rem;
     margin-right: -2rem;
   }
 }
-
 @media only screen and (max-width: 1150px) {
   .los-examples2 {
     padding: 1.5rem 5rem 1.5rem 5rem;
@@ -666,7 +676,7 @@ p, ol, li {
 
 /* References */
 .references {
-  padding: 3rem 14rem;
+  padding: 3rem 16rem;
 }
 
 .references h3 {
@@ -682,7 +692,12 @@ p, ol, li {
 .references ol li {
   margin-bottom: 1rem;
 }
-
+@media only screen and (max-width: 1320px) {
+  .references {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .references {
     padding-left: 5rem;

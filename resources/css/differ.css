@@ -73,7 +73,7 @@ p, ol, li {
     background: linear-gradient(#99D1F4, #fff);
 }
 .differentiation .blueheader {
-  margin: 2rem 0 1rem 11rem;
+  margin: 2rem 0 1rem 15rem;
 }
 
 .differentiation-why {
@@ -81,7 +81,7 @@ p, ol, li {
 }
 
 .differentiation-why p {
-  padding: 1rem 1.5rem 2rem 11rem;
+  padding: 1rem 1.5rem 2rem 15rem;
 }
 
 #pupil-steps {
@@ -89,7 +89,17 @@ p, ol, li {
   margin-right: 15rem;
   float: right;
 }
-
+@media only screen and (max-width: 1320px) {
+  .differentiation .blueheader {
+    margin-left: 11rem;
+  }
+  .differentiation-why p {
+    padding-left: 11rem;
+  }
+  #pupil-steps {
+    margin-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .differentiation .blueheader {
     margin-left: 5rem;
@@ -135,7 +145,7 @@ p, ol, li {
   display: block;
 }
 .sttep p {
-  padding: 1.5rem 11rem 1rem 11rem;
+  padding: 1.5rem 15rem 1rem 15rem;
 }
 
 .sttep-container {
@@ -145,7 +155,7 @@ p, ol, li {
 
 .sttep-container img {
   height: 37rem;
-  margin: 1rem 11rem;
+  margin: 1rem 15rem;
 }
 
 @media only screen and (max-width: 1418px) {
@@ -159,7 +169,12 @@ p, ol, li {
     height: 30rem;
   }
 }
-
+@media only screen and (max-width: 1320px) {
+  .sttep p {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .sttep p {
     padding-left: 5rem;
@@ -236,7 +251,7 @@ p, ol, li {
 }
 
 .diff-types-container {
-  padding: 1.5rem 11rem 3rem 11rem;
+  padding: 1.5rem 15rem 3rem 15rem;
 }
 
 .diff-types p {
@@ -300,7 +315,12 @@ p, ol, li {
   padding: 1.5rem 7rem 3rem 7rem;
 }
 }
-
+@media only screen and (max-width: 1320px) {
+  .diff-types-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1219px) {
   .diff-types-container {
     padding-left: 5rem;
@@ -335,7 +355,7 @@ p, ol, li {
 }
 
 .sttep2 p {
-  padding: 1.5rem 11rem 1.5rem 11rem;
+  padding: 1.5rem 15rem 1.5rem 15rem;
 }
 
 .sttep2-container {
@@ -347,7 +367,12 @@ p, ol, li {
   height: 35rem;
   margin-bottom: 2rem;
 }
-
+@media only screen and (max-width: 1320px) {
+  .sttep2 p {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .sttep2 p {
     padding-left: 5rem;
@@ -423,12 +448,12 @@ p, ol, li {
 }
 
 .conclusion .blueheader {
-  padding-left: 11rem;
+  padding-left: 15rem;
   padding-top: 3rem;
 }
 
 .conclusion-container {
-  padding: 2rem 11rem 3rem 11rem;
+  padding: 2rem 15rem 3rem 15rem;
 }
 
 .conclusion a:link,
@@ -436,7 +461,13 @@ p, ol, li {
 .conclusion a:active {
   color: white;
 }
-
+@media only screen and (max-width: 1320px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .conclusion .blueheader,
   .conclusion-container {
@@ -466,7 +497,7 @@ p, ol, li {
 
 /* References */
 .references {
-  padding: 3rem 14rem;
+  padding: 3rem 16rem;
 }
 
 .references h3 {
@@ -482,7 +513,12 @@ p, ol, li {
 .references ol li {
   margin-bottom: 1rem;
 }
-
+@media only screen and (max-width: 1320px) {
+  .references {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
 @media only screen and (max-width: 1150px) {
   .references {
     padding-left: 5rem;

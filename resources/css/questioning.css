@@ -690,34 +690,68 @@ p, ol, li {
 /* Question Table */
 .question-table {
   background-color: #57B6DD;
+}
+
+.question-table p {
+  padding: 2rem 15rem 0rem 15rem;
+}
+
+.question-table p span {
+  color: white;
+}
+
+.question-table-img {
   display: flex;
   justify-content: center;
 }
 
-.question-table img {
+.question-table-img img {
   height: 40rem;
   padding: 2rem 0;
 }
 
+@media only screen and (max-width: 1320px) {
+  .question-table p {
+    padding: 2rem 11rem 0 11rem;
+}
+}
+
 @media only screen and (max-width: 1229px) {
-  .question-table img {
+  .question-table-img img  {
     height: 35rem;
   }
 }
 
+@media only screen and (max-width: 1150px) {
+  .question-table p {
+    padding: 2rem 5rem 0 5rem;
+}
+}
 @media only screen and (max-width: 976px) {
-  .question-table img {
+  .question-table-img img  {
     height: 30rem;
   }
 }
 
+@media only screen and (max-width: 871px) {
+  .question-table p {
+    padding: 2rem 3rem 0 3rem;
+}
+}
+
 @media only screen and (max-width: 786px) {
-  .question-table img {
+  .question-table-img img  {
     height: 25rem;
   }
 }
+@media only screen and (max-width: 766px) {
+  .question-table p {
+    padding: 2rem 1.5rem 0 1.5rem;
+}
+}
+
 @media only screen and (max-width: 664px) {
-  .question-table img {
+  .question-table-img img  {
     height: 20rem;
   }
 }
