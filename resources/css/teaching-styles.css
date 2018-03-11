@@ -202,26 +202,46 @@ p, ol, li {
   .teaching-styles-why p,
   .teaching-styles-why-list {
     padding-left: 3rem;
-    padding-bottom: 0;
+    padding-bottom: 1rem;
     padding-top: 0;
   }
 
   #teacherboard {
-    height: 10rem;
+    height: 14rem;
     margin-right: 3rem;
     margin-top: 1rem;
     top: 4.5rem;
   }
-}
 
-
-@media only screen and (max-width: 700px) {
-  #teacherboard {
-    display: none;
+  .teaching-styles-why-list li {
+    padding-right: 5rem;
   }
-  .teaching-styles-why-list {
-    padding-right: 2rem;
+
+  .teaching-styles-why-list p {
+    padding-top: 2rem;
+    padding-right: 0;
+  }
 }
+
+@media only screen and (max-width: 621px) {
+    #teacherboard {
+      top: 0;
+    }
+}
+
+@media only screen and (max-width: 546px) {
+    #teacherboard {
+      display: none;
+    }
+    .teaching-styles-why p {
+      padding-right: 3rem;
+    }
+    .teaching-styles-why-list {
+      padding-right: 3rem;
+    }
+    .teaching-styles-why-list p {
+      padding-top: 0.5rem;
+    }
 }
 
 @media only screen and (max-width: 420px) {
@@ -231,37 +251,46 @@ p, ol, li {
 }
 
 /* Spectrum of Teaching Styles */
-.spectrum {
+.spectrum,
+.spectrum2 {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding: 2rem 15rem;
+  padding: 2rem 10rem;
 }
 
-.block {
+.spectrum2 {
+  background-color: #F7F4F1;
+}
+
+.block,
+.block2 {
   width: 18.5rem;
   height: 32rem;
   margin: 1rem 1rem 2rem 0.5rem;
 }
 
-.block-head {
+.block-head,
+.block-head2 {
   width: 100%;
   background-color: white;
 }
 
-.block-head img {
+.block-head img,
+.block-head2 img {
   margin: 2rem 0 0 1rem;
   margin-bottom: -4px;
   height: 5.5rem;
 }
 
-.block:nth-child(9) .block-head img,
-.block:nth-child(10) .block-head img {
+.block2:nth-child(3) .block-head img,
+.block2:nth-child(4) .block-head img {
   height: 7rem;
 }
 
-.block p {
+.block p,
+.block2 p {
   padding: 0.5rem 1rem 1.5rem 1rem;
 }
 
@@ -300,45 +329,35 @@ p, ol, li {
 }
 
 
-.block:nth-child(8),
-.block:nth-child(8) .block-head {
+.block2:nth-child(2),
+.block2:nth-child(2) .block-head2 {
   background-color: #CCE7F9;
   color: #58595B;
 }
-.block:nth-child(9),
-.block:nth-child(9) .block-head {
+.block2:nth-child(3),
+.block2:nth-child(3) .block-head2 {
   background-color: #99C1E1;
   color: #58595B;
 }
-.block:nth-child(10),
-.block:nth-child(10) .block-head {
+.block2:nth-child(4),
+.block2:nth-child(4) .block-head2 {
   background-color: #80C3F1;
   color: white;
 }
-.block:nth-child(11),
-.block:nth-child(11) .block-head {
+.block2:nth-child(5),
+.block2:nth-child(5) .block-head2 {
   background-color: #5AB1ED;
   color: white;
 }
-.block:nth-child(12),
-.block:nth-child(12) .block-head {
+.block2:nth-child(6),
+.block2:nth-child(6) .block-head2 {
   background-color: #339EE9;
   color: white;
 }
-.block:nth-child(13),
-.block:nth-child(13) .block-head {
+.block2:nth-child(7),
+.block2:nth-child(7) .block-head2 {
   background-color: #0086E3;
   color: white;
-}
-
-.white-bold-M {
-  font-size: 1.3rem;
-  font-weight: bolder;
-}
-
-.white-bold-L {
-  font-size: 1.5rem;
-  font-weight: bold;
 }
 
 .rationale {
@@ -352,74 +371,89 @@ p, ol, li {
   color: white;
 }
 
-.gray-bold-L {
-  font-size: 1.3rem;
-  font-weight: bold;
-}
-
 @media only screen and (max-width: 1320px) {
-  .los-qualities p {
-    padding: 2rem 1rem;
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 5rem;
   }
+
 }
 
 @media only screen and (max-width: 1150px) {
-  .los-qualities p {
-    padding: 2rem 1rem;
-  }
-  .block p {
-    padding: 0.5rem 1rem 1.5rem 1rem;
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 5rem;
   }
 }
-@media only screen and (max-width: 1060px) {
-  .block {
-    width: 13rem;
-    min-width: 13rem;
-    height: 30rem;
-    margin: 1rem 5rem 2rem 5rem;
-  }
-  .block:first-child,
-  .block:nth-child(2) {
-    height: 26rem;
-  }
-  .block:nth-child(3),
-  .block:last-child {
-    height: 20rem;
-  }
+@media only screen and (max-width: 1045px) {
+.block2:nth-child(7) {
+  height: 18rem;
+}
+.rationale {
+  height: 26rem;
+}
 }
 
 @media only screen and (max-width: 871px) {
-  .los-qualities p {
-    padding: 1rem 1rem;
-  }
-  .block p {
-    padding: 0.5rem 1rem 1.5rem 1rem;
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 5rem;
   }
 }
-@media only screen and (max-width: 772px) {
-  .block {
-    margin: 1rem 2rem 2rem 2rem;
-}
+@media only screen and (max-width: 832px) {
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 1.5rem;
+  }
 }
 @media only screen and (max-width: 766px) {
-  .los-qualities p {
-    padding: 1rem 1.5rem;
-  }
-  .block p {
-    padding: 0.5rem 1rem 1.5rem 1rem;
-}
-}
-
-@media only screen and (max-width: 573px) {
-  .block:first-child {
-    height: 22rem;
+  .spectrum,
+  .spectrum2 {
+    padding: 2rem 1.5rem;
   }
 }
 
-hr {
-  margin: 0 15rem;
-  font-weight: bolder;
+@media only screen and (max-width: 713px) {
+  .block,
+  .block2 {
+    height: 26rem;
+  }
+  .block:nth-child(3) {
+    height: 30rem;
+  }
+  .block:nth-child(5) {
+    height: 20rem;
+  }
+  .block .spectrum-img,
+  .block2 .spectrum-img {
+    margin-top: 0;
+  }
+  .block2:first-child {
+    padding-bottom: 2rem;
+  }
+  .block2:nth-child(2) {
+    height: 23rem;
+  }
+  .block2:nth-child(3) {
+    height: 21rem;
+  }
+  .block2:nth-child(6) {
+    height: 21rem;
+  }
+  .block2:nth-child(7) {
+    height: 18rem;
+  }
+  .rationale {
+    height: 26rem;
+  }
 }
+
+@media only screen and (max-width: 595px) {
+  .rationale {
+    height: auto;
+  }
+}
+
 /* References */
 .references {
   padding: 3rem 16rem;
