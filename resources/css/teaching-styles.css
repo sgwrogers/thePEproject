@@ -104,12 +104,6 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 456px) {
-  .blueheader {
-    height: 1.75rem;
-  }
-}
-
 .article a:link,
 .article a:visited,
 .article a:active {
@@ -127,6 +121,10 @@ p, ol, li {
 }
 .teaching-styles .blueheader {
   margin: 2rem 0 1rem 15rem;
+}
+
+.blueheader-mob {
+  display: none;
 }
 
 .teaching-styles-why {
@@ -233,21 +231,32 @@ p, ol, li {
     #teacherboard {
       display: none;
     }
-    .teaching-styles-why p {
-      padding-right: 3rem;
+
+    .teaching-styles .blueheader {
+      display: none;
     }
+    .teaching-styles .blueheader-mob {
+      display: block;
+      margin-left: 1.5rem;
+      height: 2rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .teaching-styles-why p,
     .teaching-styles-why-list {
-      padding-right: 3rem;
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-bottom: 1rem;
+      padding-top: 0;
     }
-    .teaching-styles-why-list p {
-      padding-top: 0.5rem;
-    }
+    .teaching-styles-why-list li {
+      padding-right: 0;
+  }
+
 }
 
 @media only screen and (max-width: 420px) {
-  .teaching-styles-why-list {
-    padding-right: 1rem;
-}
+
 }
 
 /* Spectrum of Teaching Styles */
@@ -360,17 +369,6 @@ p, ol, li {
   color: white;
 }
 
-.rationale {
-  width: 32rem;
-  height: 32rem;
-  background-color: #E76E34;
-  margin: 1rem 1rem 2rem 0.5rem;
-}
-.rationale p {
-  padding: 1.5rem 1rem 1.5rem 1rem;
-  color: white;
-}
-
 @media only screen and (max-width: 1320px) {
   .spectrum,
   .spectrum2 {
@@ -389,9 +387,7 @@ p, ol, li {
 .block2:nth-child(7) {
   height: 18rem;
 }
-.rationale {
-  height: 26rem;
-}
+
 }
 
 @media only screen and (max-width: 871px) {
@@ -443,16 +439,95 @@ p, ol, li {
   .block2:nth-child(7) {
     height: 18rem;
   }
-  .rationale {
-    height: 26rem;
-  }
+
 }
 
-@media only screen and (max-width: 595px) {
-  .rationale {
+@media only screen and (max-width: 560px) {
+  .block-head img,
+  .block-head2 img {
+    height: 4.5rem;
+  }
+  .block2:nth-child(3) .block-head2 img,
+  .block2:nth-child(4) .block-head2 img {
+    height: 6rem;
+  }
+  .block,
+  .block2 {
     height: auto;
   }
 }
+
+@media only screen and (max-width: 363px) {
+  .spectrum-img {
+    height: 24rem;
+    margin: 1.5rem;
+  }
+}
+
+  @media only screen and (max-width: 325px) {
+    .block-head img,
+    .block-head2 img {
+      height: 4rem;
+    }
+    .block2:nth-child(3) .block-head2 img,
+    .block2:nth-child(4) .block-head2 img {
+      height: 5.5rem;
+    }
+
+}
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+  color: white;
+}
+
+.conclusion .blueheader {
+  padding-left: 15rem;
+  padding-top: 2rem;
+}
+
+.conclusion-container {
+  padding: 2rem 15rem 3rem 15rem;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:active {
+  color: white;
+}
+@media only screen and (max-width: 1320px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion .blueheader,
+  .conclusion-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .conclusion .blueheader {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  .conclusion-container {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+
 
 /* References */
 .references {
