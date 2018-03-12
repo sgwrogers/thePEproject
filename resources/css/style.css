@@ -123,7 +123,7 @@ nav select:hover {
 /* Main Banner */
 
 .banner {
-  background: url("../images/Homepage-PEP-bigger.png") no-repeat center bottom;
+  background: url("../images/Homepage-Banner-bigger.png") no-repeat center bottom;
   background-size: cover;
   display: flex;
   justify-content: space-around;
@@ -401,13 +401,49 @@ nav select:hover {
   background-size: contain;
 }
 
-#curriculum {
-  background: url("../images/CurriculumIcon.png") no-repeat center center;
+#differentiation {
+  background: url("../images/DifferentiationIcon-Grey.png") no-repeat center center;
   background-size: contain;
 }
 
-#curriculum:hover {
-  background: url("../images/CurriculumIconBlue.png") no-repeat center center;
+#differentiation:hover {
+  background: url("../images/DifferentiationIcon-Hover.png") no-repeat center center;
+  background-size: contain;
+}
+#motivation {
+  background: url("../images/MotivationIcon-Grey.png") no-repeat center center;
+  background-size: contain;
+}
+
+#motivation:hover {
+  background: url("../images/MotivationIcon-Hover.png") no-repeat center center;
+  background-size: contain;
+}
+#teaching {
+  background: url("../images/TeachingModulesIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#teaching:hover {
+  background: url("../images/TeachingModulesIcon-Green.png") no-repeat center center;
+  background-size: contain;
+}
+#questioning {
+  background: url("../images/QuestioningIcon.png") no-repeat center center;
+  background-size: contain;
+}
+
+#questioning:hover {
+  background: url("../images/QuestioningIcon-beige.png") no-repeat center center;
+  background-size: contain;
+}
+#engagement {
+  background: url("../images/StudentEngagementIcon-Grey.png") no-repeat center center;
+  background-size: contain;
+}
+
+#engagement:hover {
+  background: url("../images/StudentEngagementIcon-Hover.png") no-repeat center center;
   background-size: contain;
 }
 
@@ -421,23 +457,13 @@ nav select:hover {
   background-size: contain;
 }
 
-#teaching {
-  background: url("../images/TeachingModulesIcon.png") no-repeat center center;
+#curriculum {
+  background: url("../images/CurriculumIcon.png") no-repeat center center;
   background-size: contain;
 }
 
-#teaching:hover {
-  background: url("../images/TeachingModulesIcon-Green.png") no-repeat center center;
-  background-size: contain;
-}
-
-#questioning {
-  background: url("../images/QuestioningIcon.png") no-repeat center center;
-  background-size: contain;
-}
-
-#questioning:hover {
-  background: url("../images/QuestioningIcon-beige.png") no-repeat center center;
+#curriculum:hover {
+  background: url("../images/CurriculumIconBlue.png") no-repeat center center;
   background-size: contain;
 }
 
