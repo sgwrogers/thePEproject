@@ -208,7 +208,11 @@ p, ol, li {
     top: 0;
 }
 }
-
+@media only screen and (max-width: 623px) {
+  #assessment-icon {
+    display: none;
+}
+}
 /* Assessment Types */
 .assessment-types {
   background-color: #E76E34;
@@ -318,20 +322,21 @@ p, ol, li {
 }
 }
 
-/* Need to change bloom's brain img to mobile version --
 @media only screen and (max-width: 518px) {
-  .blooms-brain-img img {
-    height: 10rem;
-}
-}
-*/
-
-@media only screen and (max-width: 518px) {
-  .assessment-types-img {
-    display: none;
+  .assessment-types-img img {
+    height: 13rem;
   }
 }
-
+@media only screen and (max-width: 443px) {
+  .assessment-types-img img {
+    height: 11rem;
+  }
+}
+@media only screen and (max-width: 376px) {
+  .assessment-types-img img {
+    height: 10rem;
+  }
+}
 /* Formative Assessment */
 .formative {
   background-color: #BED63A;
@@ -360,6 +365,10 @@ p, ol, li {
 
 .formative-right img {
   height: 16rem;
+}
+
+#teacherform-mob {
+  display: none;
 }
 
 @media only screen and (max-width: 1320px) {
@@ -408,8 +417,48 @@ p, ol, li {
   }
 }
 
-/* mobile version needs to start at 662px */
+@media only screen and (max-width: 696px) {
+  .formative-left {
+    width: 78%;
+  }
+  .formative-right {
+    width: 22%;
+  }
+  .formative-right img {
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .formative-right {
+    display: none;
+  }
+  .formative-left {
+    width: 100%;
+  }
+}
 
+@media only screen and (max-width: 448px) {
+  .formative-container {
+    display: block;
+    padding-bottom: 0;
+  }
+  .formative-right {
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  #teacherform {
+    display: none;
+  }
+  #teacherform-mob {
+    display: block;
+    margin: 0 auto;
+  }
+  .formative-left {
+    display: block;
+    width: 100%;
+  }
+}
 /* Summative */
 
 .summative {
@@ -493,8 +542,15 @@ p, ol, li {
     height: 14rem;
   }
 }
-
-/* mobile version needs to start at 662px */
+@media only screen and (max-width: 660px) {
+  .summative-left {
+    display: none;
+  }
+  .summative-right {
+    width: 100%;
+    padding-bottom: 0;
+  }
+}
 
 /* Normative Assessment */
 .norm {
@@ -587,10 +643,27 @@ p, ol, li {
   }
 }
 
-/* Mobile version design needs to begin here
-@media only screen and (max-width: 708px) {
+@media only screen and (max-width: 784px) {
+  .norm-right {
+    display: none;
+  }
+  .norm-left {
+    width: 100%;
+  }
+}
 
-} */
+@media only screen and (max-width: 448px) {
+  .norm-container {
+    display: block;
+  }
+  .norm-right {
+    display: block;
+    width: 100%;
+  }
+  .norm-left {
+    display: block;
+  }
+}
 
 /* Criterion */
 
@@ -662,7 +735,7 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 810px) {
   .criterion-left {
     align-self: center;
   }
@@ -672,8 +745,29 @@ p, ol, li {
   }
 }
 
-/* 712px mobile design needs to begin */
+@media only screen and (max-width: 784px) {
+  .criterion-left {
+    display: none;
+  }
+  .criterion-right {
+    width: 100%;
+  }
+}
 
+@media only screen and (max-width: 448px) {
+  .criterion-container {
+    flex-direction: column;
+  }
+  .criterion-left {
+    display: block;
+    width: auto;
+    order: 2;
+  }
+
+  .criterion-right {
+    order: 1;
+  }
+}
 
 /* Ipsative Assessment */
 .ipsative {
@@ -750,6 +844,31 @@ p, ol, li {
     margin-left: 1rem;
   }
 }
+
+@media only screen and (max-width: 784px) {
+  .ipsative-right {
+    display: none;
+  }
+  .ipsative-left {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 448px) {
+  .ipsative-container {
+    flex-direction: column;
+  }
+  .ipsative-right {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+  }
+  .ipsative-right img {
+    margin: 0 auto;
+  }
+
+}
+
 
 /* 708px mobile design to begin */
 

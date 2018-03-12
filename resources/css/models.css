@@ -87,7 +87,7 @@ p, ol, li {
 }
 @media only screen and (max-width: 426px) {
   .blueheader-small {
-    height: 1.8rem;
+    height: 1.7rem;
   }
 }
 .article p a:link,
@@ -258,12 +258,13 @@ ol li:last-child a:hover {
   }
 }
 
-@media only screen and (max-width: 766px) {
+@media only screen and (max-width: 778px) {
   .teaching-models-why {
     padding-right: 1.5rem;
   }
   .teaching-models-why-text {
     width: 100%;
+    padding-left: 1.5rem;
   }
   .teaching-models-why-image {
     display: none;
@@ -274,6 +275,11 @@ ol li:last-child a:hover {
   .teaching-models-why-text {
     padding: 1.5rem;
   }
+}
+@media only screen and (max-width: 399px) {
+    .teaching-models-why {
+      padding: 0;
+    }
 }
 
 

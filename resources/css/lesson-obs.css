@@ -223,7 +223,26 @@ p, ol, li {
     padding-right: 7rem;
   }
 }
+@media only screen and (max-width: 766px) {
+  .lessons-obs .blueheader {
+    margin-left: 1.5rem;
+  }
+  .lessons-obs-why p,
+  .lessons-obs-why-list {
+    padding-left: 1.5rem;
+  }
 
+  #ipad {
+    margin-right: 1.5rem;
+  }
+  .lessons-obs-why-list li:nth-child(2) {
+    padding-top: 0;
+    padding-bottom: 2rem;
+  }
+  .lessons-obs-why-list li:first-child {
+    padding-right: 7rem;
+  }
+ }
 
 @media only screen and (max-width: 700px) {
   #ipad {
@@ -265,6 +284,10 @@ p, ol, li {
 
 .blooms-brain-img img {
   height: 30rem;
+}
+
+#bloomsbrain-mob {
+  display: none;
 }
 
 
@@ -329,29 +352,27 @@ p, ol, li {
 
 @media only screen and (max-width: 600px) {
   .blooms-brain-img img {
-    height: 12rem;
-}
-}
-
-@media only screen and (max-width: 556px) {
-  .blooms-brain-img img {
-    height: 11rem;
-}
-}
-
-/* Need to change bloom's brain img to mobile version --
-@media only screen and (max-width: 518px) {
-  .blooms-brain-img img {
-    height: 10rem;
-}
-}
-*/
-
-@media only screen and (max-width: 518px) {
-  .blooms-brain-img {
+    height: 26rem;
+  }
+  #bloomsbrain {
     display: none;
   }
+  #bloomsbrain-mob {
+    display: block;
+  }
 }
+@media only screen and (max-width: 454px) {
+  .blooms-brain-img img {
+    height: 22rem;
+  }
+  #bloomsbrain {
+    display: none;
+  }
+  #bloomsbrain-mob {
+    display: block;
+  }
+}
+
 
 /* LOs Qualities */
 .los-qualities p {

@@ -1,30 +1,19 @@
-@media only screen and (max-width: 1094px) {
-  .sported-container {
-    display: block;
+@media only screen and (max-width: 784px) {
+  .ipsative-right {
+    display: none;
   }
-  .sported-top {
+  .ipsative-left {
     width: 100%;
-    margin-bottom: 2rem;
-  }
-  .sported-bl {
-    width: 100%;
-    height: auto;
-  }
-}
-@media only screen and (max-width: 749px) {
-  #sported-diagram {
-    height: 31rem;
   }
 }
 
-@media only screen and (max-width: 601px) {
-  #sported-diagram {
-    height: 27rem;
+@media only screen and (max-width: 448px) {
+  .ipsative-container {
+    flex-direction: column;
   }
-}
+  .ipsative-right {
+    display: flex;
+    width: 100%;
+  }
 
-@media only screen and (max-width: 508px) {
-  #sported-diagram {
-    height: 1rem;
-  }
 }

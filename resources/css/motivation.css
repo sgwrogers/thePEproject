@@ -300,7 +300,6 @@ p, ol, li {
 @media only screen and (max-width: 380px) {
   .motivation-types-p1 {
     display: block;
-    width: 100%;
   }
   .motivation-types-p1 img {
     display: block;
@@ -401,6 +400,11 @@ p, ol, li {
 @media only screen and (max-width: 480px) {
   .motivation-table img {
     height: 15rem;
+  }
+}
+@media only screen and (max-width: 401px) {
+  .motivation-table img {
+    height: 13rem;
   }
 }
 
@@ -533,6 +537,11 @@ p, ol, li {
     height: 15rem;
   }
 }
+@media only screen and (max-width: 401px) {
+  .motivation-psych img {
+    height: 13rem;
+  }
+}
 
 
 /* Motivation Target */
@@ -661,6 +670,11 @@ p, ol, li {
 @media only screen and (max-width: 480px) {
   .target-table img {
     height: 15rem;
+  }
+}
+@media only screen and (max-width: 401px) {
+  .target-table img {
+    height: 13rem;
   }
 }
 

@@ -325,7 +325,25 @@ p, ol, li {
     font-size: 1.3rem;
 }
 }
-/* mobile version needs to start at 474px */
+
+@media only screen and (max-width: 474px) {
+  .examples-container img {
+    height: 18rem;
+  }
+  .examples h4 {
+    font-size: 1rem;
+}
+}
+@media only screen and (max-width: 421px) {
+  .examples-container img {
+    height: 16rem;
+  }
+}
+@media only screen and (max-width: 373px) {
+  .examples-container img {
+    height: 14rem;
+  }
+}
 
 /* question txt 2 */
 
@@ -364,8 +382,6 @@ p, ol, li {
     padding-right: 1.5rem;
 }
 }
-
-/* mobile version needs to start at 662px */
 
 /* Blooms table */
 .blooms-table {
@@ -420,11 +436,26 @@ p, ol, li {
   }
 }
 
-/* Mobile version design needs to begin here
-@media only screen and (max-width: 708px) {
-
-} */
-
+@media only screen and (max-width: 542px) {
+  .blooms img {
+    height: 22rem;
+  }
+}
+@media only screen and (max-width: 478px) {
+  .blooms img {
+    height: 20rem;
+  }
+}
+@media only screen and (max-width: 429px) {
+  .blooms img {
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .blooms img {
+    height: 16rem;
+  }
+}
 /* Combination */
 .combination {
   background-color: #57B6DD;
@@ -560,9 +591,6 @@ p, ol, li {
   }
 }
 
-/* 708px mobile design to begin */
-
-
 /* Strategies */
 .strategies {
   background-color: white;
@@ -647,6 +675,12 @@ p, ol, li {
   .strategies-left img,
   .mistakes-right img {
     height: 35rem;
+  }
+}
+@media only screen and (max-width: 382px) {
+  .strategies-left img,
+  .mistakes-right img {
+    height: 32rem;
   }
 }
 /* question txt 4 */
@@ -753,6 +787,29 @@ p, ol, li {
 @media only screen and (max-width: 664px) {
   .question-table-img img  {
     height: 20rem;
+  }
+}
+
+@media only screen and (max-width: 553px) {
+  .question-table-img img  {
+    height: 18rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .question-table-img img  {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .question-table-img img  {
+    height: 14rem;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .question-table-img img  {
+    height: 12rem;
   }
 }
 /* mobile version at 584px */
