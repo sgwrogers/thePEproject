@@ -20,6 +20,11 @@ body {
   height: 3rem;
 }
 
+@media only screen and (max-width: 327px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
 
 /* Header and Navigation */
 header {
@@ -120,6 +125,12 @@ nav select:hover {
   }
 }
 
+@media only screen and (max-width: 311px) {
+  .logo img {
+    height: 5rem;
+  }
+}
+
 /* Main Banner */
 
 .banner {
@@ -186,6 +197,11 @@ nav select:hover {
     height: 13rem;
   }
 }
+@media only screen and (max-width: 302px) {
+  .banner {
+    height: 11rem;
+  }
+}
 
 /* About us */
 .container {
@@ -199,9 +215,9 @@ nav select:hover {
 }
 
 .about-left {
-  width: 25%;
-  margin: 2rem 0;
-  padding-left: 11rem;
+  width: auto;
+  margin-top: 2rem;
+  margin-left: 11rem;
 }
 
 .about-left img {
@@ -209,8 +225,9 @@ nav select:hover {
 }
 
 .about-middle {
-  width: 35%;
-  margin: 0;
+  width: auto;
+  margin-left: 1rem;
+  margin-right: 1rem;
   align-self: flex-start;
   height: 18rem;
 }
@@ -246,9 +263,9 @@ nav select:hover {
 }
 
 .about-right {
-  width: 40%;
+  width: auto;
   margin: 2rem 0;
-  padding-left: 2rem;
+  margin-right: 11rem;
 }
 
 .about-right img {
@@ -259,95 +276,123 @@ nav select:hover {
   justify-content: flex-end;
 }
 
-@media only screen and (max-width: 1224px) {
-  .about-left {
-    width: 30%;
-  }
-  .about-middle {
-    width: 35%;
-  }
+@media only screen and (max-width: 1364px) {
   .about-right {
-    width: 35%;
-    margin-right: 1rem;
+    margin-right: 8rem;
+  }
+  .about-left {
+    margin-left: 8rem;
   }
 }
+@media only screen and (max-width: 1285px) {
+  .about-right {
+    margin-right: 5rem;
+  }
+  .about-left {
+    margin-left: 5rem;
+  }
+}
+
 
 @media only screen and (max-width: 1180px) {
-  .about-left img,
-  .about-right img {
+  .about-left img {
     height: 13rem;
   }
-}
-
-@media only screen and (max-width: 1027px) {
-  .about-left img,
   .about-right img {
     height: 11rem;
   }
-  .about-left {
-    padding-right: 3rem;
-  }
 }
 
-@media only screen and (max-width: 955px) {
-  .about-left {
-    padding-right: 2rem;
+@media only screen and (max-width: 1111px) {
+  .about-left img {
+    height: 12rem;
   }
   .about-right img {
     height: 10rem;
+  }
+  .about-left {
+    margin-left: 3rem;
+  }
+  .about-right {
+    margin-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .about-middle {
+    height: 20.5rem;
   }
 }
 
 @media only screen and (max-width: 804px) {
   .container {
-    height: 14rem;
+    height: auto;
   }
   .about-left {
     display: none;
   }
   .about-middle {
     width: 80%;
-    height: auto;
+    height: 15rem;
   }
   .about-right {
     display: none;
   }
 }
 
-@media only screen and (max-width: 674px) {
-  .container {
-    height: 15rem;
+@media only screen and (max-width: 628px) {
+  .about-middle {
+    height: 16rem;
   }
 }
 
-@media only screen and (max-width: 530px) {
-  .container {
-    height: 16.5rem;
+@media only screen and (max-width: 537px) {
+  .about-middle {
+    height: 17rem;
   }
 }
 
-@media only screen and (max-width: 437px) {
-  .container {
-    height: 17.5rem;
-  }
-}
-
-@media only screen and (max-width: 355px) {
-  .container {
-    height: 18.5rem;
-  }
-}
-
-@media only screen and (max-width: 326px) {
-  .container {
+@media only screen and (max-width: 484px) {
+  .about-middle {
     height: 18rem;
   }
-  .about-text {
-    margin-top: 1rem;
-  } /*Not displaying properly in internet explorer*/
+}
 
+@media only screen and (max-width: 430px) {
+  .about-middle {
+    height: 19.5rem;
+  }
+}
+
+@media only screen and (max-width: 399px) {
+  .about-middle {
+    height: 18.5rem;
+  }
   .about-text p {
     font-size: 0.95rem;
+  }
+}
+
+@media only screen and (max-width: 377px) {
+  .about-middle {
+    height: 19.5rem;
+  }
+}
+
+@media only screen and (max-width: 339px) {
+  .about-middle {
+    height: 20.5rem;
+  }
+}
+
+@media only screen and (max-width: 319px) {
+  .about-middle {
+    height: 21.5rem;
+  }
+}
+@media only screen and (max-width: 307px) {
+  .about-middle {
+    height: 22.5rem;
   }
 }
 
@@ -467,10 +512,6 @@ nav select:hover {
   background-size: contain;
 }
 
-.item-image img {
-  height: 7rem;
-}
-
 @media only screen and (max-width: 768px) {
   .gallery {
     margin-left: 3rem;
@@ -488,6 +529,14 @@ nav select:hover {
   .gallery {
     margin-left: 2rem;
     margin-right: 2rem;
+  }
+}
+@media only screen and (max-width: 422px) {
+  .gallery {
+    margin-bottom: 2rem;
+  }
+  .item-image {
+    height: 5rem;
   }
 }
 @media only screen and (max-width: 366px) {
@@ -616,6 +665,21 @@ nav select:hover {
 @media only screen and (max-width: 335px) {
   .advert-mobile img {
     height: 6.35rem;
+  }
+}
+@media only screen and (max-width: 324px) {
+  .advert-mobile img {
+    height: 6.1rem;
+  }
+}
+@media only screen and (max-width: 311px) {
+  .advert-mobile img {
+    height: 5.75rem;
+  }
+}
+@media only screen and (max-width: 300px) {
+  .advert-mobile img {
+    height: 5.5rem;
   }
 }
 /* Footer */
