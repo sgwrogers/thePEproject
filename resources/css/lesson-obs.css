@@ -109,7 +109,21 @@ p, ol, li {
     height: 1.75rem;
   }
 }
-
+@media only screen and (max-width: 348px) {
+  .blueheader {
+    height: 1.65rem;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .blueheader {
+    height: 1.55rem;
+  }
+}
+@media only screen and (max-width: 318px) {
+  .blueheader {
+    height: 1.45rem;
+  }
+}
 .article a:link,
 .article a:visited,
 .article a:active {
@@ -365,14 +379,12 @@ p, ol, li {
   .blooms-brain-img img {
     height: 22rem;
   }
-  #bloomsbrain {
-    display: none;
-  }
-  #bloomsbrain-mob {
-    display: block;
+}
+@media only screen and (max-width: 328px) {
+  .blooms-brain-img img {
+    height: 20rem;
   }
 }
-
 
 /* LOs Qualities */
 .los-qualities p {
@@ -691,6 +703,15 @@ p, ol, li {
 @media only screen and (max-width: 547px) {
   .los-examples2 {
     padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .blue-bold-L,
+  .lite-blue-L,
+  .orange-L,
+  .green-L,
+  .yellow-L {
+    font-size: 1.2rem;
   }
 }
 

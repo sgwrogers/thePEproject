@@ -17,10 +17,14 @@ p, ol, li {
   line-height: 1.2;
 }
 
-.blueheader {
+.blueheader,
+.blueheader-desk {
   height: 3.5rem;
 }
 
+.blueheader-mob {
+  display: none;
+}
 .orange {
   color: #DE572F;
   text-transform: uppercase;
@@ -81,7 +85,8 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 1051px) {
-  .blueheader {
+  .blueheader,
+  .blueheader-desk {
     height: 3rem;
   }
   p, ol, li {
@@ -90,13 +95,15 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 913px) {
-  .blueheader {
+  .blueheader,
+  .blueheader-desk {
     height: 2.5rem;
   }
 }
 
 @media only screen and (max-width: 547px) {
-  .blueheader {
+  .blueheader,
+  .blueheader-desk {
     height: 2rem;
   }
   p, ol, li {
@@ -105,8 +112,19 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 456px) {
-  .blueheader {
-    height: 1.75rem;
+  .blueheader-desk {
+    display: none;
+  }
+  .blueheader-mob {
+    display: block;
+    height: 1.9rem;
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+  }
+}
+@media only screen and (max-width: 293px) {
+  .blueheader-mob {
+    height: 1.7rem;
   }
 }
 
@@ -125,7 +143,7 @@ p, ol, li {
 .motivation {
   background: linear-gradient(#99D1F4, #fff);
 }
-.motivation .blueheader {
+.motivation .blueheader-desk {
   margin: 2rem 0 1rem 15rem;
 }
 
@@ -160,7 +178,7 @@ p, ol, li {
   margin-bottom: 1rem;
 }
 @media only screen and (max-width: 1320px) {
-  .motivation .blueheader {
+  .motivation .blueheader-desk {
     margin-left: 11rem;
   }
   .motivation-why p,
@@ -177,7 +195,7 @@ p, ol, li {
   }
 }
 @media only screen and (max-width: 1150px) {
-  .motivation .blueheader {
+  .motivation .blueheader-desk {
     margin-left: 5rem;
   }
   .motivation-why p,
@@ -195,7 +213,7 @@ p, ol, li {
 }
 
 @media only screen and (max-width: 871px) {
-  .motivation .blueheader {
+  .motivation .blueheader-desk {
     margin-left: 3rem;
   }
   .motivation-why p,
@@ -222,7 +240,7 @@ p, ol, li {
   .motivation-why {
     width: 100%;
   }
-  .motivation .blueheader {
+  .motivation .blueheader-desk {
     margin-left: 1.5rem;
   }
   .motivation-why p,
@@ -322,6 +340,10 @@ p, ol, li {
   margin: 2rem 15rem;
 }
 
+#motivation-mob {
+  display: none;
+}
+
 .motivation-table p {
   align-self: flex-start;
   margin-left: 15rem;
@@ -393,22 +415,43 @@ p, ol, li {
   }
 }
 @media only screen and (max-width: 580px) {
+  .motivation-table {
+    margin-bottom: 0;
+    }
+  .motivation-table p {
+    display: none;
+  }
+  #motivation1 {
+    display: none;
+  }
+  #motivation-mob {
+    display: block;
+  }
   .motivation-table img {
-    height: 18rem;
+    height: 48rem;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 470px) {
   .motivation-table img {
-    height: 15rem;
+    height: 44rem;
   }
 }
 @media only screen and (max-width: 401px) {
   .motivation-table img {
-    height: 13rem;
+    height: 40rem;
+    margin: 2rem auto;
   }
 }
-
-
+@media only screen and (max-width: 368px) {
+  .motivation-table img {
+    height: 34rem;
+  }
+}
+@media only screen and (max-width: 290px) {
+  .motivation-table img {
+    height: 32rem;
+  }
+}
 /* Motivation Intro to Target */
 .motivation-how {
   background-color: #BED63A;
@@ -454,6 +497,10 @@ p, ol, li {
 .motivation-psych img {
   height: 44rem;
   margin: 1rem 15rem 2rem 15rem;
+}
+
+#psych-mob {
+  display: none;
 }
 
 .motivation-psych p {
@@ -524,25 +571,35 @@ p, ol, li {
 }
 @media only screen and (max-width: 680px) {
   .motivation-psych img {
-    height: 21rem;
+    height: 23rem;
   }
 }
 @media only screen and (max-width: 580px) {
   .motivation-psych img {
-    height: 18rem;
+    height: 55rem;
+  }
+  #psych-desk {
+  display: none;
+  }
+  #psych-mob {
+    display: block;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 508px) {
   .motivation-psych img {
-    height: 15rem;
+    height: 50rem;
   }
 }
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 428px) {
   .motivation-psych img {
-    height: 13rem;
+    height: 35rem;
   }
 }
-
+@media only screen and (max-width: 370px) {
+  .motivation-psych img {
+    height: 32rem;
+  }
+}
 
 /* Motivation Target */
 .motivation-target {
@@ -592,6 +649,10 @@ p, ol, li {
 .target-table img {
   height: 46rem;
   margin: 1rem 15rem 2rem 15rem;
+}
+
+#target-mob {
+  display: none;
 }
 
 .target-table p {
@@ -659,22 +720,33 @@ p, ol, li {
 }
 @media only screen and (max-width: 680px) {
   .target-table img {
-    height: 21rem;
+    height: 21rem;<img src="./resources/images/motivation/Psych2.png" id="target-desk" alt="Table outlining the four psychological needs: Autonomy, Purpose, Flow, Relatedness"/>
   }
 }
 @media only screen and (max-width: 580px) {
+  #target-desk {
+    display: none;
+  }
+  #target-mob {
+    display: block;
+  }
   .target-table img {
-    height: 18rem;
+    height: 62rem;
   }
 }
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 428px) {
   .target-table img {
-    height: 15rem;
+    height: 50rem;
   }
 }
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 370px) {
   .target-table img {
-    height: 13rem;
+    height: 45rem;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .target-table img {
+    height: 39rem;
   }
 }
 

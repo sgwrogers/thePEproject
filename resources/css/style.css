@@ -432,7 +432,7 @@ nav select:hover {
 }
 
 #lessonplans:hover {
-  background: url("../images/LessonPlansIconOrange.png") no-repeat center center;
+  background: url("../images/LessonPlansGreenIcon.png") no-repeat center center;
   background-size: contain;
 }
 
@@ -492,13 +492,13 @@ nav select:hover {
   background-size: contain;
 }
 
-#character {
-  background: url("../images/CharacterIcon.png") no-repeat center center;
+#styles {
+  background: url("../images/TeachingStylesIcon-Grey.png") no-repeat center center;
   background-size: contain;
 }
 
-#character:hover {
-  background: url("../images/CharacterIconBlue.png") no-repeat center center;
+#styles:hover {
+  background: url("../images/TeachingStylesIcon-Hover.png") no-repeat center center;
   background-size: contain;
 }
 

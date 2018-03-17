@@ -400,6 +400,10 @@ p, ol, li {
   padding: 2rem 0;
 }
 
+#quest1-mob {
+  display: none;
+}
+
 @media only screen and (max-width: 1320px) {
   .blooms-table p {
     padding: 2rem 11rem 0 11rem;
@@ -436,24 +440,30 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 542px) {
+@media only screen and (max-width: 500px) {
   .blooms img {
-    height: 22rem;
+    height: 45rem;
+  }
+  #quest1-desk {
+    display: none;
+  }
+  #quest1-mob {
+    display: block;
   }
 }
-@media only screen and (max-width: 478px) {
+@media only screen and (max-width: 411px) {
   .blooms img {
-    height: 20rem;
+    height: 40rem;
   }
 }
-@media only screen and (max-width: 429px) {
+@media only screen and (max-width: 380px) {
   .blooms img {
-    height: 18rem;
+    height: 35rem;
   }
 }
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 340px) {
   .blooms img {
-    height: 16rem;
+    height: 30rem;
   }
 }
 /* Combination */
@@ -744,6 +754,10 @@ p, ol, li {
   padding: 2rem 0;
 }
 
+#quest2-mob {
+  display: none;
+}
+
 @media only screen and (max-width: 1320px) {
   .question-table p {
     padding: 2rem 11rem 0 11rem;
@@ -796,20 +810,31 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 500px) {
   .question-table-img img  {
-    height: 16rem;
+    height: 35rem;
+  }
+  #quest2-desk {
+    display: none;
+  }
+  #quest2-mob {
+    display: block;
   }
 }
 
-@media only screen and (max-width: 410px) {
+@media only screen and (max-width: 438px) {
   .question-table-img img  {
-    height: 14rem;
+    height: 30rem;
   }
 }
-@media only screen and (max-width: 393px) {
+@media only screen and (max-width: 384px) {
   .question-table-img img  {
-    height: 12rem;
+    height: 25rem;
+  }
+}
+@media only screen and (max-width: 327px) {
+  .question-table-img img  {
+    height: 20rem;
   }
 }
 /* mobile version at 584px */

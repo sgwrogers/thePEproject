@@ -50,7 +50,26 @@ p, ol, li {
     height: 1.75rem;
   }
 }
-
+@media only screen and (max-width: 356px) {
+  .blueheader {
+    height: 1.6rem;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .blueheader {
+    height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 312px) {
+  .blueheader {
+    height: 1.4rem;
+  }
+}
+@media only screen and (max-width: 278px) {
+  .blueheader {
+    height: 1.3rem;
+  }
+}
 .article a:link,
 .article a:visited,
 .article a:active {
@@ -81,7 +100,7 @@ p, ol, li {
 }
 
 .differentiation-why p {
-  padding: 1rem 1.5rem 2rem 15rem;
+  padding: 0 1.5rem 2rem 15rem;
 }
 
 #pupil-steps {
@@ -158,6 +177,10 @@ p, ol, li {
   margin: 1rem 15rem;
 }
 
+#step-mob {
+  display: none;
+}
+
 @media only screen and (max-width: 1418px) {
   .sttep-container img {
     height: 34rem;
@@ -231,19 +254,43 @@ p, ol, li {
   }
 }
 
-@media only screen and (max-width: 468px) {
+@media only screen and (max-width: 500px) {
+  .sttep-container {
+    padding-top: 0;
+  }
   .sttep-container img {
-    height: 12.5rem;
+    height: 30rem;
     margin-bottom: 0;
   }
-}
-
-@media only screen and (max-width: 370px) {
-  .sttep-container img {
-    height: 10rem;
+  #step-desk {
+    display: none;
+  }
+  #step-mob {
+    display: block;
   }
 }
 
+@media only screen and (max-width: 440px) {
+  .sttep-container img {
+    height: 26rem;
+  }
+}
+
+@media only screen and (max-width: 392px) {
+  .sttep-container img {
+    height: 23rem;
+  }
+}
+@media only screen and (max-width: 346px) {
+  .sttep-container img {
+    height: 21rem;
+  }
+}
+@media only screen and (max-width: 320px) {
+  .sttep-container img {
+    height: 19rem;
+  }
+}
 /* Types of Differentiation */
 .diff-types {
   background-color: #F7F4F1;
@@ -253,10 +300,12 @@ p, ol, li {
 .diff-types-container {
   padding: 1.5rem 15rem 3rem 15rem;
 }
+.diff-types-container p {
+  padding: 0;
+}
 
 .diff-types p {
-  margin-top: 1rem;
-  margin-bottom: 2rem;
+  margin: 0;
 }
 
 .diff-types-blocks {
@@ -303,7 +352,6 @@ p, ol, li {
   width: 17.06rem;
   margin-top: -5px;
   margin-left: -0.03px;
-
 }
 
 .block p {
@@ -315,12 +363,6 @@ p, ol, li {
   padding: 1.5rem 7rem 3rem 7rem;
 }
 }
-@media only screen and (max-width: 1320px) {
-  .diff-types-container {
-    padding-left: 11rem;
-    padding-right: 11rem;
-  }
-}
 @media only screen and (max-width: 1219px) {
   .diff-types-container {
     padding-left: 5rem;
@@ -331,14 +373,14 @@ p, ol, li {
 @media only screen and (max-width: 871px) {
   .diff-types-container {
     padding-left: 3rem;
-    padding-right: 2rem;
+    padding-right: 3rem;
   }
 }
 
 @media only screen and (max-width: 749px) {
   .diff-types-container {
-    padding-left: 3rem;
-    padding-right: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
   }
 }
 
@@ -349,6 +391,22 @@ p, ol, li {
   }
 }
 
+@media only screen and (max-width: 328px) {
+.block {
+  width: 16rem;
+}
+.block img {
+  width: 16.06rem;
+}
+}
+@media only screen and (max-width: 292px) {
+.block {
+  width: 15rem;
+}
+.block img {
+  width: 15.06rem;
+}
+}
 /* Sttep 2 Principle */
 .sttep2 {
   background-color: #BED63A;
@@ -439,8 +497,16 @@ p, ol, li {
     height: 10.5rem;
   }
 }
-
-
+@media only screen and (max-width: 344px) {
+  .sttep2-container img {
+    height: 9rem;
+  }
+}
+@media only screen and (max-width: 294px) {
+  .sttep2-container img {
+    height: 8rem;
+  }
+}
 /* Conclusion */
 .conclusion {
   background-color: #008CE3;
@@ -454,6 +520,9 @@ p, ol, li {
 
 .conclusion-container {
   padding: 2rem 15rem 3rem 15rem;
+}
+.conclusion-container p {
+  padding: 0;
 }
 
 .conclusion a:link,
@@ -480,7 +549,7 @@ p, ol, li {
   .conclusion .blueheader,
   .conclusion-container {
     padding-left: 3rem;
-    padding-right: 2rem;
+    padding-right: 3rem;
   }
 }
 

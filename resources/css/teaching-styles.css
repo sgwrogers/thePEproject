@@ -252,11 +252,12 @@ p, ol, li {
     .teaching-styles-why-list li {
       padding-right: 0;
   }
-
 }
 
-@media only screen and (max-width: 420px) {
-
+@media only screen and (max-width: 299px) {
+  .teaching-styles .blueheader-mob {
+    height: 1.9rem;
+  }
 }
 
 /* Spectrum of Teaching Styles */

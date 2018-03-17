@@ -109,7 +109,21 @@ p, ol, li {
     height: 1.75rem;
   }
 }
-
+@media only screen and (max-width: 341px) {
+  .blueheader {
+    height: 1.65rem;
+  }
+}
+@media only screen and (max-width: 334px) {
+  .blueheader {
+    height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 307px) {
+  .blueheader {
+    height: 1.4rem;
+  }
+}
 .article a:link,
 .article a:visited,
 .article a:active {
@@ -195,7 +209,7 @@ p, ol, li {
     margin: 2rem 0 1rem 1.5rem;
   }
   .assessment-why-txt p {
-    padding: 1rem 2rem 3rem 1.5rem;
+    padding: 0 2rem 3rem 1.5rem;
   }
   #assessment-icon {
     margin-right: 1.5rem;
@@ -337,6 +351,16 @@ p, ol, li {
     height: 10rem;
   }
 }
+@media only screen and (max-width: 376px) {
+  .assessment-types-img img {
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 324px) {
+  .assessment-types-img img {
+    height: 9rem;
+  }
+}
 /* Formative Assessment */
 .formative {
   background-color: #BED63A;
@@ -457,6 +481,11 @@ p, ol, li {
   .formative-left {
     display: block;
     width: 100%;
+  }
+}
+@media only screen and (max-width: 336px) {
+  .formative-right img {
+    height: 8rem;
   }
 }
 /* Summative */
@@ -674,7 +703,7 @@ p, ol, li {
 .criterion-container {
   display: flex;
   justify-content: center;
-  padding: 3rem 15rem 0 15rem;
+  padding: 2rem 15rem 0 15rem;
 }
 
 .criterion-left {
@@ -704,13 +733,13 @@ p, ol, li {
 
 @media only screen and (max-width: 1320px) {
   .criterion-container {
-    padding: 3rem 11rem 0 11rem;
+    padding: 2rem 11rem 0 11rem;
   }
 }
 
 @media only screen and (max-width: 1150px) {
   .criterion-container {
-    padding: 3rem 5rem 0 5rem;
+    padding: 2rem 5rem 0 5rem;
   }
 }
 
