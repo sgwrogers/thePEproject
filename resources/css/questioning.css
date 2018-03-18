@@ -108,16 +108,20 @@ p, ol, li {
     height: 1.75rem;
   }
 }
-
-.article a:link,
-.article a:visited,
-.article a:active {
-  color: #58595B;
-  text-decoration: none;
+@media only screen and (max-width: 343px) {
+  .blueheader {
+    height: 1.6rem;
+  }
 }
-
-.article a:hover {
-  text-decoration: underline;
+@media only screen and (max-width: 315px) {
+  .blueheader {
+    height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 296px) {
+  .blueheader {
+    height: 1.4rem;
+  }
 }
 
 /* Question Why */
@@ -126,7 +130,7 @@ p, ol, li {
   display: flex;
 }
 .question-why .blueheader {
-  margin: 2rem 0 1rem 0;
+  margin: 1rem 0 1rem 0;
 }
 .question-why-left {
   width: 38rem;
@@ -161,7 +165,16 @@ p, ol, li {
   color: #58595B;
   font-weight: normal;
 }
+.question-why a:link,
+.question-why a:visited,
+.question-why a:active {
+  color: #58595B;
+  text-decoration: none;
+}
 
+.question-why a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
   .question-why-left {
     padding: 1rem 0 0 11rem;
@@ -210,7 +223,13 @@ p, ol, li {
     display: none;
   }
   .question-why-left {
-    width: auto;
+    width: 100%;
+    padding-right: 1rem;
+  }
+}
+@media only screen and (max-width: 364px) {
+  .question-why-list ul {
+    margin-left: 1rem;
   }
 }
 
@@ -224,7 +243,16 @@ p, ol, li {
   padding: 2rem 15rem 2rem 15rem;
   color: white;
 }
+.question-txt a:link,
+.question-txt a:visited,
+.question-txt a:active {
+  color: #fff;
+  text-decoration: none;
+}
 
+.question-txt a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
   .question-txt p {
     padding: 2rem 11rem 2rem 11rem;
@@ -249,14 +277,6 @@ p, ol, li {
   padding: 2rem 1.5rem 2rem 1.5rem;
 }
 }
-
-/* Need to change bloom's brain img to mobile version --
-@media only screen and (max-width: 518px) {
-  .blooms-brain-img img {
-    height: 10rem;
-}
-}
-*/
 
 
 /* Convergent and Divergent examples */
@@ -344,7 +364,16 @@ p, ol, li {
     height: 14rem;
   }
 }
-
+@media only screen and (max-width: 373px) {
+  .examples-container img {
+    height: 14rem;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .examples-container img {
+    height: 12rem;
+  }
+}
 /* question txt 2 */
 
 .question-txt2 {
@@ -354,7 +383,16 @@ p, ol, li {
 .question-txt2 p {
   padding: 2rem 15rem 2rem 15rem;
 }
+.question-txt2 a:link,
+.question-txt2 a:visited,
+.question-txt2 a:active {
+  color: #58594D;
+  text-decoration: none;
+}
 
+.question-txt2 a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
   .question-txt2 p  {
     padding-right: 11rem;
@@ -496,7 +534,16 @@ p, ol, li {
 #mobile-bubble3 {
   display: none;
 }
+.combination a:link,
+.combination a:visited,
+.combination a:active {
+  color: #fff;
+  text-decoration: none;
+}
 
+.combination a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
   .combination-container {
     padding: 3rem 11rem 0 11rem;
@@ -563,10 +610,16 @@ p, ol, li {
   #mobile-bubble3 {
     display: block;
     height: 10rem;
+    padding-bottom: 0;
   }
 }
-
-/* 712px mobile design needs to begin */
+@media only screen and (max-width: 325px) {
+  #mobile-bubble1,
+  #mobile-bubble2,
+  #mobile-bubble3 {
+    height: 8rem;
+  }
+}
 
 
 /* Question Txt 3 */
@@ -574,7 +627,16 @@ p, ol, li {
   background-color: #BED63A;
   padding: 2rem 15rem 2rem 15rem;
 }
+.question-txt3 a:link,
+.question-txt3 a:visited,
+.question-txt3 a:active {
+  color: #58595B;
+  text-decoration: none;
+}
 
+.question-txt3 a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
 .question-txt3 {
   padding: 3rem 11rem 2rem 11rem;
@@ -631,7 +693,16 @@ p, ol, li {
   height: 45rem;
   margin: 2rem 1rem;
 }
+.strategies a:link,
+.strategies a:visited,
+.strategies a:active {
+  color: #008CE3;
+  text-decoration: none;
+}
 
+.strategies a:hover {
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 1320px) {
   .strategies p {
@@ -693,6 +764,18 @@ p, ol, li {
     height: 32rem;
   }
 }
+@media only screen and (max-width: 352px) {
+  .strategies-left img,
+  .mistakes-right img {
+    height: 30rem;
+  }
+}
+@media only screen and (max-width: 328px) {
+  .strategies-left img,
+  .mistakes-right img {
+    height: 28rem;
+  }
+}
 /* question txt 4 */
 
 .question-txt4 {
@@ -702,7 +785,16 @@ p, ol, li {
 .question-txt4 p {
   padding: 2rem 15rem 2rem 15rem;
 }
+.question-txt4 a:link,
+.question-txt4 a:visited,
+.question-txt4 a:active {
+  color: #58595B;
+  text-decoration: none;
+}
 
+.question-txt4 a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
   .question-txt4 p  {
     padding-right: 11rem;

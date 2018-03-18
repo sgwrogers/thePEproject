@@ -128,17 +128,6 @@ p, ol, li {
   }
 }
 
-.article a:link,
-.article a:visited,
-.article a:active {
-  color: #58595B;
-  text-decoration: none;
-}
-
-.article a:hover {
-  text-decoration: underline;
-}
-
 /* Motivation-Why */
 .motivation {
   background: linear-gradient(#99D1F4, #fff);
@@ -176,6 +165,16 @@ p, ol, li {
   text-transform: uppercase;
   font-weight: bold;
   margin-bottom: 1rem;
+}
+.motivation a:link,
+.motivation a:visited,
+.motivation a:active {
+  color: #008CE3;
+  text-decoration: none;
+}
+
+.motivation a:hover {
+  text-decoration: underline;
 }
 @media only screen and (max-width: 1320px) {
   .motivation .blueheader-desk {
@@ -262,6 +261,16 @@ p, ol, li {
 /* Motivation Types */
 .motivation-types {
   background-color: #F7F4F1;
+}
+.motivation-types a:link,
+.motivation-types a:visited,
+.motivation-types a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+
+.motivation-types a:hover {
+  text-decoration: underline;
 }
 
 .motivation-types-p1 {
@@ -456,6 +465,16 @@ p, ol, li {
 .motivation-how {
   background-color: #BED63A;
 }
+.motivation-how a:link,
+.motivation-how a:visited,
+.motivation-how a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+
+.motivation-how a:hover {
+  text-decoration: underline;
+}
 
 .motivation-how p {
   padding: 1.5rem 15rem 1.5rem 15rem;
@@ -611,6 +630,7 @@ p, ol, li {
     padding: 2rem 15rem 2rem 15rem;
   }
 }
+
 @media only screen and (max-width: 1320px) {
   .motivation-target p {
     padding: 1rem 11rem 0.5rem 11rem;
@@ -755,7 +775,16 @@ p, ol, li {
   background-color: #008CE3;
   color: white;
 }
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:active {
+  color: white;
+  text-decoration: none;
+}
 
+.conclusion a:hover {
+  text-decoration: underline;
+}
 .conclusion .blueheader {
   padding-left: 15rem;
   padding-top: 2rem;

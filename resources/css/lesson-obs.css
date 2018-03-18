@@ -154,6 +154,17 @@ p, ol, li {
   padding-right: 2rem;
 }
 
+.lessons-obs-why a:link,
+.lessons-obs-why a:visited,
+.lessons-obs-why a:active {
+  color: #008CE3;
+  text-decoration: none;
+}
+
+.lessons-obs-why a:hover {
+  text-decoration: underline;
+}
+
 #ipad {
   height: 14rem;
   position: relative;

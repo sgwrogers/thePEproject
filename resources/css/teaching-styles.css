@@ -161,7 +161,16 @@ p, ol, li {
   padding-top: 2rem;
   padding-right: 10rem;
 }
+.teaching-styles a:link,
+.teaching-styles a:visited,
+.teaching-styles a:active {
+  color: #008CE3;
+  text-decoration: none;
+}
 
+.teaching-styles a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
   .teaching-styles .blueheader {
     margin-left: 11rem;
@@ -294,8 +303,8 @@ p, ol, li {
   height: 5.5rem;
 }
 
-.block2:nth-child(3) .block-head img,
-.block2:nth-child(4) .block-head img {
+.block2:nth-child(3) .block-head2 img,
+.block2:nth-child(4) .block-head2 img {
   height: 7rem;
 }
 

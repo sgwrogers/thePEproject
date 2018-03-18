@@ -124,16 +124,6 @@ p, ol, li {
     height: 1.4rem;
   }
 }
-.article a:link,
-.article a:visited,
-.article a:active {
-  color: #58595B;
-  text-decoration: none;
-}
-
-.article a:hover {
-  text-decoration: underline;
-}
 
 /* Assessment Why */
 .assessment-why {
@@ -158,6 +148,17 @@ p, ol, li {
   margin-right: 15rem;
   top: 4rem;
   padding-bottom: 4rem;
+}
+
+.assessment-why a:link,
+.assessment-why a:visited,
+.assessment-why a:active {
+  color: #008CE3;
+  text-decoration: none;
+}
+.assessment-why a:hover {
+  text-decoration: underline;
+
 }
 
 @media only screen and (max-width: 1320px) {
@@ -394,6 +395,15 @@ p, ol, li {
 #teacherform-mob {
   display: none;
 }
+.formative a:link,
+.formative a:visited,
+.formative a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.formative a:hover {
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 1320px) {
   .formative-container {
@@ -523,6 +533,15 @@ p, ol, li {
   color: #008CE3;
   font-weight: bold;
 }
+.summative a:link,
+.summative a:visited,
+.summative a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.summative a:hover {
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 1320px) {
   .summative-container {
@@ -608,6 +627,15 @@ p, ol, li {
 
 .norm-right img {
   height: 25rem;
+}
+.norm a:link,
+.norm a:visited,
+.norm a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+.norm a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1320px) {
@@ -730,6 +758,15 @@ p, ol, li {
   color: #008CE3;
   font-weight: bold;
 }
+.criterion a:link,
+.criterion a:visited,
+.criterion a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.criterion a:hover {
+  text-decoration: underline;
+}
 
 @media only screen and (max-width: 1320px) {
   .criterion-container {
@@ -828,7 +865,15 @@ p, ol, li {
 .ipsative-right img {
   height: 16rem;
 }
-
+.ipsative a:link,
+.ipsative a:visited,
+.ipsative a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.ipsative a:hover {
+  text-decoration: underline;
+}
 @media only screen and (max-width: 1320px) {
 .ipsative-container {
   padding: 3rem 11rem 2rem 11rem;
@@ -898,9 +943,6 @@ p, ol, li {
 
 }
 
-
-/* 708px mobile design to begin */
-
 /* Conclusion */
 .conclusion {
   background-color: #008CE3;
@@ -919,6 +961,15 @@ p, ol, li {
 .conclusion a:visited,
 .conclusion a:active {
   color: white;
+}
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:active {
+  color: #fff;
+  text-decoration: none;
+}
+.conclusion a:hover {
+  text-decoration: underline;
 }
 
 @media only screen and (max-width: 1320px){

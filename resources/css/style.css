@@ -436,14 +436,35 @@ nav select:hover {
   background-size: contain;
 }
 
+.item:first-child a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:first-child a:visited {
+  color: #58595B;
+}
+.item:first-child a:hover {
+  color: #95C11F;
+}
+
 #assessment {
-  background: url("../images/AssessmentIcon.png") no-repeat center center;
+  background: url("../images/AssessmentNewIcon-Bigger.png") no-repeat center center;
   background-size: contain;
 }
 
 #assessment:hover {
-  background: url("../images/AssessmentIconLightGrey.png") no-repeat center center;
+  background: url("../images/AssessmentNewIcon-BlueBigger.png") no-repeat center center;
   background-size: contain;
+}
+.item:nth-child(2) a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:nth-child(2) a:visited {
+  color: #58595B;
+}
+.item:nth-child(2) a:hover {
+  color: #008CE3;
 }
 
 #differentiation {
@@ -455,6 +476,16 @@ nav select:hover {
   background: url("../images/DifferentiationIcon-Hover.png") no-repeat center center;
   background-size: contain;
 }
+.item:nth-child(3) a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:nth-child(3) a:visited {
+  color: #58595B;
+}
+.item:nth-child(3) a:hover {
+  color: #DE572F;
+}
 #motivation {
   background: url("../images/MotivationIcon-Grey.png") no-repeat center center;
   background-size: contain;
@@ -463,6 +494,16 @@ nav select:hover {
 #motivation:hover {
   background: url("../images/MotivationIcon-Hover.png") no-repeat center center;
   background-size: contain;
+}
+.item:nth-child(4) a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:nth-child(4) a:visited {
+  color: #58595B;
+}
+.item:nth-child(4) a:hover {
+  color: #BE1622;
 }
 #teaching {
   background: url("../images/TeachingModulesIcon.png") no-repeat center center;
@@ -473,6 +514,16 @@ nav select:hover {
   background: url("../images/TeachingModulesIcon-Green.png") no-repeat center center;
   background-size: contain;
 }
+.item:nth-child(5) a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:nth-child(5) a:visited {
+  color: #58595B;
+}
+.item:nth-child(5) a:hover {
+  color: #DDDB00;
+}
 #questioning {
   background: url("../images/QuestioningIcon.png") no-repeat center center;
   background-size: contain;
@@ -481,6 +532,16 @@ nav select:hover {
 #questioning:hover {
   background: url("../images/QuestioningIcon-beige.png") no-repeat center center;
   background-size: contain;
+}
+.item:nth-child(6) a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:nth-child(6) a:visited {
+  color: #58595B;
+}
+.item:nth-child(6) a:hover {
+  color: #B5AB9A;
 }
 #engagement {
   background: url("../images/StudentEngagementIcon-Grey.png") no-repeat center center;
@@ -491,15 +552,35 @@ nav select:hover {
   background: url("../images/StudentEngagementIcon-Hover.png") no-repeat center center;
   background-size: contain;
 }
+.item:nth-child(7) a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:nth-child(7) a:visited {
+  color: #58595B;
+}
+.item:nth-child(7) a:hover {
+  color: #E76E34;
+}
 
 #styles {
-  background: url("../images/TeachingStylesIcon-Grey.png") no-repeat center center;
+  background: url("../images/TeachingStylesIcon-grey-Bigger.png") no-repeat center center;
   background-size: contain;
 }
 
 #styles:hover {
-  background: url("../images/TeachingStylesIcon-Hover.png") no-repeat center center;
+  background: url("../images/TeachingStylesIcon-Hover-Bigger.png") no-repeat center center;
   background-size: contain;
+}
+.item:nth-child(8) a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:nth-child(8) a:visited {
+  color: #58595B;
+}
+.item:nth-child(8) a:hover {
+  color: #1A1A1A;
 }
 
 #curriculum {
@@ -510,6 +591,16 @@ nav select:hover {
 #curriculum:hover {
   background: url("../images/CurriculumIconBlue.png") no-repeat center center;
   background-size: contain;
+}
+.item:last-child a:link {
+  color: #58595B;
+  text-decoration: none;
+}
+.item:last-child a:visited {
+  color: #58595B;
+}
+.item:last-child a:hover {
+  color: #26A7DF;
 }
 
 @media only screen and (max-width: 768px) {

@@ -50,7 +50,21 @@ p, ol, li {
     height: 1.75rem;
   }
 }
-
+@media only screen and (max-width: 382px) {
+  .blueheader {
+    height: 1.6rem;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .blueheader {
+    height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 313px) {
+  .blueheader {
+    height: 1.4rem;
+  }
+}
 .article a:link,
 .article a:visited,
 .article a:active {
@@ -107,6 +121,16 @@ p, ol, li {
 
 .engagement-why-text ol li:last-child {
   color: #57B6DD;
+}
+.engagement-why a:link,
+.engagement-why a:visited,
+.engagement-why a:active {
+  color: #008CE3;
+  text-decoration: none;
+}
+
+.engagement-why a:hover {
+  text-decoration: underline;
 }
 @media only screen and (max-width: 1320px) {
   .engagement-why-text {
