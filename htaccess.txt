@@ -1,0 +1,42 @@
+# Begin default subdomain redirect #
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^loveyoumama.co.uk
+RewriteRule ^(.*)$ http://www.loveyoumama.co.uk/$1 [R=permanent,L]
+
+RewriteCond %{HTTP_HOST} ^thepeproject.com
+RewriteRule ^(.*)$ http://www.thepeproject.com/$1 [R=permanent,L]
+
+RewriteCond %{HTTP_HOST} ^scrptpersonaltraining.com
+RewriteRule ^(.*)$ http://www.scrptpersonaltraining.com/$1 [R=permanent,L]
+
+RewriteCond %{HTTP_HOST} ^manaftergodsownheart.com
+RewriteRule ^(.*)$ http://www.manaftergodsownheart.com/$1 [R=permanent,L]
+
+RewriteCond %{HTTP_HOST} ^robertsrelocation.com
+RewriteRule ^(.*)$ http://www.crdesignportfolio.com/$1 [R=permanent,L]
+
+RewriteCond %{HTTP_HOST} ^nexteratherapy.com
+RewriteRule ^(.*)$ http://www.nexteratherapy.com/$1 [R=permanent,L]
+
+
+# End default subdomain redirect #
+
+# Begin EnforceSSL manaftergodsownheart.com
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?manaftergodsownheart.com$
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L]
+</IfModule>
+# End EnforceSSL
+
+
+# Begin EnforceSSL loveyoumama.co.uk
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteCond %{HTTP_HOST} ^(www.)?loveyoumama.co.uk$
+RewriteCond %{HTTPS} !=on
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L]
+</IfModule>
+# End EnforceSSL
+

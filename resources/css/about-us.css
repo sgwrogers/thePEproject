@@ -1,0 +1,627 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+.white {
+  color: #fff;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.orange {
+  color: #DE572F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #DD582D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange-lc {
+  color: #DE572F;
+  font-weight: bold;
+}
+
+.gray {
+  color: #58595B;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gray-lc {
+  color: #58595B;
+  font-weight: bold;
+}
+
+.lite-grey {
+  color: #999999;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.blue-bold-L {
+  color: #008CE3;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.lite-blue {
+  color: #57B6DD;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lite-blue-lc {
+  color: #57B6DD;
+  font-weight: bold;
+}
+
+.green {
+  color: #D6DA2D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #D86C1C;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-lc {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+@media only screen and (max-width: 348px) {
+  .blueheader {
+    height: 1.65rem;
+  }
+}
+@media only screen and (max-width: 333px) {
+  .blueheader {
+    height: 1.55rem;
+  }
+}
+@media only screen and (max-width: 318px) {
+  .blueheader {
+    height: 1.45rem;
+  }
+}
+
+/* About Us */
+.about-us {
+  background: #99D1F4;
+}
+.about-us .blueheader {
+  margin: 2rem 0 1rem 20rem;
+}
+
+.about-us-intro {
+  display: flex;
+}
+
+.about-us-intro p {
+  padding: 0 2rem 2rem 20rem;
+}
+
+
+#world {
+  height: 18rem;
+  position: relative;
+  float: right;
+  margin-right: 20rem;
+  top: 3rem;
+}
+
+#world2 {
+  display: none;
+}
+
+@media only screen and (max-width: 2500px) {
+  #world {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 2400px) {
+  #world {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 2300px) {
+  #world {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 2200px) {
+  #world {
+    height: 16rem;
+  }
+}
+
+@media only screen and (max-width: 1800px) {
+  .about-us .blueheader {
+    margin-left: 17rem;
+  }
+  #world {
+    height: 17rem;
+    margin-right: 17rem;
+  }
+  .about-us-intro p {
+    padding: 0 2rem 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .about-us .blueheader {
+    margin-left: 15rem;
+  }
+  #world {
+    height: 16rem;
+    margin-right: 15rem;
+  }
+  .about-us-intro p {
+    padding: 0 2rem 2rem 15rem;
+  }
+}
+
+/* here */
+@media only screen and (max-width: 1401px) {
+  #world {
+    margin-right: 13rem;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .about-us .blueheader {
+    margin-left: 11rem;
+  }
+  #world {
+    height: 17rem;
+    margin-right: 11rem;
+  }
+  .about-us-intro p {
+    padding: 0 2rem 2rem 11rem;
+  }
+}
+
+@media only screen and (max-width: 1268px) {
+  #world {
+    height: 16rem;
+    margin-right: 8rem;
+  }
+}
+
+@media only screen and (max-width: 1229px) {
+  #world {
+    height: 15rem;
+    margin-right: 5rem;
+  }
+}
+@media only screen and (max-width: 1168px) {
+  .about-us .blueheader {
+    margin-left: 5rem;
+  }
+
+  .about-us-intro p {
+    padding: 0 2rem 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 948px) {
+  #world {
+    height: 13rem;
+    margin-right: 4rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .about-us .blueheader {
+    margin-left: 3rem;
+  }
+
+  #world {
+    height: 12rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    top: 4.5rem;
+  }
+  .about-us-intro p {
+    padding: 0 2rem 2rem 3rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .about-us .blueheader {
+    margin-left: 1.5rem;
+  }
+  #world {
+    margin-right: 1.5rem;
+  }
+  .about-us-intro p {
+    padding: 0 1.5rem 2rem 1.5rem;
+  }
+ }
+
+@media only screen and (max-width: 700px) {
+  #world {
+    display: none;
+  }
+  .about-us-intro {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about-us-intro {
+    display: flex;
+    flex-direction: column;
+  }
+  .about-us-intro p {
+    margin-bottom: 0;
+  }
+
+  #world2 {
+    display: block;
+    height: 15rem;
+    margin: 0 auto;
+    padding-bottom: 2rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  #world2 {
+    height: 12rem;
+  }
+}
+
+/* Vision */
+.vision {
+  background: #BED63A;
+}
+.vision .blueheader {
+  margin: 2rem 0 1rem 20rem;
+}
+
+.vision p {
+  padding: 1rem 20rem 2rem 20rem;
+}
+
+@media only screen and (max-width: 1800px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 17rem;
+  }
+  .vision p {
+    padding: 1rem 11rem 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 15rem;
+  }
+  .vision p {
+    padding: 1rem 11rem 2rem 15rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 13rem;
+  }
+  .vision p {
+    padding: 1rem 11rem 2rem 13rem;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 11rem;
+  }
+  .vision p {
+    padding: 1rem 11rem 2rem 11rem;
+  }
+}
+@media only screen and (max-width: 1168px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 5rem;
+  }
+  .vision p {
+    padding: 1rem 5rem 2rem 5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 3rem;
+  }
+  .vision p {
+    padding: 1rem 3rem 1rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 1.5rem;
+  }
+  .vision p {
+    padding: 0 1.5rem 2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .vision .blueheader {
+    margin: 2rem 0 1rem 1.5rem;
+  }
+}
+
+
+/* Philsophy */
+.philosophy {
+  background: linear-gradient(#99D1F4, #fff);
+}
+
+/* We Believe */
+.webelieve {
+  background: #F7F4F1;
+  padding: 0 20rem 2rem 20rem;
+}
+
+.webelieve .blueheader {
+  padding: 2rem 0 1rem 0rem;
+}
+
+.webelieve p {
+  margin-bottom: 2rem;
+}
+
+.webelieve ul li {
+  list-style: disc;
+  margin-left: 2rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1800px) {
+  .webelieve {
+    padding: 0 17rem 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .webelieve {
+    padding: 0 15rem 2rem 15rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .webelieve {
+    padding: 0 13rem 2rem 13rem;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .webelieve .blueheader {
+    padding: 2rem 0 1rem 0;
+  }
+  .webelieve {
+    padding: 0 11rem 2rem 11rem;
+  }
+}
+@media only screen and (max-width: 1168px) {
+  .webelieve .blueheader {
+    padding: 2rem 0 1rem 0;
+  }
+  .webelieve {
+    padding: 0 5rem 2rem 5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .webelieve .blueheader {
+    padding: 2rem 0 1rem 0;
+  }
+  .webelieve {
+    padding: 0 3rem 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .webelieve .blueheader {
+    padding: 2rem 0 1rem 0;
+  }
+  .webelieve {
+    padding: 0 1.5rem 2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 500px) {
+.webelieve ul li {
+  margin-left: 1rem;
+}
+}
+
+/* Philosphy Img */
+.philosophy-pillars {
+  display: flex;
+  justify-content: center;
+  padding: 2rem 20rem 2rem 20rem;
+
+}
+
+.philosophy-img {
+
+}
+
+.philosophy-img img {
+  width: 100%;;
+  margin: 0 auto;
+}
+
+#pillar-mob {
+  display: none;
+}
+
+@media only screen and (max-width: 1800px) {
+  .philosophy-pillars {
+    padding: 2rem 17rem 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .philosophy-pillars {
+    padding: 2rem 15rem 2rem 15rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .philosophy-pillars {
+    padding: 2rem 13rem 2rem 13rem;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .philosophy-pillars {
+    padding: 2rem 11rem 2rem 11rem;
+  }
+}
+@media only screen and (max-width: 1168px) {
+  .philosophy-pillars {
+    padding: 2rem 5rem 2rem 5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .philosophy-pillars {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .philosophy-pillars {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #pillar-desk {
+    display: none;
+  }
+  #pillar-mob {
+    display: block;
+  }
+}
+@media only screen and (max-width: 420px) {
+  .philosophy-pillars {
+    padding-top: 1rem;
+  }
+}
+@media only screen and (max-width: 358px) {
+  .webelieve {
+    padding-bottom: 1rem;
+  }
+  .philosophy-pillars {
+    paddding-top: 0;
+  }
+}
+
+/* Foundation */
+.foundation {
+  padding: 0rem 20rem 4rem 20rem;
+}
+
+@media only screen and (max-width: 1800px) {
+  .foundation {
+    padding: 0rem 17rem 4rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1600px) {
+  .foundation {
+    padding: 0rem 15rem 4rem 15rem;
+  }
+}
+
+@media only screen and (max-width: 1400px) {
+  .foundation {
+    padding: 0rem 13rem 4rem 13rem;
+  }
+}
+
+@media only screen and (max-width: 1372px) {
+  .foundation {
+    padding: 0rem 11rem 4rem 11rem;
+  }
+}
+@media only screen and (max-width: 1168px) {
+  .foundation {
+    padding: 0rem 5rem 4rem 5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .foundation {
+    padding: 0rem 3rem 4rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .foundation {
+    padding: 0rem 1.5rem 4rem 1.5rem;
+  }
+}

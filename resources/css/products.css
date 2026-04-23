@@ -1,0 +1,609 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+.orange {
+  color: #DE572F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange-lc {
+  color: #DE572F;
+  font-weight: bold;
+}
+
+.gray {
+  color: #58595B;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gray-lc {
+  color: #58595B;
+  font-weight: bold;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.lite-blue {
+  color: #57B6DD;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lite-blue-lc {
+  color: #57B6DD;
+  font-weight: bold;
+}
+
+.green {
+  color: #D6DA2D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #D86C1C;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-lc {
+  color: white;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+@media only screen and (max-width: 341px) {
+  .blueheader {
+    height: 1.65rem;
+  }
+}
+@media only screen and (max-width: 334px) {
+  .blueheader {
+    height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 307px) {
+  .blueheader {
+    height: 1.4rem;
+  }
+}
+
+/* Our Resources */
+.our-resources {
+  background: linear-gradient(#99D1F4, #fff);
+}
+.our-resources .blueheader {
+  margin: 2rem 0 1rem 15rem;
+}
+
+.our-resources-txt {
+  padding: 1rem 2rem 3rem 15rem;
+}
+
+#headerman {
+  height: 18rem;
+  position: relative;
+  float: right;
+  margin-right: 15rem;
+  top: 2rem;
+}
+
+.our-resources a:link,
+.our-resources a:visited,
+.our-resources a:active {
+    color: #E76E34;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    text-decoration: none;
+}
+.our-resources a:hover {
+  text-decoration: underline;
+  color: #0AA56C;
+}
+
+@media only screen and (min-width: 2000px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 33rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 5rem 33rem;
+  }
+  #headerman {
+    margin-right: 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 31rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 5rem 31rem;
+  }
+  #headerman {
+    margin-right: 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 29rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 5rem 29rem;
+  }
+  #headerman {
+    margin-right: 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 27rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 5rem 27rem;
+  }
+  #headerman {
+    margin-right: 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 25rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 5rem 25rem;
+  }
+  #headerman {
+    margin-right: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 23rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 5rem 23rem;
+  }
+  #headerman {
+    margin-right: 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 21rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 5rem 21rem;
+  }
+  #headerman {
+    margin-right: 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 19rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 3rem 19rem;
+  }
+  #headerman {
+    margin-right: 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 17rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 3rem 17rem;
+  }
+  #headerman {
+    margin-right: 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 11rem;
+  }
+  .our-resources-txt {
+    padding: 1rem 2rem 3rem 11rem;
+  }
+  #headerman {
+    margin-right: 11rem;
+  }
+}
+
+@media only screen and (max-width: 1180px) {
+  .our-resources .blueheader {
+    margin-left: 5rem;
+  }
+
+  #headerman {
+    margin-right: 5rem;
+  }
+  .our-resources-txt {
+    padding-left: 5rem;
+  }
+
+}
+
+@media only screen and (max-width: 871px) {
+  .our-resources .blueheader {
+    margin-left: 3rem;
+  }
+  .our-resources-txt {
+    padding-left: 3rem;
+    padding-bottom: 2rem;
+    padding-top: 0;
+  }
+
+  #headerman {
+    height: 16rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .our-resources .blueheader {
+    margin: 2rem 0 1rem 1.5rem;
+  }
+  .our-resources-txt {
+    padding: 0 2rem 3rem 1.5rem;
+  }
+  #headerman {
+    margin-right: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 712px) {
+  #link-txt {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 684px) {
+  #headerman {
+    top: 0;
+}
+}
+@media only screen and (max-width: 623px) {
+  #headerman {
+    display: none;
+}
+  .our-resources-txt {
+  padding-bottom: 0rem;
+}
+  #link-txt {
+  width: 100%;
+}
+}
+
+/* Resources Images */
+.products {
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0rem 15rem 2rem 15rem;
+}
+
+.product-square {
+  height: 18rem;
+  margin: 1.5rem 1rem 1.5rem 1rem;
+}
+
+a:hover .product-square {
+  height: 18.1rem;
+ box-shadow: 5px 5px 10px #59595B;
+}
+
+
+@media only screen and (min-width: 2000px) {
+  .products {
+    padding: 4rem 33rem 2rem 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .products {
+    padding: 4rem 31rem 2rem 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .products {
+    padding: 4rem 29rem 2rem 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .products {
+    padding: 4rem 27rem 2rem 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .products {
+    padding: 4rem 25rem 2rem 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .products {
+    padding: 4rem 23rem 2rem 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .products {
+    padding: 4rem 21rem 2rem 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .products {
+    padding: 0rem 19rem 2rem 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .products {
+    padding: 0rem 17rem 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px){
+.products {
+  padding: 0rem 11rem 2rem 11rem;
+}
+}
+@media only screen and (max-width: 1150px) {
+  .products {
+    padding: 0rem 5rem 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .products {
+    padding: 0rem 3rem 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .products {
+    padding: 0rem 1.5rem 2rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 410px) {
+  .product-square {
+    height: 16rem;
+  }
+
+  a:hover .product-square {
+    height: 16.1rem;
+  }
+}
+
+@media only screen and (max-width: 385px) {
+  .product-square {
+    height: 15rem;
+  }
+
+  a:hover .product-square {
+    height: 15.1rem;
+  }
+}
+/* Freebie */
+.freebie {
+  background-color: #BED63A;
+  color: white;
+}
+
+.freebie .blueheader {
+  text-align: center;
+}
+
+.freebie-container {
+  padding: 2rem 15rem 2rem 15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.freebie a:link,
+.freebie a:visited,
+.freebie a:active {
+  color: #59595B;
+}
+.freebie a:link,
+.freebie a:visited,
+.freebie a:active {
+  color: #59595B;
+  text-decoration: none;
+}
+.freebie a:hover {
+  text-decoration: underline;
+}
+
+#freebies {
+  height: 18rem;
+}
+
+@media only screen and (min-width: 2000px) {
+  .freebie-container {
+    padding: 2rem 33rem 2rem 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .freebie-container {
+    padding: 2rem 31rem 2rem 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .freebie-container {
+    padding: 2rem 29rem 2rem 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .freebie-container {
+    padding: 2rem 27rem 2rem 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .freebie-container {
+    padding: 2rem 25rem 2rem 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .freebie-container {
+    padding: 2rem 23rem 2rem 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .freebie-container {
+    padding: 2rem 21rem 2rem 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .freebie-container {
+    padding: 2rem 19rem 2rem 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .freebie-container {
+    padding: 2rem 17rem 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px){
+.freebie-container {
+  padding: 2rem 11rem 2rem 11rem;
+}
+}
+@media only screen and (max-width: 1150px) {
+  .freebie-container {
+    padding: 2rem 5rem 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 916px) {
+  #freebies {
+    height: 16rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .freebie-container {
+    padding: 2rem 3rem 2rem 3rem;
+  }
+}
+@media only screen and (max-width: 825px) {
+  #freebies {
+    height: 14rem;
+  }
+}
+@media only screen and (max-width: 686px) {
+  #freebies {
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 601px) {
+  #freebies {
+    height: 10rem;
+    padding-bottom: 0rem;
+  }
+}
+@media only screen and (max-width: 547px) {
+  .freebie-container {
+    padding: 2rem 1.5rem 2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 462px) {
+  #freebies {
+    height: 8rem;
+  }
+}
+@media only screen and (max-width: 462px) {
+  #freebies {
+    height: 6rem;
+  }
+}

@@ -1,0 +1,678 @@
+/* ----------------------------------------------------------------
+	Custom CSS
+
+	Add all your Custom Styled CSS here for New Styles or
+	Overwriting Default Theme Styles for Better Handling Updates
+-----------------------------------------------------------------*/
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+.home-font {
+  font-family: 'futura', sans-serif;
+  weight: 200;
+}
+
+.blue-font {
+  color: #008CE3;
+}
+
+.grey-font {
+    color: #292626!important;
+}
+
+.align-bottom {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.margin-bottom-0 {
+  margin-bottom: 0;
+}
+
+.padding-left-3 {
+  padding-left: 3rem;
+}
+
+.teacher-centered {
+  background-color: #7BC370!important;
+}
+
+.white-text-box {
+  padding: 1rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: white;
+  opacity: 0.9;
+  color: #008CE3;
+  box-shadow: 2px 2px 4px #58595B;
+}
+
+.welcome-banner {
+  display: none;
+  margin: auto;
+  margin-top: 1.5rem;
+}
+
+.mobile-banner-text {
+  margin-bottom: 0;
+  color: #008CE3!important;
+}
+
+
+@media (min-width: 992px) {
+.full-header #logo {
+  border-right: none!important;
+}
+}
+
+.standard-logo {
+  height: 7rem;
+  padding: 1rem;
+}
+
+.retina-logo {
+  height: 5rem;
+  padding: 0 1rem 0 1rem;
+}
+
+.blue-text-box {
+  padding: 1rem 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #008CE3;
+  opacity: 0.9;
+}
+
+.blue-text-box2 {
+  padding: 1rem;
+  background-color: #008CE3;
+  opacity: 0.9;
+}
+
+.grey-text-box {
+  padding: 0.2rem;
+  background-color: #58595B;
+  opacity: 0.9;
+  text-align: center;
+}
+
+.background-blue {
+  padding: 2rem;
+  background-color: #008CE3;
+}
+
+.background-orange {
+  padding: 2rem;
+  background-color: #FAB040;
+}
+
+.background-lime {
+  padding: 2rem;
+  background-color: #D6DA2D;
+  margin-right: 2rem;
+}
+
+.teaching-points {
+  font-size: 1.5rem;
+  color: #008CE3;
+}
+
+.teaching-point-list {
+  list-style: disc;
+  color: #008CE3;
+  margin-left: 1rem;
+}
+
+.question-points {
+  font-size: 1.5rem;
+  color: #fff;
+}
+
+.question-point-list {
+  list-style: disc;
+  color: #fff;
+  margin-left: 1rem;
+}
+
+/* Pedagogy */
+.green-background {
+  background-color: #BED63A!important;
+}
+
+.orange-background {
+  background-color: #DD582D!important;
+}
+
+.padding-40 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.blueheader {
+  height: 3rem;
+  margin: 2rem auto 2rem auto;
+}
+
+#globe {
+  height: 15rem;
+}
+
+#waving {
+  height: 12rem;
+}
+
+.icon-PE {
+  height: 6rem;
+}
+
+.flip-card-front::after, .flip-card-back::after {
+  opacity: 0!important;
+  background-color: 0!important;
+}
+
+.owl-carousel .owl-item img {
+  width: auto!important;
+
+}
+
+.oc-item img {
+  height: 7rem;
+  padding-bottom: 2rem;
+}
+
+.footer-logo {
+  height: 5rem;
+}
+
+
+/* Articles CSS
+} */
+
+
+/* Resources */
+.resource1-desk {
+  display: block;
+  height: 15rem;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.resource2-desk {
+  display: block;
+  height: 15rem;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.resource3-desk {
+  display: block;
+  height: 15rem;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.resource4-desk {
+  display:block;
+  height: 25rem;
+  width: auto;
+  background-repeat: no-repeat;
+}
+
+.resource1-m, .resource1-s, .resource1-xs,
+.resource2-m, .resource2-s, .resource2-xs,
+.resource3-m, .resource3-s, .resource3-xs {
+  display: none;
+}
+
+.resource-box {
+  padding-top: 2.5rem;
+}
+
+.align-text-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.resources-head {
+  width: 70%;
+}
+
+
+.font-orange-hover-green a {
+  color: #E86E35;
+}
+
+.font-orange-hover-green a:hover {
+  color: #0AA56C;
+}
+
+
+.blue-background {
+  background: linear-gradient(#99D1F4, #fff)!important;
+}
+
+.resources-blue-bold {
+  color: #008CE3!important;
+  font-weight: 600!important;
+  font-size: 1.2rem!important;
+}
+
+.margin-top-none {
+  margin-top: 0!important;
+}
+
+.margin-bottom-none {
+  margin-bottom: 0!important;
+}
+
+.skyblue {
+  background: linear-gradient(#99D1F4, #fff);
+  margin-top: 0!important;
+}
+
+
+.blue-header-text {
+  color: white;
+  font-weight: bold;
+  background-color: #008CE3;
+  padding: 0.5rem;
+  margin: 1rem 1rem 1rem 1rem;
+  margin-top: 5rem;
+  max-width: 20rem;
+}
+/* Font Color */
+.orange {
+  color: #FAB040!important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lime-green {
+  color: #D5D92F!important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dark-grey {
+  color: #5D5D5C!important;
+  font-weight: bold;
+}
+
+.rouge-font {
+  color: #E2584D!important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+
+.royal-blue {
+  color: #2D85C6!important;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.dark-orange {
+  color: #DD582D!important;
+  font-weight: bold;
+}
+
+.light-blue {
+  color: #56B4DC!important;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.white {
+  color: #fff!important;
+}
+
+.blue-numbered-list {
+  list-style: disc!important;
+  color: #2D85C6;
+
+}
+
+.orange-bg {
+  background-color: #FAB040!important;
+}
+
+.green-button {
+  background-color: #0AA56C;
+}
+
+.purple-button {
+  background-color: #5B4AA7;
+}
+
+.aqua-bg {
+  background-color: #53C4C8!important;
+}
+
+.track-bg {
+  background-color: #E2584D!important;
+}
+
+.fms-bg {
+  background-color: #FE9900!important;
+}
+
+.ultimate-bg {
+  background-color: #48A382!important;
+}
+
+.gymnastics-bg {
+  background-color: #0096FF!important;
+}
+
+.soccer-bg {
+  background-color: #6B3362!important;
+}
+
+.Tennis-bg {
+  background-color: #003471!important;
+}
+
+.Volleyball-bg {
+  background-color: #BF1621!important;
+}
+
+.tb-bg {
+  background-color: #E86E35!important;
+}
+
+.my-bg {
+  background-color: #008CE3!important;
+}
+
+.muscle-bg {
+  background-color: #F8AF40!important;
+}
+
+.skeleton-bg {
+  background-color: #28235C!important;
+}
+
+.Poster-bg {
+  background-color: #008CE3!important;
+}
+
+.gym-poster-bg {
+  background-color: #B3B2B2!important;
+}
+
+.skill-bg {
+  background-color: #4C7FB6!important;
+}
+
+.fivemin-bg {
+  background-color: #E57959!important;
+}
+
+@media only screen and (max-width: 1411px) {
+  .resource1-desk {
+    display: block;
+    height: 12rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .resource2-desk {
+    display: block;
+    height: 12rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .resource3-desk {
+    display: block;
+    height: 12rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .resource4-desk {
+    display:block;
+    height: 25rem;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+}
+
+
+@media only screen and (max-width: 986px){
+
+  .resource1-desk {
+    display: none;
+  }
+  .resource2-desk {
+    display: none;
+  }
+  .resource3-desk {
+    display: none;
+  }
+  .resource4-desk {
+    display: none;
+  }
+  .resource1-m {
+    display: block;
+    height: 12rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource2-m {
+    display: block;
+    height: 12rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource3-m {
+    display: block;
+    height: 12rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource4-m {
+    display: block;
+    height: 25rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+@media only screen and (max-width: 768px){
+  #top-search {
+    display: none;
+  }
+
+  .welcome-banner {
+    display: block;
+  }
+  .slider-caption {
+  width: 70%;
+  padding-left: 2rem;
+  }
+  .resource1-m {
+    display: none;
+  }
+  .resource2-m {
+    display: none;
+  }
+  .resource3-m {
+    display: none;
+  }
+  .resource4-m {
+    display: none;
+  }
+  .resource1-s {
+    display: block;
+    height: 12rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource2-s {
+    display: block;
+    height: 12rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource3-s {
+    display: block;
+    height: 12rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource4-s {
+    display: block;
+    height: 25rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .sidebar {
+    display: none;
+  }
+
+}
+
+@media only screen and (max-width: 550px){
+  .resource1-s {
+    display: none;
+  }
+  .resource2-s {
+    display: none;
+  }
+  .resource3-s {
+    display: none;
+  }
+  .resource4-s {
+    display: none;
+  }
+  .resource1-xs {
+    display: block;
+    height: 9rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource2-xs {
+    display: block;
+    height: 9rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource3-xs {
+    display: block;
+    height: 9rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  .resource4-xs {
+    display: block;
+    height: 18rem!important;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+
+  .reviews {
+    font-size: 12px;
+    padding: 0 1rem;
+  }
+
+  .blueheader {
+    height: 2rem;
+    margin: 1rem auto 1rem auto;
+  }
+
+  .resources-blue-bold {
+    font-size: 14px!important;
+  }
+
+  .resources-head h2 {
+    font-size: 14px;
+  }
+}
+
+/* Workshops */
+
+.workshop-head {
+	width: 50%;
+	background-color: #008ce3;
+	text-align: center;
+}
+
+.workshop-head2 {
+	width: 50%;
+}
+
+#workshop {
+	font-size: 46px;
+	color: #fff;
+	text-transform: uppercase;
+	
+}
+
+.max-width {
+  max-width: 500px;
+}
+
+.bluey {
+  color: 008ce3; 
+}
+
+@media only screen and (max-width: 1000px){ 
+  #to-hide {
+    display: none;
+  }
+
+  .max-width {
+    max-width: 250px;
+  }
+}
+
+@media only screen and (max-width: 550px){ 
+  .workshop-head {
+    width: 100%;
+  }
+  
+  .workshop-head2 {
+    width: 100%;
+  }
+  
+  #workshop {
+    font-size: 26px;
+    
+  }
+
+  .testi-content p {
+    font-size: 14px;
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+  
+
+}

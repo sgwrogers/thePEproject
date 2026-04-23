@@ -1,0 +1,1262 @@
+container-3-2@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+  text-align: justify;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 456px) {
+  .blueheader {
+    height: 1.75rem;
+  }
+}
+/* @media only screen and (max-width: 382px) {
+  .blueheader {
+    height: 1.6rem;
+  }
+}
+@media only screen and (max-width: 332px) {
+  .blueheader {
+    height: 1.5rem;
+  }
+}
+@media only screen and (max-width: 313px) {
+  .blueheader {
+    height: 1.4rem;
+  }
+} */
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: white;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* Securing your Job in Physical Education - Why */
+.intro-container {
+  background: linear-gradient(#99D1F4, #fff);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 2rem 1.5rem 2rem 15rem;
+}
+
+.intro-container-text {
+  width: 75%;
+}
+
+.intro-container-image {
+  width: 25%;
+  padding-right: 15rem;
+}
+
+.intro-container-image img {
+  height: 15rem;
+}
+
+.intro-container-text p {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+
+.intro-container a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1320px) {
+  .intro-container {
+    padding-left: 11rem;
+  }
+  .intro-container-image {
+    padding-right: 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .intro-container {
+    padding-left: 5rem;
+  }
+  .intro-container-image {
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 902px) {
+  .intro-container-image img {
+  height: 12rem;
+ }
+}
+
+@media only screen and (max-width: 871px) {
+  .intro-container {
+    padding-left: 3rem;
+  }
+  .intro-container-image {
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .intro-container {
+    flex-direction: column;
+    padding-right: 3rem;
+  }
+
+  .intro-container-text {
+    width: 100%;
+}
+  .intro-container-image {
+    margin: 0 auto;
+  }
+  .intro-container-image img {
+    height: 13rem;
+    padding-top: 1.5rem;
+
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .intro-container {
+    flex-direction: column;
+    padding: 2rem 1.5rem;
+  }
+
+  .intro-container-image {
+    margin: 0 auto;
+    padding-left: 0rem;
+    width: 100%;
+    padding: 0;
+  }
+  .intro-container-image img {
+    height: 11rem;
+    padding-top: 0;
+    padding-left: 6rem;
+  }
+
+  .intro-container-text p {
+    font-weight: 600;
+  }
+}
+
+@media only screen and (max-width: 447px) {
+  .intro-container-image img {
+    padding-left: 4rem;
+  }
+}
+
+
+/* Starting out your Search */
+.container-1 {
+  background-color: #E76E34;
+}
+
+.container-1 .blueheader {
+  padding-left: 15rem;
+  padding-top: 3rem;
+}
+
+.text-above {
+  color: #fff;
+  padding: 1.5rem 15rem 0rem 15rem;
+}
+
+.container-1-container {
+  color: white;
+  padding: 1rem 15rem 3rem 15rem;
+}
+
+.container-1-container ul {
+  margin: 1.5rem 0;
+  padding-left: 3rem;
+}
+.container-1-container ul li {
+  line-height: 2.8;
+  list-style-image:url("../images/MSE/Tick20px.png");
+}
+
+.container-1-container ul li span {
+  color: #008CE3;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.container-1-container img {
+  float: right;
+  height: 15rem;
+  padding: 2rem 1rem 2rem 1rem;
+  margin-top: 3rem;
+}
+
+.text-bottom {
+  padding-bottom: 1rem;
+}
+@media only screen and (max-width: 1320px) {
+  .container-1 .blueheader,
+  .container-1-container,
+  .text-above {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .container-1 .blueheader,
+  .container-1-container,
+  .text-above {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .container-1-container img {
+    height: 14rem;
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .container-1-container img {
+    height: 13rem;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .container-1 .blueheader,
+  .container-1-container,
+  .text-above {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 808px) {
+  .container-1-container img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .container-1 .blueheader {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+  .container-1-container,
+  .text-above {
+    padding: 0rem 1.5rem 1.5rem 1.5rem;
+  }
+  .container-1-container img {
+    display: block;
+    float: none;
+    height: 14rem;
+    padding: 2rem 1rem 2rem 1rem;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .container-1-container img {
+    height: 13rem;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .container-1-container img {
+    height: 12rem;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .container-1-container img {
+    height: 11rem;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  .container-1-container img {
+    height: 10rem;
+  }
+}
+
+/* Job Advertisement */
+.container-2 {
+  background-color: #BED63A;
+  padding-bottom: 1rem;
+}
+
+.container-2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 15rem 0 15rem;
+}
+
+.container-2-left {
+  width: 40%;
+  text-align: center;
+}
+
+.container-2-left img {
+  height: 15rem;
+}
+
+.container-2-right {
+  color: white;
+  width: 60%;
+  padding-bottom: 2rem;
+}
+
+.container-2-right p {
+  margin-top: 1rem;
+}
+
+.container-2-right span {
+  color: #008CE3;
+  font-weight: bold;
+}
+
+.container-2-bottom {
+  color: white;
+  padding: 1rem 15rem 1rem 15rem;
+}
+
+.advert-text {
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .container-2-container {
+    padding: 2rem 15rem 0 15rem;
+  }
+  .container-2-left {
+    width: 40%;
+  }
+  .container-2-left img {
+    height: 13rem;
+  }
+  .container-2-right {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .container-2-container {
+   padding: 2rem 11rem 0 11rem;
+ }
+ .container-2-bottom {
+   padding: 1rem 11rem 1rem 11rem;
+}
+}
+@media only screen and (max-width: 1150px) {
+  .container-2-container {
+   padding: 2rem 5rem 0 5rem;
+ }
+ .container-2-left {
+   width: 35%;
+   text-align: left;
+ }
+ .container-2-right {
+   width: 65%;
+ }
+ .container-2-bottom {
+   padding: 1rem 5rem 1rem 5rem;
+}
+}
+@media only screen and (max-width: 1064px) {
+  .container-2-left img {
+    height: 11rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container-2-container {
+   flex-direction: column-reverse;
+   padding: 2rem 3rem 0rem 3rem;
+ }
+ .container-2-left {
+   width: 100%;
+   display: none;
+ }
+ .container-2-right {
+   width: 100%;
+   padding-bottom: 1rem;
+ }
+ .container-2-bottom {
+   padding: 0rem 3rem 1rem 3rem;
+}
+}
+
+@media only screen and (max-width: 856px) {
+  .container-2-container {
+    padding: 2rem 1.5rem 0rem 1.5rem;
+  }
+
+  .container-2-right {
+  }
+  .container-2-bottom {
+    padding: 0rem 1.5rem 1rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .container-2-container {
+   padding: 2rem 1.5rem 0 1.5rem;
+ }
+ }
+ @media only screen and (max-width: 556px) {
+   .container-2-left {
+     display: block;
+     text-align: center;
+   }
+    .container-2-left img {
+      height: 15rem;
+    }
+}
+
+/* Job Application */
+
+.container-3 {
+  background-color: #57B6DD;
+  padding: 3rem 15rem 0rem 15rem;
+}
+
+.container-3-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navy-bold{
+  color: #00336B;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.font-white {
+  color: #fff;
+  padding-top: 1rem;
+}
+
+.container-3-left {
+  color: white;
+  width: 60%;
+}
+
+.container-3-left p {
+  margin-top: 1rem;
+}
+
+.container-3-right {
+  width: 40%;
+  text-align: center;
+}
+
+.container-3-right img {
+  height: 14rem;
+  margin-top: 2rem;
+  padding-left: 1rem;
+  text-align: right;
+}
+
+strong {
+  font-weight: bolder;
+}
+
+.orange {
+  color: #E76E34;
+  font-weight: bold;
+}
+
+.green {
+  color: #BED63A;
+  font-weight: bold;
+}
+
+.grey {
+  color: #59595B;
+  font-weight: bold;
+}
+
+.navy {
+  color: #00336B;
+  font-weight: bold;
+}
+
+.lightblue {
+  color: #57B6DD;
+  font-weight: bold;
+}
+@media only screen and (max-width: 1320px) {
+  .container-3 {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .container-3 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .container-3-right img {
+    height: 12rem;
+    margin-top: 3rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .container-3 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .container-3 {
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 823px) {
+  .container-3-right {
+    display: none;
+  }
+  .container-3-left {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+  .container-3-container {
+    flex-direction: column;
+  }
+  .container-3-right {
+    display: block;
+    width: 100%;
+  }
+  .container-3-left {
+    width: 100%;
+  }
+  .container-3-right img {
+    height: 12rem;
+    margin-top: 0rem;
+    padding-left: 0rem;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .navy-bold{
+    font-weight: normal;
+    color: white;
+  }
+}
+
+/* Second part of Job Application sections */
+.instructions2 {
+  background-color: #57B6DD;
+  padding: 0rem 15rem 2rem 15rem;
+}
+
+.instructions2-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.instructions2-left {
+  width: 40%;
+  text-align: center;
+}
+
+.instructions2-left img {
+  height: 5rem;
+}
+
+.instructions2-right {
+  color: white;
+  width: 60%;
+  margin-left: 1rem;
+}
+
+.instructions2-right p {
+  margin-top: 1rem;
+}
+
+span .navy-bold {
+  color: #00336B;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+@media only screen and (max-width: 1400px) {
+  .instructions2 {
+    padding: 2rem 15rem 0 15rem;
+  }
+  .instructions2-left {
+    width: 40%;
+  }
+
+  .instructions2-right {
+    width: 60%;
+  }
+  .instructions2-right p {
+    margin-top: 0;
+  }
+
+}
+
+@media only screen and (max-width: 1320px) {
+  .instructions2 {
+   padding: 2rem 11rem 0 11rem;
+ }
+}
+
+@media only screen and (max-width: 1224px) {
+.instructions2-left img {
+  height: 4rem;
+}
+}
+
+@media only screen and (max-width: 1150px) {
+  .instructions2 {
+   padding: 2rem 5rem 0 5rem;
+ }
+}
+@media only screen and (max-width: 1064px) {
+  .instructions2-left {
+    width: 45%;
+  }
+  .instructions2-right {
+    width: 55%;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .instructions2 {
+    align-items: flex-end;
+  }
+
+}
+@media only screen and (max-width: 871px) {
+  .instructions2 {
+   padding: 2rem 3rem 0 3rem;
+ }
+}
+
+@media only screen and (max-width: 856px) {
+  .instructions2 {
+    padding: 0rem 1.5rem;
+  }
+
+}
+@media only screen and (max-width: 766px) {
+  .instructions2 {
+   padding: 0rem 1.5rem 0 1.5rem;
+ }
+ }
+
+ @media only screen and (max-width: 716px) {
+   .instructions2-container {
+     flex-direction: column;
+   }
+
+   .instructions2-left {
+     width: 100%;
+   }
+
+   .instructions2-left img {
+     height: 4rem;
+     padding-bottom: 2rem;
+   }
+
+   .instructions2-right {
+     width: 100%;
+   }
+
+  }
+
+/* Person Specification */
+.container-3-2-container {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+
+.container-3-2-left {
+  color: white;
+  width: 60%;
+}
+
+.container-3-2-left p {
+  margin-top: 1rem;
+}
+
+.container-3-2-left span {
+  color: #3D4243;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.container-3-2-right {
+  width: 38%;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.container-3-2-right img {
+  height: 8.5rem;
+  padding-top: 2rem;
+}
+
+@media only screen and (max-width: 1074px) {
+  .container-3-2-right img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .container-3-2-right img {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 789px) {
+  .container-3-2-right img {
+    height: 7.5rem;
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 716px) {
+.container-3-2-container {
+  flex-direction: column-reverse;
+}
+
+.container-3-2-left {
+  width: 100%;
+}
+
+.container-3-2-left p {
+  margin-top: 0rem;
+}
+
+.container-3-2-right {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.container-3-2-right img {
+  height: 7.5rem;
+  padding-bottom: 1rem;
+}
+}
+
+/* Person Specification */
+.container-4 {
+  background-color: #F7F4F1;
+}
+
+
+.container-4-container {
+  color: #6f595b;
+  padding: 1.5rem 15rem 3rem 15rem;
+}
+
+.container-4-container span {
+  color: #008CE3;
+  font-weight: bold;
+}
+
+.classifications {
+    display: flex;
+    justify-content: center;
+}
+.classifications img {
+  height: 65rem;
+  padding: 2rem ;
+}
+
+#classifications-mob {
+  display: none;
+}
+
+.container-4-container a:link,
+.container-4-container a:visited,
+.container-4-container a:active {
+  color: #6f595b;
+  text-decoration: none;
+}
+
+.container-4-container a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 1320px) {
+  .container-4-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .container-4-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .classifications img {
+    height: 55rem;
+    padding: 1.5rem ;
+  }
+}
+
+@media only screen and (max-width: 915px) {
+  .classifications img {
+    height: 50rem;
+    padding: 1.5rem ;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .container-4-container {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 790px) {
+  .classifications img {
+    height: 45rem;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .classifications img {
+    height: 40rem;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .classifications img {
+    height: 35rem;
+  }
+}
+
+
+@media only screen and (max-width: 547px) {
+  #classifications-desk {
+    display: none;
+  }
+  #classifications-mob {
+    display: block;
+  }
+  .classifications img {
+    height: 90rem;
+  }
+}
+
+@media only screen and (max-width: 447px) {
+  .classifications img {
+    height: 85rem;
+  }
+}
+@media only screen and (max-width: 385px) {
+  .classifications img {
+    height: 65rem;
+  }
+}
+
+
+/* Letter of Application */
+
+.container-5 {
+  background-color: #E76E34;
+  color: #fff;
+  padding: 3rem 15rem 2rem 15rem;
+}
+
+.container-5-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.font-grey,
+.container-5 span {
+  color: #58595B;
+  font-weight: bold;
+  padding-top: 1rem;
+}
+
+.container-5-left {
+  color: #fff;
+  width: 60%;
+}
+
+.container-5-left p {
+  margin-top: 1rem;
+}
+
+.container-5-right {
+  width: 40%;
+  text-align: center;
+}
+
+.container-5-right img {
+  height: 14rem;
+  padding-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .container-5 {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .container-5 {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 1074px) {
+  .container-5-right img {
+    padding-top: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 990px) {
+  .container-5-right img {
+    padding-top: 2rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .container-5 {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .container-5 {
+    padding: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 687px) {
+  .container-5-container {
+    flex-direction: column;
+  }
+
+  .container-5-left {
+    width: 100%;
+  }
+
+  .container-5-right {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 568px) {
+.font-grey,
+.container-5 span {
+  font-weight: 400;
+  color: white;
+}
+}
+
+/* Curriculum Vitae */
+.container-6 {
+  background-color: #BED63A;
+}
+
+.container-6-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 15rem 2rem 15rem;
+  align-items: flex-start;
+}
+
+.container-6-left {
+  width: 30%;
+  align-self: center;
+}
+
+#clock-desk {
+  height: 18rem;
+}
+
+.container-6-right {
+  color: white;
+  width: 70%;
+  margin-left: 1rem;
+}
+
+.container-6-right p {
+  margin-top: 1rem;
+}
+
+
+@media only screen and (max-width: 1467px) {
+  .container-6-container {
+    align-items: flex-start;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .container-6-container {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .container-6-container {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+#clock-desk {
+  height: 16rem;
+}
+}
+@media only screen and (max-width: 871px) {
+  .container-6-container {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .container-6-left {
+    width: 35%;
+  }
+  .container-6-right {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 714px) {
+  .container-6-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+
+  }
+  .container-6-left {
+    width: 100%;
+    order: 2;
+    text-align: center;
+  }
+  #clock-desk {
+    height: 18rem;
+    text-align: center;
+    padding-top: 2rem;
+  }
+
+  .container-6-right {
+    width: 100%;
+    margin-left: 0;
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+
+}
+
+/* For Part 2 */
+.about-author {
+  background-color: #008CE3;
+  padding: 0rem 15rem 2rem 15rem;
+}
+
+.about-author p {
+  color: white;
+  padding-top: 1rem;
+}
+
+.about-author .blueheader {
+  padding-top: 2rem;
+}
+
+.about-author-container {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.author-left {
+  width: 30%;
+  text-align: center;
+}
+
+.author-left img {
+  height: 15rem;
+  padding: 2rem 2rem 3rem 0rem;
+}
+
+.author-right {
+  width: 70%;
+  margin-left: 1rem;
+}
+
+.author-right .font-bold {
+  font-weight: 600;
+}
+
+.navy-font {
+  color: #00326B;
+}
+
+@media only screen and (max-width: 1320px) {
+  .about-author {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .about-author {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+@media only screen and (max-width: 992px) {
+.author-left img {
+  height: 14rem;
+}
+}
+@media only screen and (max-width: 871px) {
+  .about-author {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
+
+@media only screen and (max-width: 856px) {
+  .author-left {
+    width: 35%;
+  }
+  .author-right {
+    width: 65%;
+  }
+}
+
+@media only screen and (max-width: 714px) {
+  .about-author {
+      padding: 1.5rem;
+  }
+
+  .about-author-container {
+    display: flex;
+    flex-direction: column;
+
+
+  }
+  .author-left {
+    width: 100%;
+    order: 2;
+    text-align: center;
+  }
+  .author-left img {
+    text-align: center;
+    padding-bottom: 1rem;
+  }
+
+  .author-right {
+    width: 100%;
+    margin-left: 0;
+    order: 1;
+  }
+}
+
+@media only screen and (max-width: 433px) {
+
+}
+
+
+/* References */
+.references {
+  padding: 3rem 16rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+
+@media only screen and (max-width: 1320px) {
+  .references {
+    padding-left: 12rem;
+    padding-right: 12rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}

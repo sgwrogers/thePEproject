@@ -1,0 +1,2027 @@
+@font-face {
+    font-family: 'futura';
+    src: url('../fonts/Futura.ttc') format('truetype');
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+html {
+  font-family: 'futura', sans-serif;
+  color: #58595B;
+}
+
+body {
+  background-color: white;
+}
+
+p, ol, li {
+  font-size: 1.1rem;
+  line-height: 1.2;
+}
+
+.blueheader {
+  height: 3.5rem;
+}
+
+.orange {
+  color: #DE572F;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange-lc {
+  color: #DE572F;
+  font-weight: bold;
+}
+
+.gray {
+  color: #58595B;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.gray-lc {
+  color: #58595B;
+  font-weight: bold;
+}
+
+.blue-bold {
+  color: #008CE3;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.black-bold {
+  color: #000;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
+.lite-blue {
+  color: #57B6DD;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.lite-blue-lc {
+  color: #57B6DD;
+  font-weight: bold;
+}
+
+.green {
+  color: #D6DA2D;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.orange2 {
+  color: #D86C1C;
+}
+
+.bold {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.white-lc {
+  color: white;
+  font-weight: bold;
+}
+
+.bold-M {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 1051px) {
+  .blueheader {
+    height: 3rem;
+  }
+  p, ol, li {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (max-width: 913px) {
+  .blueheader {
+    height: 2.5rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .blueheader {
+    height: 2rem;
+  }
+  p, ol, li {
+    font-size: 0.85rem;
+  }
+}
+
+.article a:link,
+.article a:visited,
+.article a:active {
+  color: #58595B;
+  text-decoration: none;
+}
+
+.article a:hover {
+  text-decoration: underline;
+}
+
+/* curriculum Why */
+.curriculum-intro {
+  background: linear-gradient(#99D1F4, #fff);
+}
+.curriculum-intro .blueheader {
+  margin: 2rem 0 1rem 15rem;
+}
+
+.blueheader-mob {
+  display: none;
+}
+
+.curriculum-intro-why {
+  display: flex;
+}
+
+.curriculum-intro-why p {
+  padding: 1rem 1rem 2rem 15rem;
+}
+
+#map {
+  height: 9rem;
+  position: relative;
+  float: right;
+  margin-right: 15rem;
+  top: 6rem;
+}
+#map2 {
+  display: none;
+}
+.teaching-styles a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (min-width: 2000px) {
+  .curriculum-intro .blueheader {
+    margin-left: 33rem;
+  }
+  #map {
+    margin-right: 33rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .curriculum-intro .blueheader {
+    margin-left: 31rem;
+  }
+  #map {
+    margin-right: 31rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .curriculum-intro .blueheader {
+    margin-left: 29rem;
+  }
+  #map {
+    margin-right: 29rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .curriculum-intro .blueheader {
+    margin-left: 27rem;
+  }
+  #map {
+    margin-right: 27rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .curriculum-intro .blueheader {
+    margin-left: 25rem;
+  }
+  #map {
+    margin-right: 25rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .curriculum-intro .blueheader {
+    margin-left: 23rem;
+  }
+  #map {
+    margin-right: 23rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .curriculum-intro .blueheader {
+    margin-left: 21rem;
+  }
+  #map {
+    margin-right: 21rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .curriculum-intro .blueheader {
+    margin-left: 19rem;
+  }
+  #map {
+    margin-right: 19rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .curriculum-intro .blueheader {
+    margin-left: 17rem;
+  }
+  #map {
+    margin-right: 17rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .curriculum-intro .blueheader {
+    margin-left: 11rem;
+  }
+  #map {
+    margin-right: 11rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .curriculum-intro .blueheader {
+    margin-left: 5rem;
+  }
+  #map {
+    margin-right: 5rem;
+    height: 8rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .curriculum-intro .blueheader {
+    margin-left: 3rem;
+  }
+  .curriculum-intro-why p {
+    padding-left: 3rem;
+    padding-bottom: 1rem;
+    padding-top: 0;
+  }
+
+  #map {
+    height: 7rem;
+    margin-right: 3rem;
+    margin-top: 1rem;
+    top: 4.5rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+    #map {
+      display: none;
+    }
+
+    .curriculum-intro .blueheader {
+      margin-left: 1.5rem;
+      height: 2rem;
+
+    }
+    .curriculum-intro-why p {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+      padding-bottom: 1rem;
+      padding-top: 0;
+    }
+}
+@media only screen and (max-width: 476px) {
+  #map2 {
+    display: block;
+    height: 8rem;
+    margin: 1rem auto;
+  }
+}
+@media only screen and (max-width: 393px) {
+  .curriculum-intro .blueheader {
+    display: none;
+  }
+  .curriculum-intro .blueheader-mob {
+    display: block;
+    height: 2rem;
+    margin: 0 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 299px) {
+  .curriculum-intro .blueheader-mob {
+    height: 1.9rem;
+  }
+}
+
+/* Categories of Games Activities  */
+.activities {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: #57B6DD;
+  padding: 2rem 15rem;
+}
+
+.block {
+  width: 18.5rem;
+  height: 28rem;
+  margin: 1rem 0.5rem 2rem 0.5rem;
+  background-color: #BED63A;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.activities p {
+  color: white;
+}
+
+.block p {
+  color: #58595B;
+}
+
+.block-head {
+  width: 100%;
+  background-color: #BED63A;
+}
+
+.block-head img {
+  margin: 2rem 0 0 1rem;
+  margin-bottom: -4px;
+  height: 3.5rem;
+}
+
+.block:nth-child(2) .block-head img,
+.block:nth-child(9) .block-head img {
+  height: 6.5rem;
+}
+.block:nth-child(8) .block-head img {
+  height: 5rem;
+}
+
+.block p {
+  padding: 0.5rem 1rem 1.5rem 1rem;
+}
+
+.block-img-7 {
+  width: 100%;
+  height: 7rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+.block:nth-child(6) .block-img-7,
+.block:nth-child(9) .block-img-7 {
+  justify-content: flex-end;
+}
+
+.block-img-10 {
+  width: 100%;
+  height: 10rem;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: flex-end;
+}
+.block-img-12 {
+  width: 100%;
+  height: 12rem;
+  align-self: flex-end;
+  margin-bottom: 1rem;
+}
+
+#fms-icon,
+#games-icon {
+  height: 6rem;
+}
+#dance-icon,
+#gymnastics-icon,
+#fitness-icon {
+  height: 10rem;
+  margin-right: 1.5rem;
+}
+#swim-icon,
+#oaa-icon {
+  height: 7rem;
+  margin-right: 1.5rem;
+}
+
+#athletics-icon {
+  width: 95%;
+  margin: 0.45rem 0.5rem 0rem 0.5rem;
+}
+
+.block:nth-child(10) {
+  background-color: #57B6DD;
+}
+
+.block:nth-child(10) p {
+  color: #fff;
+  padding: 0;
+}
+
+@media only screen and (min-width: 2000px) {
+  .activities {
+    padding: 2rem 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .activities {
+    padding: 2rem 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .activities {
+    padding: 2rem 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .activities {
+    padding: 2rem 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .activities {
+    padding: 2rem 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .activities {
+    padding: 2rem 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .activities {
+    padding: 2rem 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .activities {
+    padding: 2rem 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .activities {
+    padding: 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1456px) {
+  #suggestions {
+    width: auto;
+    height: auto;
+  }
+  .block:nth-child(10) {
+    margin: 1rem 0;
+  }
+}
+@media only screen and (max-width: 1320px) {
+  .activities {
+    padding: 2rem 11rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .activities {
+    padding: 2rem 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .activities {
+    padding: 2rem 3rem;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .activities {
+    padding: 2rem 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 685px) {
+  .block {
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+    .block-head img {
+      height: 4rem;
+    }
+}
+
+/* Tables 1 & 2 */
+.tables1 {
+  background-color: #F7F4F1;
+}
+/* Chart 1 */
+.game-complexity {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.game-complexity img {
+  height: 30rem;
+  margin: 1rem 15rem 2rem 15rem;
+}
+
+#chart1-mob {
+  display: none;
+}
+
+.game-complexity p {
+  align-self: flex-start;
+  margin-left: 15rem;
+  margin-right: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+@media only screen and (min-width: 2000px) {
+  .game-complexity p {
+    margin-left: 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .game-complexity p {
+    margin-left: 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .game-complexity p {
+    margin-left: 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .game-complexity p {
+    margin-left: 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .game-complexity p {
+    margin-left: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .game-complexity p {
+    margin-left: 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .game-complexity p {
+    margin-left: 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .game-complexity p {
+    margin-left: 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .game-complexity p {
+    margin-left: 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .game-complexity p {
+    margin-left: 11rem;
+  }
+}
+@media only screen and (max-width: 1114px) {
+  .game-complexity img {
+    height: 28rem;
+  }
+}
+
+@media only screen and (max-width: 1150px) {
+  .game-complexity p {
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .game-complexity img {
+    height: 26rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .game-complexity img {
+    height: 24rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .game-complexity p {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .game-complexity img {
+    height: 22rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .game-complexity p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+@media only screen and (max-width: 747px) {
+  .game-complexity img {
+    height: 20rem;
+  }
+}
+@media only screen and (max-width: 683px) {
+  .game-complexity img {
+    height: 18rem;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .game-complexity img {
+    height: 16rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  #chart1-desk {
+  display: none;
+  }
+  #chart1-mob {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  .game-complexity img {
+    height: 22rem;
+  }
+}
+
+/* Table 2 */
+.group-sizing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.group-sizing img {
+  height: 10rem;
+  margin: 1rem 15rem 3rem 15rem;
+  background-color: white;
+}
+
+#chart2-mob {
+  display: none;
+}
+
+.group-sizing p {
+  align-self: flex-start;
+  margin-left: 15rem;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#tables1-txt {
+  padding: 2rem 15rem 0 15rem;
+}
+
+@media only screen and (min-width: 2000px) {
+  .group-sizing p {
+    margin-left: 33rem;
+  }
+  #tables1-txt {
+    padding: 2rem 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .group-sizing p {
+    margin-left: 31rem;
+  }
+  #tables1-txt {
+    padding: 2rem 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .group-sizing p {
+    margin-left: 29rem;
+  }
+  #tables1-txt {
+    padding: 2rem 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .group-sizing p {
+    margin-left: 27rem;
+  }
+  #tables1-txt {
+    padding: 2rem 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .group-sizing p {
+    margin-left: 25rem;
+  }
+  #tables1-txt {
+    padding: 2rem 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .group-sizing p {
+    margin-left: 23rem;
+  }
+  #tables1-txt {
+    padding: 2rem 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .group-sizing p {
+    margin-left: 21rem;
+  }
+  #tables1-txt {
+    padding: 2rem 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .group-sizing p {
+    margin-left: 19rem;
+  }
+  #tables1-txt {
+    padding: 2rem 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .group-sizing p {
+    margin-left: 17rem;
+  }
+  #tables1-txt {
+    padding: 2rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .group-sizing p {
+    margin-left: 11rem;
+  }
+  #tables1-txt {
+    padding: 2rem 11rem 0 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .group-sizing p {
+    margin-left: 5rem;
+  }
+  #tables1-txt {
+    padding: 2rem 5rem 0 5rem;
+  }
+}
+@media only screen and (max-width: 1114px) {
+  .group-sizing img {
+    height: 9.25rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .group-sizing img {
+    height: 8.5rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .group-sizing img {
+    height: 7.75rem;
+  }
+}
+@media only screen and (max-width: 822px) {
+  .group-sizing img {
+    height: 7rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .group-sizing p {
+    margin-left: 3rem;
+  }
+  #tables1-txt {
+    padding: 2rem 3rem 0 2rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .group-sizing p {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+  #tables1-txt {
+    padding: 1rem 1.5rem 2rem 1.5rem;
+  }
+}
+@media only screen and (max-width: 747px) {
+  .group-sizing img {
+    height: 6.5rem;
+  }
+}
+@media only screen and (max-width: 683px) {
+  .group-sizing img {
+    height: 5.75rem;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .group-sizing img {
+    height: 5rem;
+  }
+}
+@media only screen and (max-width: 580px) {
+  .group-sizing img {
+    height: 4.5rem;
+  }
+}
+@media only screen and (max-width: 489px) {
+  .group-sizing img {
+    height: 4rem;
+  }
+}
+/* Diagram 1 */
+.continuum {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(#99D1F4, #fff);
+}
+
+.continuum img {
+  height: 18rem;
+  margin: 1rem 15rem 0rem 15rem;
+}
+
+#diagram1-mob {
+  display: none;
+}
+
+.continuum p {
+  align-self: flex-start;
+  padding: 2rem 15rem;
+}
+
+@media only screen and (min-width: 2000px) {
+  .continuum p {
+   padding: 2rem 33rem;
+ }
+}
+
+@media only screen and (min-width: 1950px) {
+  .continuum p {
+   padding: 2rem 31rem;
+ }
+}
+
+@media only screen and (min-width: 1900px) {
+  .continuum p {
+   padding: 2rem 29rem;
+ }
+}
+
+@media only screen and (min-width: 1850px) {
+  .continuum p {
+   padding: 2rem 27rem;
+ }
+}
+
+@media only screen and (min-width: 1800px) {
+  .continuum p {
+   padding: 2rem 25rem;
+ }
+}
+
+@media only screen and (min-width: 1750px) {
+  .continuum p {
+   padding: 2rem 23rem;
+ }
+}
+
+@media only screen and (min-width: 1700px) {
+  .continuum p {
+   padding: 2rem 21rem;
+ }
+}
+
+@media only screen and (min-width: 1650px) {
+  .continuum p {
+   padding: 2rem 19rem;
+ }
+}
+
+@media only screen and (min-width: 1600px) {
+  .continuum p {
+   padding: 2rem 17rem;
+ }
+}
+
+@media only screen and (max-width: 1320px) {
+  .continuum p {
+   padding: 2rem 11rem;
+ }
+}
+@media only screen and (max-width: 1150px) {
+  .continuum p {
+     padding: 2rem 5rem;
+   }
+}
+@media only screen and (max-width: 1114px) {
+  .continuum img {
+    height: 15rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .continuum img {
+    height: 13rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .continuum img {
+    height: 12rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .continuum p {
+     padding: 2rem 3rem;
+   }
+}
+@media only screen and (max-width: 822px) {
+  .continuum img {
+    height: 11rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .continuum p {
+     padding: 2rem 1.5rem;
+   }
+ }
+ @media only screen and (max-width: 747px) {
+   .continuum img {
+     height: 10rem;
+ }
+}
+ @media only screen and (max-width: 683px) {
+   .continuum img {
+     height: 9rem;
+ }
+}
+ @media only screen and (max-width: 615px) {
+   .continuum img {
+     height: 8rem;
+ }
+}
+@media only screen and (max-width: 580px) {
+  #diagram1-desk {
+    display: none;
+  }
+  #diagram1-mob {
+    display: block;
+    height: 30rem;
+  }
+}
+
+/* Time Allocation */
+.allocation {
+  background-color: #F7F4F1;
+  padding-bottom: 2rem;
+}
+
+.allocation-table {
+  display: flex;
+  justify-content: center;
+}
+.allocation-table img {
+  height: 33rem;
+}
+
+#chart3-mob {
+  display: none;
+}
+
+.allocation p,
+.allocation-table p {
+  align-self: flex-start;
+  padding: 1rem 15rem;
+}
+
+@media only screen and (min-width: 2000px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 33rem;
+ }
+}
+
+@media only screen and (min-width: 1950px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 31rem;
+ }
+}
+
+@media only screen and (min-width: 1900px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 29rem;
+ }
+}
+
+@media only screen and (min-width: 1850px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 27rem;
+ }
+}
+
+@media only screen and (min-width: 1800px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 25rem;
+ }
+}
+
+@media only screen and (min-width: 1750px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 23rem;
+ }
+}
+
+@media only screen and (min-width: 1700px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 21rem;
+ }
+}
+
+@media only screen and (min-width: 1650px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 19rem;
+ }
+}
+
+@media only screen and (min-width: 1600px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 17rem;
+ }
+}
+
+@media only screen and (max-width: 1320px) {
+  .allocation p,
+  .allocation-table p  {
+   padding: 1rem 11rem;
+ }
+}
+@media only screen and (max-width: 1150px) {
+  .allocation p,
+  .allocation-table p {
+     padding: 1rem 5rem;
+   }
+}
+@media only screen and (max-width: 1114px) {
+  .allocation-table img {
+    height: 30rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  .allocation-table img {
+    height: 27rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  .allocation-table img {
+    height: 24rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .allocation p,
+  .allocation-table p {
+     padding: 1rem 3rem;
+   }
+}
+@media only screen and (max-width: 766px) {
+  .allocation p,
+  .allocation-table p {
+     padding: 1rem 1.5rem;
+   }
+ }
+ @media only screen and (max-width: 747px) {
+   .allocation-table img {
+     height: 21rem;
+   }
+  }
+@media only screen and (max-width: 683px) {
+  .allocation-table img {
+    height: 19rem;
+  }
+}
+@media only screen and (max-width: 615px) {
+  .allocation-table img {
+    height: 17rem;
+  }
+ }
+@media only screen and (max-width: 508px) {
+   #chart3-desk {
+     display: none;
+   }
+   #chart3-mob {
+     display: block;
+   }
+   .allocation-table img {
+     height: 46rem;
+   }
+  }
+@media only screen and (max-width: 404px) {
+  .allocation-table img {
+      height: 43rem;
+    }
+   }
+@media only screen and (max-width: 374px) {
+ .allocation-table img {
+   height: 38rem;
+  }
+}
+/* Designing your own Curriculum */
+.design {
+  background-color: #BED63A;
+}
+
+.design .blueheader {
+  margin: 2rem 0 1rem 15rem;
+}
+.design .blueheader-mob {
+  display: none;
+}
+
+.design p {
+  padding: 1rem 15rem;
+}
+
+.sample1,
+.sample2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sample1 p:first-child {
+  align-self: flex-start;
+}
+
+#map1-desk {
+  height: 26rem;
+  margin: 1rem 15rem 1rem 15rem;
+}
+
+#map1-mob {
+  display: none;
+}
+
+.sample2 p {
+  align-self: flex-start;
+}
+#map2-desk {
+  height: 12rem;
+  margin: 0 auto 2rem auto;
+}
+
+@media only screen and (min-width: 2000px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 33rem;
+  }
+  .design p {
+    padding: 1rem 33rem;
+  }
+  #map1-desk {
+    margin: 1rem 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 31rem;
+  }
+  .design p {
+    padding: 1rem 31rem;
+  }
+  #map1-desk {
+    margin: 1rem 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 29rem;
+  }
+  .design p {
+    padding: 1rem 29rem;
+  }
+  #map1-desk {
+    margin: 1rem 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 27rem;
+  }
+  .design p {
+    padding: 1rem 27rem;
+  }
+  #map1-desk {
+    margin: 1rem 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 25rem;
+  }
+  .design p {
+    padding: 1rem 25rem;
+  }
+  #map1-desk {
+    margin: 1rem 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 23rem;
+  }
+  .design p {
+    padding: 1rem 23rem;
+  }
+  #map1-desk {
+    margin: 1rem 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 21rem;
+  }
+  .design p {
+    padding: 1rem 21rem;
+  }
+  #map1-desk {
+    margin: 1rem 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 19rem;
+  }
+  .design p {
+    padding: 1rem 19rem;
+  }
+  #map1-desk {
+    margin: 1rem 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 17rem;
+  }
+  .design p {
+    padding: 1rem 17rem;
+  }
+  #map1-desk {
+    margin: 1rem 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 11rem;
+  }
+  .design p {
+    padding: 1rem 11rem;
+  }
+  #map1-desk {
+    margin: 1rem 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 5rem;
+  }
+  .design p {
+    padding: 1rem 5rem;
+  }
+  #map1-desk {
+    margin: 1rem 5rem;
+  }
+}
+@media only screen and (max-width: 1114px) {
+  #map1-desk {
+    height: 23rem;
+  }
+  #map2-desk {
+    height: 11rem;
+  }
+}
+@media only screen and (max-width: 990px) {
+  #map1-desk {
+    height: 21rem;
+  }
+  #map2-desk {
+    height: 10rem;
+  }
+}
+@media only screen and (max-width: 922px) {
+  #map1-desk {
+    height: 19rem;
+  }
+  #map2-desk {
+    height: 9.5rem;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 3rem;
+  }
+  .design p {
+    padding: 1rem 3rem;
+  }
+  #map1-desk {
+    margin: 1rem 3rem;
+  }
+}
+@media only screen and (max-width: 822px) {
+  #map1-desk {
+    height: 17rem;
+  }
+  #map2-desk {
+    height: 9rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .design .blueheader {
+    margin: 2rem 0 1rem 1.5rem;
+  }
+  .design p {
+    padding: 1rem 1.5rem;
+  }
+  #map1-desk {
+    margin: 1rem 1.5rem;
+  }
+ }
+@media only screen and (max-width: 747px) {
+ #map1-desk {
+   height: 16rem;
+ }
+ #map2-desk {
+     height: 8.5rem;
+ }
+}
+@media only screen and (max-width: 683px) {
+ #map1-desk {
+   height: 15rem;
+ }
+ #map2-desk {
+     height: 8rem;
+ }
+}
+@media only screen and (max-width: 643px) {
+ #map1-desk {
+   height: 14rem;
+ }
+ #map2-desk {
+     height: 7.5rem;
+ }
+}
+@media only screen and (max-width: 615px) {
+ #map1-desk {
+   height: 13rem;
+ }
+ #map2-desk {
+     height: 7rem;
+ }
+}
+
+@media only screen and (max-width: 550px) {
+ #map1-desk {
+   height: 12rem;
+   margin: 0 auto;
+ }
+ #map2-desk {
+     height: 6.5rem;
+ }
+}
+@media only screen and (max-width: 509px) {
+ #map1-desk {
+   height: 11rem;
+ }
+ #map2-desk {
+     height: 6rem;
+ }
+}
+@media only screen and (max-width: 478px) {
+ #map1-desk {
+   height: 10rem;
+ }
+ #map2-desk {
+     height: 5.5rem;
+ }
+}
+@media only screen and (max-width: 459px) {
+  .design .blueheader {
+    display: none;
+  }
+  .design .blueheader-mob {
+    display: block;
+    height: 2rem;
+    margin: 0 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 0;
+  }
+}
+@media only screen and (max-width: 439px) {
+ #map1-desk {
+   height: 9rem;
+ }
+ #map2-desk {
+     height: 4.8rem;
+ }
+}
+@media only screen and (max-width: 396px) {
+ #map1-desk {
+   height: 8rem;
+ }
+ #map2-desk {
+     height: 4.2rem;
+ }
+}
+
+/* JH and SH */
+.crossroads {
+  height: 42rem;
+  background: url("../images/curriculum/CrossroadsBG.png") no-repeat center center;
+  background-size: cover;
+}
+
+.crossroads p {
+  padding: 2rem 15rem;
+}
+
+.pathways {
+  display: flex;
+  width: 55%;
+  height: 30rem;
+  float: right;
+  margin-right: 15rem;
+}
+
+.column-left {
+  width: 40%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.pathway1 {
+  height: 10rem;
+  background-color: #fff;
+  color: #806E44;
+  margin-bottom: 2rem;
+}
+
+.pathway1 p {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.pathway2 {
+  height: 8rem;
+  background-color: #8E6008;
+  color: white;
+}
+.pathway2 p {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.column-right {
+  width: 60%;
+  height: 30rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.pathway3,
+.pathway4 {
+  width: 45%;
+  height: 20rem;
+  background-color: #715D2D;
+  color: #fff;
+}
+
+.pathway4 {
+  background-color: #927144;
+  margin-left: 2rem;
+}
+
+.pathway3 p,
+.pathway4 p {
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+/*
+@media only screen and (min-width: 2000px) {
+  .crossroads p {
+    padding: 2rem 33rem;
+  }
+  .pathways {
+    margin-right: 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .crossroads p {
+    padding: 2rem 31rem;
+  }
+  .pathways {
+    margin-right: 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .crossroads p {
+    padding: 2rem 29rem;
+  }
+  .pathways {
+    margin-right: 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .crossroads p {
+    padding: 2rem 27rem;
+  }
+  .pathways {
+    margin-right: 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .crossroads p {
+    padding: 2rem 25rem;
+  }
+  .pathways {
+    margin-right: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .crossroads p {
+    padding: 2rem 23rem;
+  }
+  .pathways {
+    margin-right: 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .crossroads p {
+    padding: 2rem 21rem;
+  }
+  .pathways {
+    margin-right: 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .crossroads p {
+    padding: 2rem 19rem;
+  }
+  .pathways {
+    margin-right: 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .crossroads p {
+    padding: 2rem 17rem;
+  }
+  .pathways {
+    margin-right: 17rem;
+  }
+}
+*/
+@media only screen and (max-width: 1320px) {
+  .crossroads p {
+    padding: 2rem 11rem;
+  }
+  .pathways {
+    margin-right: 11rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 1248px) {
+  .pathways {
+  width: 75%;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .crossroads p {
+    padding: 2rem 5rem;
+  }
+  .pathways {
+    margin-right: 5rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 920px) {
+  .pathways {
+    width: 85%;
+    float: none;
+    margin: 0 auto;
+  }
+}
+@media only screen and (max-width: 871px) {
+  .crossroads p {
+    padding: 2rem 3rem;
+  }
+  .pathways {
+    margin-right: 3rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+}
+@media only screen and (max-width: 805px) {
+  .pathway1,
+  .pathway2 {
+    padding-bottom: 1rem;
+  }
+  .pathway3,
+  .pathway4 {
+    height: 22rem;
+  }
+}
+@media only screen and (max-width: 766px) {
+  .crossroads p {
+    padding: 2rem 1.5rem;
+  }
+  .pathways {
+    margin-right: 1.5rem;
+  }
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    padding: 1rem;
+  }
+ }
+ @media only screen and (max-width: 727px) {
+   .crossroads {
+     height: auto;
+   }
+   .pathways {
+     display: block;
+     height: auto;
+     margin-left: 2rem;
+   }
+   .column-left,
+   .column-right {
+     width: auto;
+     height: auto;
+   }
+   .column-right {
+     flex-direction: column;
+     margin-left: 0;
+   }
+   .pathway1,
+   .pathway2,
+   .pathway3,
+   .pathway4 {
+     height: auto;
+     width: auto;
+     margin-bottom: 1.5rem;
+   }
+   .pathway2 {
+     margin-left: 1.5rem;
+   }
+   .pathway3 {
+     margin-left: 3rem;
+   }
+   .pathway4 {
+     margin-left: 4.5rem;
+   }
+ }
+@media only screen and (max-width: 570px) {
+  .pathway1,
+  .pathway2,
+  .pathway3,
+  .pathway4 {
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media only screen and (max-width: 547px) {
+  .pathway1 p,
+  .pathway2 p,
+  .pathway3 p,
+  .pathway4 p {
+    font-size: 0.85rem;
+  }
+  .bold-M {
+    font-size: 1rem;
+  }
+}
+
+/* Conclusion */
+.conclusion {
+  background-color: #008CE3;
+  color: white;
+  padding: 2rem 15rem 3rem 15rem;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:hover,
+.conclusion a:active {
+  color: white;
+}
+
+.conclusion a:link,
+.conclusion a:visited,
+.conclusion a:hover,
+.conclusion a:active {
+  color: white;
+}
+
+@media only screen and (min-width: 2000px) {
+  .conclusion {
+    padding-left: 33rem;
+    padding-right: 33rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .conclusion {
+    padding-left: 31rem;
+    padding-right: 31rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .conclusion {
+    padding-left: 29rem;
+    padding-right: 29rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .conclusion {
+    padding-left: 27rem;
+    padding-right: 27rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .conclusion {
+    padding-left: 25rem;
+    padding-right: 25rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .conclusion {
+    padding-left: 23rem;
+    padding-right: 23rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .conclusion {
+    padding-left: 21rem;
+    padding-right: 21rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .conclusion {
+    padding-left: 19rem;
+    padding-right: 19rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .conclusion {
+    padding-left: 17rem;
+    padding-right: 17rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .conclusion {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .conclusion {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .conclusion {
+    padding-left: 3rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (max-width: 547px) {
+  .conclusion {
+    padding: 1.5rem 1.5rem 1rem 1.5rem;
+  }
+}
+
+
+/* References */
+.references {
+  padding: 3rem 16rem;
+}
+
+.references h3 {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.references ol {
+  list-style-type: decimal;
+}
+
+.references ol li {
+  margin-bottom: 1rem;
+}
+.references a:link,
+.references a:visited,
+.references a:hover,
+.references a:active {
+  color: #008CE3;
+}
+
+@media only screen and (min-width: 2000px) {
+  .references {
+    padding: 3rem 34rem;
+  }
+}
+
+@media only screen and (min-width: 1950px) {
+  .references {
+    padding: 3rem 32rem;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
+  .references {
+    padding: 3rem 30rem;
+  }
+}
+
+@media only screen and (min-width: 1850px) {
+  .references {
+    padding: 3rem 28rem;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  .references {
+    padding: 3rem 26rem;
+  }
+}
+
+@media only screen and (min-width: 1750px) {
+  .references {
+    padding: 3rem 24rem;
+  }
+}
+
+@media only screen and (min-width: 1700px) {
+  .references {
+    padding: 3rem 22rem;
+  }
+}
+
+@media only screen and (min-width: 1650px) {
+  .references {
+    padding: 3rem 20rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .references {
+    padding: 3rem 18rem;
+  }
+}
+
+@media only screen and (max-width: 1320px) {
+  .references {
+    padding-left: 11rem;
+    padding-right: 11rem;
+  }
+}
+@media only screen and (max-width: 1150px) {
+  .references {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+}
+
+@media only screen and (max-width: 871px) {
+  .references {
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+}
