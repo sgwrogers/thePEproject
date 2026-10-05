@@ -644,6 +644,36 @@ html {
   color: 008ce3; 
 }
 
+/* WIN Donations */
+
+.win-support {
+  padding: 1.25rem 1rem;
+  background: #3B5998;
+  color: #fff;
+}
+
+.win-support-inner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.win-support p {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.win-support a {
+  flex-shrink: 0;
+}
+
+.win-support img {
+  display: block;
+  height: 2rem;
+  width: auto;
+}
+
 @media only screen and (max-width: 1000px){ 
   #to-hide {
     display: none;
